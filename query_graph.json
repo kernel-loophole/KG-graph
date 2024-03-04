@@ -1,0 +1,355 @@
+{
+  "nodes": [
+    {
+      "from": 34,
+      "label": "",
+      "to": 21,
+      "category": "related",
+      "distance": 0
+    },
+    {
+      "from": 47,
+      "label": "",
+      "to": 19,
+      "category": "related",
+      "distance": 0
+    },
+    {
+      "from": 42,
+      "label": "",
+      "to": 21,
+      "category": "related",
+      "distance": 0
+    },
+    {
+      "from": 53,
+      "label": "",
+      "to": 19,
+      "category": "related",
+      "distance": 0
+    },
+    {
+      "from": 8,
+      "label": "",
+      "to": 21,
+      "category": "related",
+      "distance": 0
+    },
+    {
+      "from": 22,
+      "label": "",
+      "to": 21,
+      "category": "related",
+      "distance": 0
+    },
+    {
+      "from": 12,
+      "label": "",
+      "to": 21,
+      "category": "related",
+      "distance": 0
+    },
+    {
+      "from": 24,
+      "label": "",
+      "to": 15,
+      "category": "related",
+      "distance": 0
+    },
+    {
+      "from": 16,
+      "label": "",
+      "to": 21,
+      "category": "related",
+      "distance": 0
+    },
+    {
+      "from": 48,
+      "label": "",
+      "to": 19,
+      "category": "related",
+      "distance": 0
+    },
+    {
+      "from": 40,
+      "label": "",
+      "to": 21,
+      "category": "related",
+      "distance": 0
+    },
+    {
+      "from": 22,
+      "label": "",
+      "to": 23,
+      "category": "related",
+      "distance": 0
+    },
+    {
+      "from": 24,
+      "label": "",
+      "to": 28,
+      "category": "related",
+      "distance": 0
+    },
+    {
+      "from": 29,
+      "label": "",
+      "to": 28,
+      "category": "related",
+      "distance": 0
+    },
+    {
+      "from": 28,
+      "label": "",
+      "to": 29,
+      "category": "related",
+      "distance": 0
+    },
+    {
+      "from": 53,
+      "label": "",
+      "to": 32,
+      "category": "related",
+      "distance": 0
+    },
+    {
+      "from": 32,
+      "label": "",
+      "to": 53,
+      "category": "related",
+      "distance": 0
+    },
+    {
+      "from": 34,
+      "label": "",
+      "to": 48,
+      "category": "related",
+      "distance": 0
+    },
+    {
+      "from": 36,
+      "label": "",
+      "to": 40,
+      "category": "related",
+      "distance": 0
+    },
+    {
+      "from": 47,
+      "label": "",
+      "to": 40,
+      "category": "related",
+      "distance": 0
+    },
+    {
+      "from": 40,
+      "label": "",
+      "to": 47,
+      "category": "related",
+      "distance": 0
+    },
+    {
+      "from": 42,
+      "label": "",
+      "to": 52,
+      "category": "related",
+      "distance": 0
+    },
+    {
+      "from": 47,
+      "label": "",
+      "to": 52,
+      "category": "related",
+      "distance": 0
+    },
+    {
+      "from": 52,
+      "label": "",
+      "to": 47,
+      "category": "related",
+      "distance": 0
+    },
+    {
+      "from": 48,
+      "label": "",
+      "to": 52,
+      "category": "related",
+      "distance": 0
+    },
+    {
+      "from": 53,
+      "label": "",
+      "to": 52,
+      "category": "related",
+      "distance": 0
+    },
+    {
+      "from": 52,
+      "label": "",
+      "to": 53,
+      "category": "related",
+      "distance": 0
+    }
+  ],
+  "edges": [
+    {
+      "id": 34,
+      "label": "Kenenisa Bekele",
+      "category": "other",
+      "ner": "PERSON",
+      "value": "PERSON",
+      "distance": 0
+    },
+    {
+      "id": 21,
+      "label": "Person",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "distance": 4
+    },
+    {
+      "id": 47,
+      "label": "Tokyo",
+      "category": "other",
+      "ner": "GPE",
+      "value": "GPE",
+      "distance": 2
+    },
+    {
+      "id": 19,
+      "label": "Location",
+      "category": "Location",
+      "ner": null,
+      "value": 0,
+      "distance": 1
+    },
+    {
+      "id": 42,
+      "label": "Shitara",
+      "category": "other",
+      "ner": "PERSON",
+      "value": "PERSON",
+      "distance": 0
+    },
+    {
+      "id": 53,
+      "label": "Chicago",
+      "category": "other",
+      "ner": "GPE",
+      "value": "GPE",
+      "distance": 2
+    },
+    {
+      "id": 8,
+      "label": "Wilson Kipsang",
+      "category": "other",
+      "ner": "PERSON",
+      "value": "PERSON",
+      "distance": 0
+    },
+    {
+      "id": 22,
+      "label": "Kipsang",
+      "category": "other",
+      "ner": "PERSON",
+      "value": "PERSON",
+      "distance": 0
+    },
+    {
+      "id": 12,
+      "label": "Kenenisa",
+      "category": "other",
+      "ner": "PERSON",
+      "value": "PERSON",
+      "distance": 0
+    },
+    {
+      "id": 24,
+      "label": "El Hassan El Abassi",
+      "category": "other",
+      "ner": "ORG",
+      "value": "ORG",
+      "distance": 0
+    },
+    {
+      "id": 15,
+      "label": "Organization",
+      "category": "Organization",
+      "ner": null,
+      "value": 0,
+      "distance": 0
+    },
+    {
+      "id": 16,
+      "label": "Suguru Osako",
+      "category": "other",
+      "ner": "PERSON",
+      "value": "PERSON",
+      "distance": 0
+    },
+    {
+      "id": 48,
+      "label": "Osako",
+      "category": "other",
+      "ner": "GPE",
+      "value": "GPE",
+      "distance": 0
+    },
+    {
+      "id": 40,
+      "label": "Shogo Nakamura",
+      "category": "other",
+      "ner": "PERSON",
+      "value": "PERSON",
+      "distance": 3
+    },
+    {
+      "id": 23,
+      "label": "Yuta Shitara  ",
+      "category": "other",
+      "ner": "PERSON",
+      "value": "PERSON",
+      "distance": 0
+    },
+    {
+      "id": 28,
+      "label": "Hiroto Inoue",
+      "category": "other",
+      "ner": "PERSON",
+      "value": "PERSON",
+      "distance": 0
+    },
+    {
+      "id": 29,
+      "label": "Dickson Chumba",
+      "category": "other",
+      "ner": "PERSON",
+      "value": "PERSON",
+      "distance": 0
+    },
+    {
+      "id": 32,
+      "label": "2:07:19",
+      "category": "other",
+      "ner": "ORG",
+      "value": "ORG",
+      "distance": 3
+    },
+    {
+      "id": 36,
+      "label": "Ryo Kiname",
+      "category": "other",
+      "ner": "PERSON",
+      "value": "PERSON",
+      "distance": 0
+    },
+    {
+      "id": 52,
+      "label": "Inoue",
+      "category": "other",
+      "ner": "PERSON",
+      "value": "PERSON",
+      "distance": 1
+    }
+  ]
+}

@@ -1,0 +1,521 @@
+{
+  "nodes": [
+    {
+      "from": 139,
+      "label": "",
+      "to": 5
+    },
+    {
+      "from": 130,
+      "label": "",
+      "to": 5
+    },
+    {
+      "from": 134,
+      "label": "",
+      "to": 5
+    },
+    {
+      "from": 139,
+      "label": "",
+      "to": 7
+    },
+    {
+      "from": 139,
+      "label": "",
+      "to": 9
+    },
+    {
+      "from": 134,
+      "label": "",
+      "to": 11
+    },
+    {
+      "from": 130,
+      "label": "",
+      "to": 19
+    },
+    {
+      "from": 14,
+      "label": "",
+      "to": 19
+    },
+    {
+      "from": 139,
+      "label": "",
+      "to": 19
+    },
+    {
+      "from": 134,
+      "label": "",
+      "to": 19
+    },
+    {
+      "from": 109,
+      "label": "",
+      "to": 138
+    },
+    {
+      "from": 74,
+      "label": "",
+      "to": 59
+    },
+    {
+      "from": 99,
+      "label": "",
+      "to": 138
+    },
+    {
+      "from": 118,
+      "label": "",
+      "to": 138
+    },
+    {
+      "from": 28,
+      "label": "",
+      "to": 138
+    },
+    {
+      "from": 30,
+      "label": "",
+      "to": 138
+    },
+    {
+      "from": 79,
+      "label": "",
+      "to": 33
+    },
+    {
+      "from": 95,
+      "label": "",
+      "to": 138
+    },
+    {
+      "from": 114,
+      "label": "",
+      "to": 138
+    },
+    {
+      "from": 38,
+      "label": "",
+      "to": 138
+    },
+    {
+      "from": 78,
+      "label": "",
+      "to": 138
+    },
+    {
+      "from": 82,
+      "label": "",
+      "to": 59
+    },
+    {
+      "from": 111,
+      "label": "",
+      "to": 138
+    },
+    {
+      "from": 46,
+      "label": "",
+      "to": 59
+    },
+    {
+      "from": 98,
+      "label": "",
+      "to": 138
+    },
+    {
+      "from": 115,
+      "label": "",
+      "to": 138
+    },
+    {
+      "from": 119,
+      "label": "",
+      "to": 138
+    },
+    {
+      "from": 71,
+      "label": "",
+      "to": 138
+    },
+    {
+      "from": 94,
+      "label": "",
+      "to": 138
+    },
+    {
+      "from": 75,
+      "label": "",
+      "to": 59
+    },
+    {
+      "from": 75,
+      "label": "",
+      "to": 71
+    },
+    {
+      "from": 75,
+      "label": "",
+      "to": 94
+    },
+    {
+      "from": 71,
+      "label": "",
+      "to": 75
+    },
+    {
+      "from": 71,
+      "label": "",
+      "to": 94
+    },
+    {
+      "from": 94,
+      "label": "",
+      "to": 75
+    },
+    {
+      "from": 94,
+      "label": "",
+      "to": 71
+    },
+    {
+      "from": 75,
+      "label": "",
+      "to": 74
+    },
+    {
+      "from": 74,
+      "label": "",
+      "to": 75
+    },
+    {
+      "from": 79,
+      "label": "",
+      "to": 78
+    },
+    {
+      "from": 78,
+      "label": "",
+      "to": 79
+    },
+    {
+      "from": 115,
+      "label": "",
+      "to": 82
+    },
+    {
+      "from": 82,
+      "label": "",
+      "to": 115
+    },
+    {
+      "from": 109,
+      "label": "",
+      "to": 95
+    },
+    {
+      "from": 109,
+      "label": "",
+      "to": 94
+    },
+    {
+      "from": 95,
+      "label": "",
+      "to": 109
+    },
+    {
+      "from": 95,
+      "label": "",
+      "to": 94
+    },
+    {
+      "from": 94,
+      "label": "",
+      "to": 109
+    },
+    {
+      "from": 94,
+      "label": "",
+      "to": 95
+    },
+    {
+      "from": 99,
+      "label": "",
+      "to": 98
+    },
+    {
+      "from": 98,
+      "label": "",
+      "to": 99
+    },
+    {
+      "from": 109,
+      "label": "",
+      "to": 111
+    },
+    {
+      "from": 109,
+      "label": "",
+      "to": 115
+    },
+    {
+      "from": 111,
+      "label": "",
+      "to": 109
+    },
+    {
+      "from": 111,
+      "label": "",
+      "to": 115
+    },
+    {
+      "from": 115,
+      "label": "",
+      "to": 109
+    },
+    {
+      "from": 115,
+      "label": "",
+      "to": 111
+    },
+    {
+      "from": 115,
+      "label": "",
+      "to": 114
+    },
+    {
+      "from": 114,
+      "label": "",
+      "to": 115
+    },
+    {
+      "from": 119,
+      "label": "",
+      "to": 118
+    },
+    {
+      "from": 118,
+      "label": "",
+      "to": 119
+    },
+    {
+      "from": 139,
+      "label": "",
+      "to": 135
+    },
+    {
+      "from": 139,
+      "label": "",
+      "to": 135
+    },
+    {
+      "from": 130,
+      "label": "",
+      "to": 135
+    },
+    {
+      "from": 130,
+      "label": "",
+      "to": 135
+    },
+    {
+      "from": 134,
+      "label": "",
+      "to": 135
+    },
+    {
+      "from": 130,
+      "label": "",
+      "to": 135
+    },
+    {
+      "from": 139,
+      "label": "",
+      "to": 135
+    },
+    {
+      "from": 134,
+      "label": "",
+      "to": 135
+    },
+    {
+      "from": 139,
+      "label": "",
+      "to": 138
+    },
+    {
+      "from": 138,
+      "label": "",
+      "to": 139
+    }
+  ],
+  "edges": [
+    {
+      "group": "Event",
+      "id": 139,
+      "label": "input"
+    },
+    {
+      "group": "Event",
+      "id": 5,
+      "label": "keyword"
+    },
+    {
+      "group": "Event",
+      "id": 130,
+      "label": "fire"
+    },
+    {
+      "group": "Event",
+      "id": 134,
+      "label": "neurons"
+    },
+    {
+      "group": "Event",
+      "id": 7,
+      "label": "calculated"
+    },
+    {
+      "group": "Event",
+      "id": 9,
+      "label": "equals"
+    },
+    {
+      "group": "Event",
+      "id": 11,
+      "label": "are X"
+    },
+    {
+      "group": "Event",
+      "id": 19,
+      "label": "frequency"
+    },
+    {
+      "group": "Event",
+      "id": 14,
+      "label": "example"
+    },
+    {
+      "group": "Event",
+      "id": 109,
+      "label": "AI"
+    },
+    {
+      "group": "Event",
+      "id": 138,
+      "label": "Organization"
+    },
+    {
+      "group": "Event",
+      "id": 74,
+      "label": "Turing"
+    },
+    {
+      "group": "Event",
+      "id": 59,
+      "label": "Person"
+    },
+    {
+      "group": "Event",
+      "id": 99,
+      "label": "SHRDLU"
+    },
+    {
+      "group": "Event",
+      "id": 118,
+      "label": "CYC"
+    },
+    {
+      "group": "Event",
+      "id": 28,
+      "label": "ChatGPT"
+    },
+    {
+      "group": "Event",
+      "id": 30,
+      "label": "Shopper"
+    },
+    {
+      "group": "Event",
+      "id": 79,
+      "label": "Holland"
+    },
+    {
+      "group": "Event",
+      "id": 33,
+      "label": "Location"
+    },
+    {
+      "group": "Event",
+      "id": 95,
+      "label": "PROLOG"
+    },
+    {
+      "group": "Event",
+      "id": 114,
+      "label": "MYCIN"
+    },
+    {
+      "group": "Event",
+      "id": 38,
+      "label": "N"
+    },
+    {
+      "group": "Event",
+      "id": 78,
+      "label": "IBM"
+    },
+    {
+      "group": "Event",
+      "id": 82,
+      "label": "Parry"
+    },
+    {
+      "group": "Event",
+      "id": 111,
+      "label": "DENDRAL"
+    },
+    {
+      "group": "Event",
+      "id": 46,
+      "label": "Samuel"
+    },
+    {
+      "group": "Event",
+      "id": 98,
+      "label": "MIT"
+    },
+    {
+      "group": "Event",
+      "id": 115,
+      "label": "Stanford University"
+    },
+    {
+      "group": "Event",
+      "id": 119,
+      "label": "KB"
+    },
+    {
+      "group": "Event",
+      "id": 71,
+      "label": "FREDDY"
+    },
+    {
+      "group": "Event",
+      "id": 94,
+      "label": "the University of Edinburgh"
+    },
+    {
+      "group": "Event",
+      "id": 75,
+      "label": "Donald Michie"
+    },
+    {
+      "group": "Event",
+      "id": 135,
+      "label": "related"
+    }
+  ]
+}
