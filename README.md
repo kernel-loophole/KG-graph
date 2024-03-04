@@ -26,7 +26,7 @@ content = "This is a sample news article content."
 nm.main(content)
 events, result_dict = nm.get_events()
 ```
-
+![Graph Processor](grap.png)
 # Graph Processor
 
 The Graph Processor module is designed to process graph data and perform operations such as breadth-first search (BFS) related node exploration and retrieval of labels by IDs. It is primarily used in conjunction with the News Mining module to analyze news articles and extract relevant information.
