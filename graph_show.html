@@ -1,0 +1,88 @@
+
+    <html>
+    <head>
+      <script type="text/javascript" src="VIS/dist/vis.js"></script>
+      <link href="VIS/dist/vis.css" rel="stylesheet" type="text/css">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    </head>
+    <body>
+
+    <div id="VIS_draw"></div>
+
+    <script type="text/javascript">
+      var nodes = [{'id': 34, 'label': 'Kenenisa Bekele', 'category': 'other', 'ner': 'PERSON', 'value': 'PERSON'}, {'id': 21, 'label': 'Person', 'category': 'other', 'ner': None, 'value': 0}, {'id': 47, 'label': 'Tokyo', 'category': 'other', 'ner': 'GPE', 'value': 'GPE'}, {'id': 19, 'label': 'Location', 'category': 'Location', 'ner': None, 'value': 0}, {'id': 42, 'label': 'Shitara', 'category': 'other', 'ner': 'PERSON', 'value': 'PERSON'}, {'id': 53, 'label': 'Chicago', 'category': 'other', 'ner': 'GPE', 'value': 'GPE'}, {'id': 8, 'label': 'Wilson Kipsang', 'category': 'other', 'ner': 'PERSON', 'value': 'PERSON'}, {'id': 22, 'label': 'Kipsang', 'category': 'other', 'ner': 'PERSON', 'value': 'PERSON'}, {'id': 12, 'label': 'Kenenisa', 'category': 'other', 'ner': 'PERSON', 'value': 'PERSON'}, {'id': 24, 'label': 'El Hassan El Abassi', 'category': 'other', 'ner': 'ORG', 'value': 'ORG'}, {'id': 15, 'label': 'Organization', 'category': 'Organization', 'ner': None, 'value': 0}, {'id': 16, 'label': 'Suguru Osako', 'category': 'other', 'ner': 'PERSON', 'value': 'PERSON'}, {'id': 48, 'label': 'Osako', 'category': 'other', 'ner': 'GPE', 'value': 'GPE'}, {'id': 40, 'label': 'Shogo Nakamura', 'category': 'other', 'ner': 'PERSON', 'value': 'PERSON'}, {'id': 23, 'label': 'Yuta Shitara  ', 'category': 'other', 'ner': 'PERSON', 'value': 'PERSON'}, {'id': 28, 'label': 'Hiroto Inoue', 'category': 'other', 'ner': 'PERSON', 'value': 'PERSON'}, {'id': 29, 'label': 'Dickson Chumba', 'category': 'other', 'ner': 'PERSON', 'value': 'PERSON'}, {'id': 32, 'label': '2:07:19', 'category': 'other', 'ner': 'ORG', 'value': 'ORG'}, {'id': 36, 'label': 'Ryo Kiname', 'category': 'other', 'ner': 'PERSON', 'value': 'PERSON'}, {'id': 52, 'label': 'Inoue', 'category': 'other', 'ner': 'PERSON', 'value': 'PERSON'}];
+var edges = [{'from': 34, 'label': '', 'to': 21, 'category': 'related'}, {'from': 47, 'label': '', 'to': 19, 'category': 'related'}, {'from': 42, 'label': '', 'to': 21, 'category': 'related'}, {'from': 53, 'label': '', 'to': 19, 'category': 'related'}, {'from': 8, 'label': '', 'to': 21, 'category': 'related'}, {'from': 22, 'label': '', 'to': 21, 'category': 'related'}, {'from': 12, 'label': '', 'to': 21, 'category': 'related'}, {'from': 24, 'label': '', 'to': 15, 'category': 'related'}, {'from': 16, 'label': '', 'to': 21, 'category': 'related'}, {'from': 48, 'label': '', 'to': 19, 'category': 'related'}, {'from': 40, 'label': '', 'to': 21, 'category': 'related'}, {'from': 22, 'label': '', 'to': 23, 'category': 'related'}, {'from': 24, 'label': '', 'to': 28, 'category': 'related'}, {'from': 29, 'label': '', 'to': 28, 'category': 'related'}, {'from': 28, 'label': '', 'to': 29, 'category': 'related'}, {'from': 53, 'label': '', 'to': 32, 'category': 'related'}, {'from': 32, 'label': '', 'to': 53, 'category': 'related'}, {'from': 34, 'label': '', 'to': 48, 'category': 'related'}, {'from': 36, 'label': '', 'to': 40, 'category': 'related'}, {'from': 47, 'label': '', 'to': 40, 'category': 'related'}, {'from': 40, 'label': '', 'to': 47, 'category': 'related'}, {'from': 42, 'label': '', 'to': 52, 'category': 'related'}, {'from': 47, 'label': '', 'to': 52, 'category': 'related'}, {'from': 52, 'label': '', 'to': 47, 'category': 'related'}, {'from': 48, 'label': '', 'to': 52, 'category': 'related'}, {'from': 53, 'label': '', 'to': 52, 'category': 'related'}, {'from': 52, 'label': '', 'to': 53, 'category': 'related'}];
+
+var container = document.getElementById("VIS_draw");
+
+var data = {
+  nodes: nodes,
+  edges: edges
+};
+console.log(data);
+var options = {
+  nodes: {
+    shape: 'circle',
+    font: {
+      size: 15
+    }
+  },
+  edges: {
+    font: {
+      size: 10,
+      align: 'center'
+    },
+    arrows: {
+      to: { enabled: true, scaleFactor: 1.2 }
+    },
+    smooth: { enabled: true }
+  },
+  physics: {
+    enabled: true
+  }
+};
+
+data.nodes.forEach(function (node) {
+  if (node.category === 'frequency') {
+    node.color = 'lightblue';
+  } else if (node.category === 'keyword') {
+    node.color = 'lightgreen';
+  } 
+  else if (node.category === 'Organization') {
+    node.color = 'red';
+  }else if (node.category === 'Location') {
+    node.color = 'black';
+  }else if (node.category === 'related') {
+    node.color = 'lightcoral';
+  } 
+  // Set a common size for all nodes
+});
+
+data.nodes.forEach(function (node) {
+  // Adjust node color based on value from result_dic
+  if (node.value) {
+    // Assuming result_dic values are in the range [0, 1]
+    var hue = Math.floor((1 - node.value) * 120); // Adjust hue based on value
+    node.color = 'lightyellow';
+  }
+});
+
+data.edges.forEach(function (edge) {
+  if (edge.category === 'frequency') {
+    edge.color = { color: 'blue' };
+  } else if (edge.category === 'keyword') {
+    edge.color = { color: 'green' };
+  } else if (edge.category === 'related') {
+    edge.color = { color: 'red' };
+  } else {
+    edge.color = { color: 'black' };
+  }
+});
+
+var network = new vis.Network(container, data, options);
+
+
+    </script>
+    </body>
+    </html>
+    
