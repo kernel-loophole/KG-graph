@@ -8,7 +8,8 @@ This Python module performs news mining tasks such as named entity recognition (
 - `spacy`
 - `json`
 
-
+# Graph 
+open HTML file to view graph.after running main.py file.
 # Installation
 1. Clone the repository.
 2. Install the required dependencies mentioned above.
