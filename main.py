@@ -142,4 +142,10 @@ ten_ner="In 2022, John Smith, the CEO of XYZ Corporation, attended the United Na
 Miner = NewsMining()
 # with open("data.txt",'r') as file:
 #     content=file.read()
-Miner.main(content4)
+text_list=[]
+text_list.append(test_str_1)
+text_list.append(ten_ner)
+text_list.append(long_sen)
+text_list.append(content3)
+text_list.append(content3)
+Miner.main(text_list)

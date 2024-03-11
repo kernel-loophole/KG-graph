@@ -101,7 +101,7 @@ def main(search_keyword):
     nodes_data=test_json['edges']
     egdes_dat=test_json['nodes']
     test_nodes_data=[]
-    print(ids)
+    # print(ids)
     
     for i in nodes_data:
         try:
@@ -123,27 +123,72 @@ def main(search_keyword):
     with open('test_json.json', 'r') as file:
             data = json.load(file)
     lables=[]
-    print(events)
+    # print(events)
     tmp_event=[]
+    Ner_data={"Person":0,"Location":0,"Organization":0}
     lables.append(search_key)
+    test_data=[]
     for i in data['edges']:
         lables.append(i['label'])
+    
     for k,i in enumerate(events):
         if i[0] in lables:
             # tmp_event.append(i[0])
+            # lables.remove(i[0])
+            # tmp_event.append(i)
+            if i[1]=="Organization":
+                Ner_data['Organization']+=1
+            if i[1]=="Location":
+                Ner_data['Location']+=1
+            if i[1]=="Person":
+                Ner_data['Person']+=1
+            # print("ji",i,lables)
+        else:
+            pass
+            # print("removing",i) 
+            #events = [sublist for l, sublist in enumerate(events) if l != k]
+    org_count=0
+    for k,i in enumerate(events):
+        if i[0] in lables :
+            if i[1] not in Ner_data.keys():
+                continue
+            # tmp_event.append(i[0])
             lables.remove(i[0])
             tmp_event.append(i)
-            print("ji",i,lables)
-        else:
-            print("removing",i)
+            tmp_dir_ner=[]
             
+            if org_count<3:
+                if i[1]=="Organization" :
+                    print("in if org")
+                    tmp_dir_ner.append(i[0])
+                    tmp_dir_ner.append('Person')
+                    tmp_event.append(tmp_dir_ner)
+                    org_count+=1
+                if i[1]=="Location" :
+                    print("in if")
+                    tmp_dir_ner.append(i[0])
+                    tmp_dir_ner.append('Person')
+                    tmp_event.append(tmp_dir_ner)
+                    org_count+=1
+                if i[1]=="Person" :
+                    tmp_dir_ner.append(i[0])
+                    tmp_dir_ner.append('Location')
+                    tmp_event.append(tmp_dir_ner)
+                    org_count+=1
+            # print("ji",i,lables)
+        else:
+            # print("removing",i) 
             events = [sublist for l, sublist in enumerate(events) if l != k]
-   
+
+    
     # GraphShow.create_page(events_test,result_dic)
     test_grp=GraphShow()
+    print(tmp_event)
+    tmp_dir={}    
     test_grp.create_page(tmp_event,result_dic)
     nodes,edge=test_grp.return_edge(tmp_event,result_dic)
     return tmp_event,result_dic
+    
     # cal=find_matching_id(re,"AI")
     # distance={}
     # for i in ids:
@@ -160,4 +205,4 @@ def main(search_keyword):
     #         match_lab.append(lab)
     # final_distance=dict(sorted(final_distance.items(), key=lambda item: item[1]))
     # print(final_distance)
-main("Osako")
+main("Elon Musk")
