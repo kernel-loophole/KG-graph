@@ -175,8 +175,6 @@ class NewsMining():
         events = []         # store events
 
         for content in contents:
-            if not content:
-                return []
             # 01 remove linebreaks and brackets
             content = self.remove_noisy(content)
             content = self.clean_spaces(content)
@@ -242,7 +240,7 @@ class NewsMining():
             co_dict = self.collect_coexist(ner_sents, list(ner_dict.keys()))
             co_events = [[i.split('@')[0].split(
                 '/')[0], i.split('@')[1].split('/')[0]] for i in co_dict]
-            events += co_events
+            # events += co_events
             # print(ner_dict.keys())
             # print(events)
             result_dict = {}
@@ -252,16 +250,17 @@ class NewsMining():
                 if len(parts) == 2:
                     key, value = parts
                     result_dict[key] = value
-        for t in triples:
-            if t[0] in keywords:
-                events.append([t[0], 'related', t[1]])
+        # for t in triples:
+        #     if t[0] in keywords:
+        #         events.append([t[0], 'related', t[1]])
 
-            if t[1] in keywords:
-                events.append([t[1], 'related', t[0]])
-        for wd in word_dict:
-            if wd[0] in keywords:
-                # print(wd[0])
-                events.append([wd[0], 'related', 'frequency'])  
+        #     if t[1] in keywords:
+        #         events.append([t[1], 'related', t[0]])
+        # for wd in word_dict:
+        #     if wd[0] in keywords:
+        #         # print(wd[0])
+        #         events.append([wd[0], 'related', 'frequency'])  
+        events += co_events
         with open('test_json.json', 'r') as file:
             data = json.load(file)
         # print(data['edges'])
@@ -282,8 +281,54 @@ class NewsMining():
 
                     except:
                         pass
-        self.graph_shower.create_page(events,result_dict)
-        nodes,edge=self.graph_shower.return_edge(events,result_dict)
+        tmp_event=[]
+        Ner_data={"Person":0,"Location":0,"Organization":0}
+        test_data=[]
+        
+        for k,i in enumerate(events):
+
+            if i[1]=="Organization":
+                Ner_data['Organization']+=1
+            if i[1]=="Location":
+                Ner_data['Location']+=1
+            if i[1]=="Person":
+                Ner_data['Person']+=1
+            # print("removing",i) 
+                #events = [sublist for l, sublist in enumerate(events) if l != k]
+        org_count=0
+        for k,i in enumerate(events):
+        
+            tmp_dir_ner=[]
+            
+            if org_count<3:
+                if i[1]=="Organization" :
+                    print("in if org")
+                    tmp_dir_ner.append(i[0])
+                    tmp_dir_ner.append('Person')
+                    events.append(tmp_dir_ner)
+                    org_count+=1
+                if i[1]=="Location" :
+                    print("in if")
+                    tmp_dir_ner.append(i[0])
+                    tmp_dir_ner.append('Person')
+                    events.append(tmp_dir_ner)
+                    org_count+=1
+                if i[1]=="Person" :
+                    tmp_dir_ner.append(i[0])
+                    tmp_dir_ner.append('Location')
+                    events.append(tmp_dir_ner)
+                    org_count+=1
+            # print("ji",i,lables)
+            else:
+                # print("removing",i) 
+                events = [sublist for l, sublist in enumerate(events) if l != k]
+        print(events)
+        seen = set()
+
+# Iterate through the list and keep only unique elements
+        unique_data = [x for x in events if tuple(x) not in seen and not seen.add(tuple(x))]
+        self.graph_shower.create_page(unique_data,result_dict)
+        nodes,edge=self.graph_shower.return_edge(unique_data,result_dict)
         tmp_list=[]
         for i in edge:
             tmp_list.append(i['label'])        
