@@ -175,81 +175,84 @@ class NewsMining():
         events = []         # store events
 
         for content in contents:
-            # 01 remove linebreaks and brackets
-            content = self.remove_noisy(content)
-            content = self.clean_spaces(content)
+            # 01 remove linebreaks and bracketst
+            try:
+                content = self.remove_noisy(content+".")
+                content = self.clean_spaces(content)
 
-            # 02 split to sentences
-            doc = nlp(content)
+                # 02 split to sentences
+                doc = nlp(content)
 
-            for i, sent in enumerate(doc.sents):
-                words_postags = [[token.text, token.pos_] for token in sent]
-                words = [token.text for token in sent]
-                postags = [token.pos_ for token in sent]
-                ents = nlp(sent.text).ents  # NER detection
-                collected_ners = self.collect_ners(ents)
+                for i, sent in enumerate(doc.sents):
+                    words_postags = [[token.text, token.pos_] for token in sent]
+                    words = [token.text for token in sent]
+                    postags = [token.pos_ for token in sent]
+                    ents = nlp(sent.text).ents  # NER detection
+                    collected_ners = self.collect_ners(ents)
 
-                if collected_ners:  # only extract triples when the sentence contains 'PERSON', 'ORG', 'GPE'
-                    triple = self.extract_triples(sent)
-                    if not triple:
-                        continue
-                    triples += triple
-                    ners += collected_ners
-                    ner_sents.append(
-                        [token.text + '/' + token.label_ for token in sent.ents])
+                    if collected_ners:  # only extract triples when the sentence contains 'PERSON', 'ORG', 'GPE'
+                        triple = self.extract_triples(sent)
+                        if not triple:
+                            continue
+                        triples += triple
+                        ners += collected_ners
+                        ner_sents.append(
+                            [token.text + '/' + token.label_ for token in sent.ents])
 
-            
-            #       03 get keywords
-            keywords = [i[0] for i in self.extract_keywords(words_postags)]
-            # print(keywords)
-            
-            # for keyword in keywords:
-            #     name = keyword
-            #     cate = 'keyword'
-            #     events.append([name, cate])
                 
-            # print(keywords)
-            #For instance, if there is a triple (subject, verb, object) such as ("cat", "chase", "mouse"), and "cat" and "mouse" 
-            # are keywords identified earlier, then an event of type "related" could be created to signify the relationship between "cat" and "mouse" through the action "chase."
-            # print(events)
+                #       03 get keywords
+                keywords = [i[0] for i in self.extract_keywords(words_postags)]
+                # print(keywords)
+                
+                # for keyword in keywords:
+                #     name = keyword
+                #     cate = 'keyword'
+                #     events.append([name, cate])
+                    
+                # print(keywords)
+                #For instance, if there is a triple (subject, verb, object) such as ("cat", "chase", "mouse"), and "cat" and "mouse" 
+                # are keywords identified earlier, then an event of type "related" could be created to signify the relationship between "cat" and "mouse" through the action "chase."
+                # print(events)
 
-            for t in triples:
-                if (t[0] in keywords or t[1] in keywords) and len(t[0]) > 1 and len(t[1]) > 1:
-                    events.append([t[0], t[1]])
-            # print(events)
-            # 05 get word frequency and add to events
-            #identifies the most common words (nouns, proper nouns, and verbs) in the text and categorizes them as "frequency."
-            word_dict = [i for i in Counter([i[0] for i in words_postags if i[1] in [
-                                                'NOUN', 'PROPN', 'VERB'] and len(i[0]) > 1]).most_common()][:10]
-        
-            # for wd in word_dict:
-            #     name = wd[0]
-            #     cate = 'frequency'
-            #     events.append([name, cate])
+                for t in triples:
+                    if (t[0] in keywords or t[1] in keywords) and len(t[0]) > 1 and len(t[1]) > 1:
+                        events.append([t[0], t[1]])
+                # print(events)
+                # 05 get word frequency and add to events
+                #identifies the most common words (nouns, proper nouns, and verbs) in the text and categorizes them as "frequency."
+                word_dict = [i for i in Counter([i[0] for i in words_postags if i[1] in [
+                                                    'NOUN', 'PROPN', 'VERB'] and len(i[0]) > 1]).most_common()][:10]
             
-            # dumpy_ner={i[0]: i[1] for i in Counter(ners).most_common(20)}
-            ner_dict = {i[0]: i[1] for i in Counter(ners).most_common(20)}
-            # print(ner_dict)
-            for ner in ner_dict:
-                name = ner.split('/')[0]  # Jessica Miller
-                cate = self.ner_dict[ner.split('/')[1]]  # PERSON
-                events.append([name, cate])
-            # print(events)
-            # 07 get all NER entity co-occurrence information
-            # here ner_dict is from above 06
-            co_dict = self.collect_coexist(ner_sents, list(ner_dict.keys()))
-            co_events = [[i.split('@')[0].split(
-                '/')[0], i.split('@')[1].split('/')[0]] for i in co_dict]
-            # events += co_events
-            # print(ner_dict.keys())
-            # print(events)
-            result_dict = {}
+                # for wd in word_dict:
+                #     name = wd[0]
+                #     cate = 'frequency'
+                #     events.append([name, cate])
+                
+                # dumpy_ner={i[0]: i[1] for i in Counter(ners).most_common(20)}
+                ner_dict = {i[0]: i[1] for i in Counter(ners).most_common(20)}
+                # print(ner_dict)
+                for ner in ner_dict:
+                    name = ner.split('/')[0]  # Jessica Miller
+                    cate = self.ner_dict[ner.split('/')[1]]  # PERSON
+                    events.append([name, cate])
+                # print(events)
+                # 07 get all NER entity co-occurrence information
+                # here ner_dict is from above 06
+                co_dict = self.collect_coexist(ner_sents, list(ner_dict.keys()))
+                co_events = [[i.split('@')[0].split(
+                    '/')[0], i.split('@')[1].split('/')[0]] for i in co_dict]
+                # events += co_events
+                # print(ner_dict.keys())
+                # print(events)
+                result_dict = {}
 
-            for item in ner_dict:
-                parts = item.split('/')
-                if len(parts) == 2:
-                    key, value = parts
-                    result_dict[key] = value
+                for item in ner_dict:
+                    parts = item.split('/')
+                    if len(parts) == 2:
+                        key, value = parts
+                        result_dict[key] = value
+            except:
+                pass
         # for t in triples:
         #     if t[0] in keywords:
         #         events.append([t[0], 'related', t[1]])
@@ -264,23 +267,23 @@ class NewsMining():
         with open('test_json.json', 'r') as file:
             data = json.load(file)
         # print(data['edges'])
-        lables=[]
-        for i in data['edges']:
-            lables.append(i['label'])
-        # print(events)
-        for k,i in enumerate(events):
-            for j in i:
-                # print(j)
-                if j in lables:
-                    pass
-                else:
-                    # print(i)
-                    try:
-                        events.remove(i)
-                        events_test = [sublist for l, sublist in enumerate(events) if l != k]
+        # lables=[]
+        # for i in data['edges']:
+        #     lables.append(i['label'])
+        # # print(events)
+        # for k,i in enumerate(events):
+        #     for j in i:
+        #         # print(j)
+        #         if j in lables:
+        #             pass
+        #         else:
+        #             # print(i)
+        #             try:
+        #                 events.remove(i)
+        #                 events_test = [sublist for l, sublist in enumerate(events) if l != k]
 
-                    except:
-                        pass
+        #             except:
+        #                 pass
         tmp_event=[]
         Ner_data={"Person":0,"Location":0,"Organization":0}
         test_data=[]
@@ -322,13 +325,27 @@ class NewsMining():
             else:
                 # print("removing",i) 
                 events = [sublist for l, sublist in enumerate(events) if l != k]
-        print(events)
+        # print(events)
         seen = set()
-
-# Iterate through the list and keep only unique elements
         unique_data = [x for x in events if tuple(x) not in seen and not seen.add(tuple(x))]
-        self.graph_shower.create_page(unique_data,result_dict)
-        nodes,edge=self.graph_shower.return_edge(unique_data,result_dict)
+        with open('graph_data.json','r') as file:
+            match_events=json.load(file)
+        data_edges=match_events['edges']
+        print(data_edges)
+        ner_to_check = 'GPE'
+        tmp_unique=[]
+        # Iterate through each item in the data
+        for ev in unique_data:
+            for item in data_edges:
+                # Check if the 'ner' key has the specified value
+                if ev[0]==item['label']:
+                    if item['ner']==None:
+                        print("find none")
+                    else:
+                        print("not found")
+                        tmp_unique.append(ev)
+        self.graph_shower.create_page(tmp_unique,result_dict)
+        nodes,edge=self.graph_shower.return_edge(tmp_unique,result_dict)
         tmp_list=[]
         for i in edge:
             tmp_list.append(i['label'])        
