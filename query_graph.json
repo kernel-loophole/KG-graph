@@ -8,240 +8,240 @@
       "distance": 0
     },
     {
-      "from": 234,
+      "from": 68,
       "label": "",
-      "to": 251,
+      "to": 71,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 285,
+      "from": 58,
       "label": "",
-      "to": 251,
+      "to": 71,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 213,
+      "from": 70,
       "label": "",
-      "to": 253,
+      "to": 33,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 203,
+      "from": 49,
       "label": "",
-      "to": 253,
+      "to": 69,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 211,
+      "from": 10,
       "label": "",
-      "to": 229,
+      "to": 33,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 207,
+      "from": 12,
       "label": "",
-      "to": 229,
+      "to": 69,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 216,
+      "from": 52,
       "label": "",
-      "to": 253,
+      "to": 33,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 220,
+      "from": 55,
       "label": "",
-      "to": 253,
+      "to": 69,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 285,
+      "from": 18,
       "label": "",
-      "to": 203,
+      "to": 33,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 285,
+      "from": 60,
       "label": "",
-      "to": 211,
+      "to": 33,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 285,
+      "from": 22,
       "label": "",
-      "to": 207,
+      "to": 33,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 285,
+      "from": 61,
       "label": "",
-      "to": 213,
+      "to": 69,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 203,
+      "from": 62,
       "label": "",
-      "to": 285,
+      "to": 69,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 203,
+      "from": 66,
       "label": "",
-      "to": 211,
+      "to": 69,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 203,
+      "from": 61,
       "label": "",
-      "to": 207,
+      "to": 71,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 203,
+      "from": 32,
       "label": "",
-      "to": 213,
+      "to": 33,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 211,
+      "from": 48,
       "label": "",
-      "to": 285,
+      "to": 71,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 211,
+      "from": 55,
       "label": "",
-      "to": 203,
+      "to": 49,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 211,
+      "from": 55,
       "label": "",
-      "to": 207,
+      "to": 52,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 211,
+      "from": 49,
       "label": "",
-      "to": 213,
+      "to": 55,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 207,
+      "from": 49,
       "label": "",
-      "to": 285,
+      "to": 52,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 207,
+      "from": 58,
       "label": "",
-      "to": 203,
+      "to": 55,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 207,
+      "from": 58,
       "label": "",
-      "to": 211,
+      "to": 52,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 207,
+      "from": 48,
       "label": "",
-      "to": 213,
+      "to": 49,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 213,
+      "from": 52,
       "label": "",
-      "to": 285,
+      "to": 55,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 213,
+      "from": 52,
       "label": "",
-      "to": 203,
+      "to": 58,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 213,
+      "from": 70,
       "label": "",
-      "to": 211,
+      "to": 55,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 213,
+      "from": 70,
       "label": "",
-      "to": 207,
+      "to": 58,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 212,
+      "from": 58,
       "label": "",
-      "to": 285,
+      "to": 59,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 212,
+      "from": 60,
       "label": "",
-      "to": 211,
+      "to": 61,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 212,
+      "from": 62,
       "label": "",
-      "to": 213,
+      "to": 64,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 285,
+      "from": 64,
       "label": "",
-      "to": 216,
+      "to": 67,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 216,
+      "from": 66,
       "label": "",
-      "to": 285,
+      "to": 67,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 220,
+      "from": 68,
       "label": "",
-      "to": 284,
+      "to": 69,
       "category": "related",
       "distance": 0
     },
@@ -250,797 +250,6 @@
       "label": "",
       "to": 71,
       "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 234,
-      "label": "",
-      "to": 251,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 285,
-      "label": "",
-      "to": 251,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 150,
-      "label": "",
-      "to": 229,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 213,
-      "label": "",
-      "to": 253,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 203,
-      "label": "",
-      "to": 253,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 211,
-      "label": "",
-      "to": 229,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 207,
-      "label": "",
-      "to": 229,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 216,
-      "label": "",
-      "to": 253,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 220,
-      "label": "",
-      "to": 253,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 166,
-      "label": "",
-      "to": 253,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 285,
-      "label": "",
-      "to": 203,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 285,
-      "label": "",
-      "to": 211,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 285,
-      "label": "",
-      "to": 207,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 285,
-      "label": "",
-      "to": 213,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 203,
-      "label": "",
-      "to": 285,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 203,
-      "label": "",
-      "to": 211,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 203,
-      "label": "",
-      "to": 207,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 203,
-      "label": "",
-      "to": 213,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 211,
-      "label": "",
-      "to": 285,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 211,
-      "label": "",
-      "to": 203,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 211,
-      "label": "",
-      "to": 207,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 211,
-      "label": "",
-      "to": 213,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 207,
-      "label": "",
-      "to": 285,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 207,
-      "label": "",
-      "to": 203,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 207,
-      "label": "",
-      "to": 211,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 207,
-      "label": "",
-      "to": 213,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 213,
-      "label": "",
-      "to": 285,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 213,
-      "label": "",
-      "to": 203,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 213,
-      "label": "",
-      "to": 211,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 213,
-      "label": "",
-      "to": 207,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 212,
-      "label": "",
-      "to": 285,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 212,
-      "label": "",
-      "to": 211,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 212,
-      "label": "",
-      "to": 213,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 285,
-      "label": "",
-      "to": 216,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 216,
-      "label": "",
-      "to": 285,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 284,
-      "label": "",
-      "to": 285,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 220,
-      "label": "",
-      "to": 284,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 234,
-      "label": "",
-      "to": 251,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 285,
-      "label": "",
-      "to": 251,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 150,
-      "label": "",
-      "to": 229,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 212,
-      "label": "",
-      "to": 251,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 213,
-      "label": "",
-      "to": 253,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 203,
-      "label": "",
-      "to": 253,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 211,
-      "label": "",
-      "to": 229,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 207,
-      "label": "",
-      "to": 229,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 216,
-      "label": "",
-      "to": 253,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 220,
-      "label": "",
-      "to": 253,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 166,
-      "label": "",
-      "to": 253,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 285,
-      "label": "",
-      "to": 203,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 285,
-      "label": "",
-      "to": 211,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 285,
-      "label": "",
-      "to": 207,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 285,
-      "label": "",
-      "to": 213,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 203,
-      "label": "",
-      "to": 285,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 203,
-      "label": "",
-      "to": 211,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 203,
-      "label": "",
-      "to": 207,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 203,
-      "label": "",
-      "to": 213,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 211,
-      "label": "",
-      "to": 285,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 211,
-      "label": "",
-      "to": 203,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 211,
-      "label": "",
-      "to": 207,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 211,
-      "label": "",
-      "to": 213,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 207,
-      "label": "",
-      "to": 285,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 207,
-      "label": "",
-      "to": 203,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 207,
-      "label": "",
-      "to": 211,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 207,
-      "label": "",
-      "to": 213,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 213,
-      "label": "",
-      "to": 285,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 213,
-      "label": "",
-      "to": 203,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 213,
-      "label": "",
-      "to": 211,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 213,
-      "label": "",
-      "to": 207,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 212,
-      "label": "",
-      "to": 285,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 212,
-      "label": "",
-      "to": 211,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 212,
-      "label": "",
-      "to": 213,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 285,
-      "label": "",
-      "to": 216,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 216,
-      "label": "",
-      "to": 285,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 284,
-      "label": "",
-      "to": 285,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 220,
-      "label": "",
-      "to": 284,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 278,
-      "label": "",
-      "to": 279,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 288,
-      "label": "",
-      "to": 290,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 278,
-      "label": "",
-      "to": 251,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 278,
-      "label": "",
-      "to": 229,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 277,
-      "label": "",
-      "to": 253,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 279,
-      "label": "",
-      "to": 253,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 234,
-      "label": "",
-      "to": 251,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 285,
-      "label": "",
-      "to": 251,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 238,
-      "label": "",
-      "to": 251,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 272,
-      "label": "",
-      "to": 251,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 271,
-      "label": "",
-      "to": 253,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 264,
-      "label": "",
-      "to": 253,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 246,
-      "label": "",
-      "to": 251,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 248,
-      "label": "",
-      "to": 253,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 280,
-      "label": "",
-      "to": 251,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 252,
-      "label": "",
-      "to": 253,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 256,
-      "label": "",
-      "to": 264,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 256,
-      "label": "",
-      "to": 272,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 271,
-      "label": "",
-      "to": 264,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 271,
-      "label": "",
-      "to": 272,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 264,
-      "label": "",
-      "to": 271,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 264,
-      "label": "",
-      "to": 272,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 273,
-      "label": "",
-      "to": 271,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 273,
-      "label": "",
-      "to": 272,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 272,
-      "label": "",
-      "to": 271,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 272,
-      "label": "",
-      "to": 273,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 278,
-      "label": "",
-      "to": 277,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 278,
-      "label": "",
-      "to": 277,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 278,
-      "label": "",
-      "to": 279,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 280,
-      "label": "",
-      "to": 281,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 285,
-      "label": "",
-      "to": 284,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 284,
-      "label": "",
-      "to": 285,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 288,
-      "label": "",
-      "to": 297,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 288,
-      "label": "",
-      "to": 297,
-      "category": "related",
-      "distance": 0
-    },
-    {
-      "from": 290,
-      "label": "",
-      "to": 297,
-      "category": "frequency",
-      "distance": 0
-    },
-    {
-      "from": 292,
-      "label": "",
-      "to": 297,
-      "category": "frequency",
-      "distance": 0
-    },
-    {
-      "from": 294,
-      "label": "",
-      "to": 297,
-      "category": "frequency",
-      "distance": 0
-    },
-    {
-      "from": 296,
-      "label": "",
-      "to": 297,
-      "category": "frequency",
       "distance": 0
     }
   ],
@@ -1062,7 +271,7 @@
       "distance": 0
     },
     {
-      "id": 234,
+      "id": 68,
       "label": "Quaid-e-Azam Muhammad Ali Jinnah",
       "category": "other",
       "ner": "PERSON",
@@ -1070,96 +279,16 @@
       "distance": 0
     },
     {
-      "id": 251,
+      "id": 71,
       "label": "Person",
       "category": "other",
       "ner": null,
       "value": 0,
-      "distance": 2
+      "distance": 0
     },
     {
-      "id": 285,
+      "id": 58,
       "label": "Angela Merkel",
-      "category": "other",
-      "ner": "PERSON",
-      "value": "PERSON",
-      "distance": 1
-    },
-    {
-      "id": 213,
-      "label": "XYZ Corporation",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "distance": 2
-    },
-    {
-      "id": 253,
-      "label": "Organization",
-      "category": "Organization",
-      "ner": null,
-      "value": 0,
-      "distance": 3
-    },
-    {
-      "id": 203,
-      "label": "the United Nations General Assembly",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "distance": 2
-    },
-    {
-      "id": 211,
-      "label": "New York City",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "distance": 2
-    },
-    {
-      "id": 229,
-      "label": "Location",
-      "category": "Location",
-      "ner": null,
-      "value": 0,
-      "distance": 3
-    },
-    {
-      "id": 207,
-      "label": "Germany",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "distance": 2
-    },
-    {
-      "id": 216,
-      "label": "SpaceX",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "distance": 2
-    },
-    {
-      "id": 220,
-      "label": "abc",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "distance": 0
-    },
-    {
-      "id": 212,
-      "label": "John Smith",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "distance": 0
-    },
-    {
-      "id": 284,
-      "label": "Elon Musk",
       "category": "other",
       "ner": "PERSON",
       "value": "PERSON",
@@ -1167,46 +296,78 @@
     },
     {
       "id": 70,
-      "label": "collection",
+      "label": "XYZ Corporation",
       "category": "other",
+      "ner": "ORG",
+      "value": "ORG",
+      "distance": 0
+    },
+    {
+      "id": 33,
+      "label": "Organization",
+      "category": "Organization",
       "ner": null,
       "value": 0,
       "distance": 0
     },
     {
-      "id": 71,
-      "label": "go",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "distance": 0
-    },
-    {
-      "id": 150,
-      "label": "Pakistan",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "distance": 0
-    },
-    {
-      "id": 166,
-      "label": "the International Monetary Fund",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "distance": 0
-    },
-    {
-      "id": 278,
-      "label": "Caliskan",
+      "id": 49,
+      "label": "New York City",
       "category": "other",
       "ner": "GPE",
       "value": "GPE",
       "distance": 0
     },
     {
-      "id": 279,
+      "id": 69,
+      "label": "Location",
+      "category": "Location",
+      "ner": null,
+      "value": 0,
+      "distance": 0
+    },
+    {
+      "id": 10,
+      "label": "SpaceX",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "distance": 0
+    },
+    {
+      "id": 12,
+      "label": "Pakistan",
+      "category": "other",
+      "ner": "GPE",
+      "value": "GPE",
+      "distance": 0
+    },
+    {
+      "id": 52,
+      "label": "the United Nations General Assembly",
+      "category": "other",
+      "ner": "ORG",
+      "value": "ORG",
+      "distance": 0
+    },
+    {
+      "id": 55,
+      "label": "Germany",
+      "category": "other",
+      "ner": "GPE",
+      "value": "GPE",
+      "distance": 0
+    },
+    {
+      "id": 18,
+      "label": "abc",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "distance": 0
+    },
+    {
+      "id": 60,
       "label": "Google",
       "category": "other",
       "ner": "ORG",
@@ -1214,23 +375,39 @@
       "distance": 0
     },
     {
-      "id": 288,
-      "label": "article",
+      "id": 22,
+      "label": "the International Monetary Fund",
       "category": "other",
       "ner": null,
       "value": 0,
       "distance": 0
     },
     {
-      "id": 290,
-      "label": "updated",
+      "id": 61,
+      "label": "Caliskan",
       "category": "other",
-      "ner": null,
-      "value": 0,
+      "ner": "GPE",
+      "value": "GPE",
       "distance": 0
     },
     {
-      "id": 277,
+      "id": 62,
+      "label": "Tokyo",
+      "category": "other",
+      "ner": "GPE",
+      "value": "GPE",
+      "distance": 0
+    },
+    {
+      "id": 66,
+      "label": "Chicago",
+      "category": "other",
+      "ner": "GPE",
+      "value": "GPE",
+      "distance": 0
+    },
+    {
+      "id": 32,
       "label": "GitHub",
       "category": "other",
       "ner": "ORG",
@@ -1238,123 +415,35 @@
       "distance": 0
     },
     {
-      "id": 238,
-      "label": "STUDY stylometry",
+      "id": 48,
+      "label": "John Smith",
       "category": "other",
       "ner": "PERSON",
       "value": "PERSON",
       "distance": 0
     },
     {
-      "id": 272,
-      "label": "Rachel Greenstadt",
+      "id": 59,
+      "label": "Elon Musk",
       "category": "other",
       "ner": "PERSON",
       "value": "PERSON",
       "distance": 0
     },
     {
-      "id": 271,
-      "label": "Drexel University",
-      "category": "other",
-      "ner": "ORG",
-      "value": "ORG",
-      "distance": 0
-    },
-    {
-      "id": 264,
-      "label": "Greenstadt's",
-      "category": "other",
-      "ner": "ORG",
-      "value": "ORG",
-      "distance": 0
-    },
-    {
-      "id": 246,
-      "label": "DefCon",
+      "id": 64,
+      "label": "Shitara",
       "category": "other",
       "ner": "PERSON",
       "value": "PERSON",
       "distance": 0
     },
     {
-      "id": 248,
-      "label": "DREXEL UNIVERSITY",
-      "category": "other",
-      "ner": "ORG",
-      "value": "ORG",
-      "distance": 0
-    },
-    {
-      "id": 280,
-      "label": "Lucy Simko",
+      "id": 67,
+      "label": "Inoue",
       "category": "other",
       "ner": "PERSON",
       "value": "PERSON",
-      "distance": 0
-    },
-    {
-      "id": 252,
-      "label": "the US Army Research Laboratory",
-      "category": "other",
-      "ner": "ORG",
-      "value": "ORG",
-      "distance": 0
-    },
-    {
-      "id": 256,
-      "label": "Aylin Caliskan",
-      "category": "other",
-      "ner": "PERSON",
-      "value": "PERSON",
-      "distance": 0
-    },
-    {
-      "id": 273,
-      "label": "George Washington University",
-      "category": "other",
-      "ner": "ORG",
-      "value": "ORG",
-      "distance": 0
-    },
-    {
-      "id": 281,
-      "label": "the University of Washington",
-      "category": "other",
-      "ner": "ORG",
-      "value": "ORG",
-      "distance": 0
-    },
-    {
-      "id": 297,
-      "label": "related",
-      "category": "related",
-      "ner": null,
-      "value": 0,
-      "distance": 0
-    },
-    {
-      "id": 292,
-      "label": "contributions",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "distance": 0
-    },
-    {
-      "id": 294,
-      "label": "Army",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "distance": 0
-    },
-    {
-      "id": 296,
-      "label": "Laboratory",
-      "category": "other",
-      "ner": null,
-      "value": 0,
       "distance": 0
     }
   ]
