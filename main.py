@@ -139,14 +139,19 @@ test_string_one="Quaid-e-Azam Muhammad Ali Jinnah was good man"
 long_sen="The government has already achieved a Rs60 per litre petroleum levy — the maximum permissible limit under the law — on both petrol and HSD. The government had set a budget target to collect Rs869 billion as a petroleum levy during the current fiscal year under the commitments made with the International Monetary Fund (IMF) but was hoping the collection to go beyond Rs950bn by the end of June."
 # test_fail="The bank is on the river, and the bank approved my loan application."
 ten_ner="In 2022, John Smith, the CEO of XYZ Corporation, attended the United Nations General Assembly in New York City, where he discussed climate change with Angela Merkel, the Chancellor of Germany.He highlighted the company's partnership with SpaceX to Angela Merkel, headed by Elon Musk, to develop innovative sustainable energy solutions for the future.Quaid-e-Azam Muhammad Ali Jinnah was good man.He was born in Karachi.He founded abc with elon musk.he was good friend of Elon Musk"
-Miner = NewsMining()
-# with open("data.txt",'r') as file:
-#     content=file.read()
-text_list=[]
-text_list.append(test_str_1)
-text_list.append(ten_ner)
-text_list.append(long_sen)
-text_list.append(content3)
-text_list.append(content4)
-text_list.append(content1)
-Miner.main(text_list)
+import threading
+import pickle
+def execute_mining(data):
+    Miner = NewsMining()
+    Miner.main(data)
+
+# Open the pickle file in read-binary mode
+with open('news_list.pkl', 'rb') as file:
+    data = pickle.load(file)
+sub_list=data[100:700]
+mining_thread = threading.Thread(target=execute_mining, args=(sub_list,))
+
+# Start the thread
+mining_thread.start()
+
+mining_thread.join()

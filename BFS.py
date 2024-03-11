@@ -157,7 +157,7 @@ def main(search_keyword):
             tmp_event.append(i)
             tmp_dir_ner=[]
             
-            if org_count<3:
+            if org_count>2:
                 if i[1]=="Organization" :
                     print("in if org")
                     tmp_dir_ner.append(i[0])
@@ -205,4 +205,4 @@ def main(search_keyword):
     #         match_lab.append(lab)
     # final_distance=dict(sorted(final_distance.items(), key=lambda item: item[1]))
     # print(final_distance)
-main("Elon Musk")
+main("man")
