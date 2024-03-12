@@ -148,7 +148,7 @@ def execute_mining(data):
 # Open the pickle file in read-binary mode
 with open('news_list.pkl', 'rb') as file:
     data = pickle.load(file)
-sub_list=data[100:700]
+sub_list=data[0:200]
 mining_thread = threading.Thread(target=execute_mining, args=(sub_list,))
 
 # Start the thread

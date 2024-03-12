@@ -1,3925 +1,1377 @@
 {
   "nodes": [
     {
-      "from": 710,
-      "label": "",
-      "to": 113,
-      "category": "related"
-    },
-    {
-      "from": 694,
-      "label": "",
-      "to": 113,
-      "category": "related"
-    },
-    {
-      "from": 710,
-      "label": "",
-      "to": 5,
-      "category": "related"
-    },
-    {
-      "from": 655,
-      "label": "",
-      "to": 113,
-      "category": "related"
-    },
-    {
-      "from": 675,
-      "label": "",
-      "to": 113,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 113,
-      "category": "related"
-    },
-    {
-      "from": 679,
-      "label": "",
-      "to": 113,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 15,
-      "category": "related"
-    },
-    {
-      "from": 705,
-      "label": "",
-      "to": 113,
-      "category": "related"
-    },
-    {
-      "from": 709,
-      "label": "",
-      "to": 113,
-      "category": "related"
-    },
-    {
-      "from": 702,
-      "label": "",
-      "to": 113,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 23,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 25,
-      "category": "related"
-    },
-    {
-      "from": 712,
-      "label": "",
-      "to": 245,
-      "category": "related"
-    },
-    {
-      "from": 711,
-      "label": "",
-      "to": 113,
-      "category": "related"
-    },
-    {
-      "from": 701,
-      "label": "",
-      "to": 115,
-      "category": "related"
-    },
-    {
-      "from": 663,
-      "label": "",
-      "to": 245,
-      "category": "related"
-    },
-    {
-      "from": 665,
-      "label": "",
-      "to": 89,
-      "category": "related"
-    },
-    {
-      "from": 665,
-      "label": "",
-      "to": 245,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 39,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 41,
-      "category": "related"
-    },
-    {
-      "from": 704,
-      "label": "",
-      "to": 115,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 45,
-      "category": "related"
-    },
-    {
-      "from": 675,
-      "label": "",
-      "to": 47,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 49,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 51,
-      "category": "related"
-    },
-    {
-      "from": 701,
-      "label": "",
-      "to": 53,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 55,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 57,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 59,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 61,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 63,
-      "category": "related"
-    },
-    {
-      "from": 665,
-      "label": "",
-      "to": 65,
-      "category": "related"
-    },
-    {
-      "from": 66,
-      "label": "",
-      "to": 245,
-      "category": "related"
-    },
-    {
-      "from": 663,
-      "label": "",
-      "to": 69,
-      "category": "related"
-    },
-    {
-      "from": 663,
-      "label": "",
-      "to": 71,
-      "category": "related"
-    },
-    {
-      "from": 663,
-      "label": "",
-      "to": 513,
-      "category": "related"
-    },
-    {
-      "from": 663,
-      "label": "",
-      "to": 75,
-      "category": "related"
-    },
-    {
-      "from": 663,
-      "label": "",
-      "to": 173,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 79,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 81,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 83,
-      "category": "related"
-    },
-    {
-      "from": 663,
-      "label": "",
-      "to": 85,
-      "category": "related"
-    },
-    {
-      "from": 663,
+      "from": 266,
       "label": "",
       "to": 87,
       "category": "related"
     },
     {
-      "from": 663,
+      "from": 245,
       "label": "",
-      "to": 89,
+      "to": 135,
       "category": "related"
     },
     {
-      "from": 663,
+      "from": 262,
       "label": "",
-      "to": 91,
+      "to": 135,
       "category": "related"
     },
     {
-      "from": 663,
+      "from": 258,
       "label": "",
-      "to": 93,
+      "to": 87,
       "category": "related"
     },
     {
-      "from": 714,
-      "label": "",
-      "to": 513,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 97,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 99,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 101,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 103,
-      "category": "related"
-    },
-    {
-      "from": 701,
-      "label": "",
-      "to": 105,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 107,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 109,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 111,
-      "category": "related"
-    },
-    {
-      "from": 470,
-      "label": "",
-      "to": 113,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 115,
-      "category": "related"
-    },
-    {
-      "from": 688,
-      "label": "",
-      "to": 245,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 119,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 121,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 123,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 125,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 127,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 129,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 131,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 133,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 337,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 137,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 139,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 141,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 143,
-      "category": "related"
-    },
-    {
-      "from": 688,
-      "label": "",
-      "to": 173,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 147,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 149,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 151,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 153,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 173,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 157,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 159,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 161,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 163,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 165,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 167,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 169,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 171,
-      "category": "related"
-    },
-    {
-      "from": 702,
-      "label": "",
-      "to": 173,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 175,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 177,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 179,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 181,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 183,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 185,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 187,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 189,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 513,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 193,
-      "category": "related"
-    },
-    {
-      "from": 701,
-      "label": "",
-      "to": 195,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 197,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 199,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 201,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 203,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 205,
-      "category": "related"
-    },
-    {
-      "from": 688,
-      "label": "",
-      "to": 207,
-      "category": "related"
-    },
-    {
-      "from": 688,
-      "label": "",
-      "to": 513,
-      "category": "related"
-    },
-    {
-      "from": 688,
-      "label": "",
-      "to": 211,
-      "category": "related"
-    },
-    {
-      "from": 688,
-      "label": "",
-      "to": 213,
-      "category": "related"
-    },
-    {
-      "from": 688,
-      "label": "",
-      "to": 215,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 217,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 219,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 221,
-      "category": "related"
-    },
-    {
-      "from": 663,
-      "label": "",
-      "to": 223,
-      "category": "related"
-    },
-    {
-      "from": 663,
-      "label": "",
-      "to": 225,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 227,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 229,
-      "category": "related"
-    },
-    {
-      "from": 663,
-      "label": "",
-      "to": 231,
-      "category": "related"
-    },
-    {
-      "from": 663,
-      "label": "",
-      "to": 233,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 235,
-      "category": "related"
-    },
-    {
-      "from": 663,
-      "label": "",
-      "to": 237,
-      "category": "related"
-    },
-    {
-      "from": 663,
-      "label": "",
-      "to": 239,
-      "category": "related"
-    },
-    {
-      "from": 663,
-      "label": "",
-      "to": 241,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 243,
-      "category": "related"
-    },
-    {
-      "from": 244,
-      "label": "",
-      "to": 245,
-      "category": "related"
-    },
-    {
-      "from": 711,
-      "label": "",
-      "to": 315,
-      "category": "related"
-    },
-    {
-      "from": 709,
-      "label": "",
-      "to": 249,
-      "category": "related"
-    },
-    {
-      "from": 709,
-      "label": "",
-      "to": 251,
-      "category": "related"
-    },
-    {
-      "from": 709,
-      "label": "",
-      "to": 253,
-      "category": "related"
-    },
-    {
-      "from": 709,
-      "label": "",
-      "to": 255,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 257,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 259,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 261,
-      "category": "related"
-    },
-    {
-      "from": 663,
-      "label": "",
-      "to": 263,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 265,
-      "category": "related"
-    },
-    {
-      "from": 708,
+      "from": 264,
       "label": "",
       "to": 267,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 256,
       "label": "",
-      "to": 269,
+      "to": 87,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 231,
       "label": "",
-      "to": 271,
+      "to": 267,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 236,
       "label": "",
-      "to": 273,
+      "to": 87,
       "category": "related"
     },
     {
-      "from": 663,
+      "from": 213,
       "label": "",
-      "to": 275,
+      "to": 87,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 234,
       "label": "",
-      "to": 487,
+      "to": 135,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 165,
       "label": "",
-      "to": 279,
+      "to": 267,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 266,
       "label": "",
-      "to": 281,
+      "to": 23,
       "category": "related"
     },
     {
-      "from": 655,
+      "from": 266,
       "label": "",
-      "to": 283,
+      "to": 25,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 266,
       "label": "",
-      "to": 285,
+      "to": 27,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 223,
       "label": "",
-      "to": 287,
+      "to": 29,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 223,
       "label": "",
-      "to": 289,
+      "to": 31,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 245,
       "label": "",
-      "to": 291,
+      "to": 33,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 245,
       "label": "",
-      "to": 293,
+      "to": 35,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 245,
       "label": "",
-      "to": 295,
+      "to": 37,
       "category": "related"
     },
     {
-      "from": 655,
+      "from": 245,
       "label": "",
-      "to": 297,
+      "to": 39,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 245,
       "label": "",
-      "to": 299,
+      "to": 41,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 248,
       "label": "",
-      "to": 301,
+      "to": 135,
       "category": "related"
     },
     {
-      "from": 655,
+      "from": 264,
       "label": "",
-      "to": 303,
+      "to": 45,
       "category": "related"
     },
     {
-      "from": 655,
+      "from": 264,
       "label": "",
-      "to": 305,
+      "to": 139,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 264,
       "label": "",
-      "to": 307,
+      "to": 49,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 264,
       "label": "",
-      "to": 309,
+      "to": 51,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 264,
       "label": "",
-      "to": 311,
+      "to": 53,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 264,
       "label": "",
-      "to": 313,
+      "to": 55,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 264,
       "label": "",
-      "to": 315,
+      "to": 57,
       "category": "related"
     },
     {
-      "from": 663,
+      "from": 223,
       "label": "",
-      "to": 317,
+      "to": 59,
       "category": "related"
     },
     {
-      "from": 705,
+      "from": 223,
       "label": "",
-      "to": 319,
+      "to": 61,
       "category": "related"
     },
     {
-      "from": 705,
+      "from": 223,
       "label": "",
-      "to": 321,
+      "to": 63,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 223,
       "label": "",
-      "to": 323,
+      "to": 87,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 264,
       "label": "",
-      "to": 325,
+      "to": 67,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 245,
       "label": "",
-      "to": 327,
+      "to": 69,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 245,
       "label": "",
-      "to": 329,
+      "to": 71,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 245,
       "label": "",
-      "to": 331,
+      "to": 73,
       "category": "related"
     },
     {
-      "from": 709,
+      "from": 245,
       "label": "",
-      "to": 333,
+      "to": 75,
       "category": "related"
     },
     {
-      "from": 694,
+      "from": 258,
       "label": "",
-      "to": 335,
+      "to": 77,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 264,
       "label": "",
-      "to": 337,
+      "to": 79,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 259,
       "label": "",
-      "to": 339,
+      "to": 135,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 262,
       "label": "",
-      "to": 341,
+      "to": 83,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 260,
       "label": "",
-      "to": 343,
+      "to": 135,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 233,
       "label": "",
-      "to": 345,
+      "to": 87,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 245,
       "label": "",
-      "to": 347,
+      "to": 89,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 245,
       "label": "",
-      "to": 431,
+      "to": 91,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 236,
       "label": "",
-      "to": 351,
+      "to": 93,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 260,
       "label": "",
-      "to": 353,
+      "to": 95,
       "category": "related"
     },
     {
-      "from": 709,
+      "from": 260,
       "label": "",
-      "to": 355,
+      "to": 97,
       "category": "related"
     },
     {
-      "from": 655,
+      "from": 242,
       "label": "",
-      "to": 357,
+      "to": 99,
       "category": "related"
     },
     {
-      "from": 655,
+      "from": 242,
       "label": "",
-      "to": 359,
+      "to": 135,
       "category": "related"
     },
     {
-      "from": 711,
+      "from": 264,
       "label": "",
-      "to": 361,
+      "to": 103,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 264,
       "label": "",
-      "to": 363,
+      "to": 105,
       "category": "related"
     },
     {
-      "from": 663,
+      "from": 264,
       "label": "",
-      "to": 365,
+      "to": 107,
       "category": "related"
     },
     {
-      "from": 663,
+      "from": 264,
       "label": "",
-      "to": 367,
+      "to": 109,
       "category": "related"
     },
     {
-      "from": 663,
+      "from": 223,
       "label": "",
-      "to": 369,
+      "to": 111,
       "category": "related"
     },
     {
-      "from": 663,
+      "from": 264,
       "label": "",
-      "to": 371,
+      "to": 113,
       "category": "related"
     },
     {
-      "from": 663,
+      "from": 264,
       "label": "",
-      "to": 373,
+      "to": 115,
       "category": "related"
     },
     {
-      "from": 663,
+      "from": 264,
       "label": "",
-      "to": 375,
+      "to": 117,
       "category": "related"
     },
     {
-      "from": 663,
+      "from": 254,
       "label": "",
-      "to": 377,
+      "to": 267,
       "category": "related"
     },
     {
-      "from": 663,
+      "from": 259,
       "label": "",
-      "to": 379,
+      "to": 121,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 258,
       "label": "",
-      "to": 381,
+      "to": 123,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 213,
       "label": "",
-      "to": 383,
+      "to": 125,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 260,
       "label": "",
-      "to": 385,
+      "to": 127,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 260,
       "label": "",
-      "to": 387,
+      "to": 129,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 248,
       "label": "",
-      "to": 389,
+      "to": 131,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 264,
       "label": "",
-      "to": 391,
+      "to": 133,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 253,
       "label": "",
-      "to": 393,
+      "to": 135,
       "category": "related"
     },
     {
-      "from": 663,
+      "from": 234,
       "label": "",
-      "to": 395,
+      "to": 137,
       "category": "related"
     },
     {
-      "from": 663,
+      "from": 234,
       "label": "",
-      "to": 397,
+      "to": 139,
       "category": "related"
     },
     {
-      "from": 663,
+      "from": 262,
       "label": "",
-      "to": 399,
+      "to": 141,
       "category": "related"
     },
     {
-      "from": 663,
+      "from": 262,
       "label": "",
-      "to": 401,
+      "to": 143,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 265,
       "label": "",
-      "to": 403,
+      "to": 267,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 264,
       "label": "",
-      "to": 405,
+      "to": 147,
       "category": "related"
     },
     {
-      "from": 688,
+      "from": 264,
       "label": "",
-      "to": 407,
+      "to": 149,
       "category": "related"
     },
     {
-      "from": 688,
+      "from": 264,
       "label": "",
-      "to": 409,
+      "to": 151,
       "category": "related"
     },
     {
-      "from": 688,
+      "from": 264,
       "label": "",
-      "to": 411,
+      "to": 153,
       "category": "related"
     },
     {
-      "from": 688,
+      "from": 264,
       "label": "",
-      "to": 413,
+      "to": 155,
       "category": "related"
     },
     {
-      "from": 665,
+      "from": 264,
       "label": "",
-      "to": 415,
+      "to": 157,
       "category": "related"
     },
     {
-      "from": 665,
+      "from": 258,
       "label": "",
-      "to": 417,
+      "to": 265,
       "category": "related"
     },
     {
-      "from": 665,
+      "from": 264,
       "label": "",
-      "to": 487,
+      "to": 258,
       "category": "related"
     },
     {
-      "from": 665,
+      "from": 245,
       "label": "",
-      "to": 421,
+      "to": 248,
       "category": "related"
     },
     {
-      "from": 665,
+      "from": 231,
       "label": "",
-      "to": 423,
+      "to": 165,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 262,
       "label": "",
-      "to": 425,
+      "to": 236,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 260,
       "label": "",
-      "to": 427,
+      "to": 253,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 262,
       "label": "",
-      "to": 429,
+      "to": 258,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 262,
       "label": "",
-      "to": 431,
+      "to": 259,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 231,
       "label": "",
-      "to": 433,
+      "to": 234,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 234,
       "label": "",
-      "to": 435,
+      "to": 231,
       "category": "related"
     },
     {
-      "from": 663,
+      "from": 258,
       "label": "",
-      "to": 437,
+      "to": 245,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 245,
       "label": "",
-      "to": 439,
+      "to": 236,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 245,
       "label": "",
-      "to": 441,
+      "to": 265,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 258,
       "label": "",
-      "to": 443,
+      "to": 256,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 258,
       "label": "",
-      "to": 445,
+      "to": 236,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 231,
       "label": "",
-      "to": 447,
+      "to": 256,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 234,
       "label": "",
-      "to": 449,
+      "to": 259,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 253,
       "label": "",
-      "to": 451,
+      "to": 234,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 262,
       "label": "",
-      "to": 453,
+      "to": 245,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 262,
       "label": "",
-      "to": 455,
+      "to": 265,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 231,
       "label": "",
-      "to": 457,
+      "to": 236,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 245,
       "label": "",
-      "to": 459,
+      "to": 259,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 259,
       "label": "",
-      "to": 461,
+      "to": 245,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 213,
       "label": "",
-      "to": 463,
+      "to": 234,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 234,
       "label": "",
-      "to": 465,
+      "to": 213,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 245,
       "label": "",
-      "to": 467,
+      "to": 234,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 260,
       "label": "",
-      "to": 469,
+      "to": 234,
       "category": "related"
     },
     {
-      "from": 470,
+      "from": 262,
       "label": "",
-      "to": 471,
+      "to": 213,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 245,
       "label": "",
-      "to": 473,
+      "to": 256,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 253,
       "label": "",
-      "to": 475,
+      "to": 245,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 262,
       "label": "",
-      "to": 477,
+      "to": 256,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 266,
       "label": "",
-      "to": 479,
+      "to": 245,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 231,
       "label": "",
-      "to": 481,
+      "to": 223,
       "category": "related"
     },
     {
-      "from": 709,
+      "from": 253,
       "label": "",
-      "to": 483,
+      "to": 259,
       "category": "related"
     },
     {
-      "from": 709,
+      "from": 231,
       "label": "",
-      "to": 513,
+      "to": 262,
       "category": "related"
     },
     {
-      "from": 663,
+      "from": 262,
       "label": "",
-      "to": 487,
+      "to": 231,
       "category": "related"
     },
     {
-      "from": 663,
+      "from": 233,
       "label": "",
-      "to": 489,
+      "to": 231,
       "category": "related"
     },
     {
-      "from": 663,
+      "from": 260,
       "label": "",
-      "to": 491,
+      "to": 233,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 234,
       "label": "",
-      "to": 493,
+      "to": 262,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 236,
       "label": "",
-      "to": 495,
+      "to": 256,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 260,
       "label": "",
-      "to": 497,
+      "to": 242,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 242,
       "label": "",
-      "to": 499,
+      "to": 253,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 242,
       "label": "",
-      "to": 501,
+      "to": 248,
       "category": "related"
     },
     {
-      "from": 714,
+      "from": 260,
       "label": "",
-      "to": 503,
+      "to": 245,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 253,
       "label": "",
-      "to": 505,
+      "to": 248,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 248,
       "label": "",
-      "to": 507,
+      "to": 260,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 260,
       "label": "",
-      "to": 509,
+      "to": 258,
       "category": "related"
     },
     {
-      "from": 655,
+      "from": 262,
       "label": "",
-      "to": 511,
+      "to": 253,
       "category": "related"
     },
     {
-      "from": 705,
+      "from": 254,
       "label": "",
-      "to": 513,
+      "to": 259,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 256,
       "label": "",
-      "to": 515,
+      "to": 265,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 258,
       "label": "",
-      "to": 517,
+      "to": 259,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 260,
       "label": "",
-      "to": 519,
+      "to": 265,
       "category": "related"
     },
     {
-      "from": 708,
+      "from": 262,
       "label": "",
-      "to": 521,
+      "to": 264,
       "category": "related"
     },
     {
-      "from": 704,
+      "from": 264,
       "label": "",
-      "to": 663,
+      "to": 265,
       "category": "related"
     },
     {
-      "from": 705,
+      "from": 266,
       "label": "",
-      "to": 702,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 675,
-      "category": "related"
-    },
-    {
-      "from": 709,
-      "label": "",
-      "to": 679,
-      "category": "related"
-    },
-    {
-      "from": 709,
-      "label": "",
-      "to": 663,
-      "category": "related"
-    },
-    {
-      "from": 705,
-      "label": "",
-      "to": 709,
-      "category": "related"
-    },
-    {
-      "from": 688,
-      "label": "",
-      "to": 663,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 655,
-      "category": "related"
-    },
-    {
-      "from": 709,
-      "label": "",
-      "to": 702,
-      "category": "related"
-    },
-    {
-      "from": 694,
-      "label": "",
-      "to": 655,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 704,
-      "category": "related"
-    },
-    {
-      "from": 712,
-      "label": "",
-      "to": 663,
-      "category": "related"
-    },
-    {
-      "from": 663,
-      "label": "",
-      "to": 715,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 663,
-      "category": "related"
-    },
-    {
-      "from": 709,
-      "label": "",
-      "to": 714,
-      "category": "related"
-    },
-    {
-      "from": 655,
-      "label": "",
-      "to": 710,
-      "category": "related"
-    },
-    {
-      "from": 712,
-      "label": "",
-      "to": 709,
-      "category": "related"
-    },
-    {
-      "from": 663,
-      "label": "",
-      "to": 655,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 663,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 711,
-      "category": "related"
-    },
-    {
-      "from": 711,
-      "label": "",
-      "to": 694,
-      "category": "related"
-    },
-    {
-      "from": 679,
-      "label": "",
-      "to": 714,
-      "category": "related"
-    },
-    {
-      "from": 710,
-      "label": "",
-      "to": 694,
-      "category": "related"
-    },
-    {
-      "from": 709,
-      "label": "",
-      "to": 715,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 694,
-      "category": "related"
-    },
-    {
-      "from": 712,
-      "label": "",
-      "to": 714,
-      "category": "related"
-    },
-    {
-      "from": 711,
-      "label": "",
-      "to": 655,
-      "category": "related"
-    },
-    {
-      "from": 694,
-      "label": "",
-      "to": 663,
-      "category": "related"
-    },
-    {
-      "from": 709,
-      "label": "",
-      "to": 655,
-      "category": "related"
-    },
-    {
-      "from": 709,
-      "label": "",
-      "to": 694,
-      "category": "related"
-    },
-    {
-      "from": 705,
-      "label": "",
-      "to": 711,
-      "category": "related"
-    },
-    {
-      "from": 679,
-      "label": "",
-      "to": 702,
-      "category": "related"
-    },
-    {
-      "from": 663,
-      "label": "",
-      "to": 701,
-      "category": "related"
-    },
-    {
-      "from": 665,
-      "label": "",
-      "to": 655,
-      "category": "related"
-    },
-    {
-      "from": 709,
-      "label": "",
-      "to": 704,
-      "category": "related"
-    },
-    {
-      "from": 704,
-      "label": "",
-      "to": 715,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 681,
-      "category": "related"
-    },
-    {
-      "from": 705,
-      "label": "",
-      "to": 679,
-      "category": "related"
-    },
-    {
-      "from": 665,
-      "label": "",
-      "to": 701,
-      "category": "related"
-    },
-    {
-      "from": 712,
-      "label": "",
-      "to": 704,
-      "category": "related"
-    },
-    {
-      "from": 705,
-      "label": "",
-      "to": 663,
-      "category": "related"
-    },
-    {
-      "from": 663,
-      "label": "",
-      "to": 705,
-      "category": "related"
-    },
-    {
-      "from": 711,
-      "label": "",
-      "to": 702,
-      "category": "related"
-    },
-    {
-      "from": 705,
-      "label": "",
-      "to": 714,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 702,
-      "category": "related"
-    },
-    {
-      "from": 688,
-      "label": "",
-      "to": 709,
-      "category": "related"
-    },
-    {
-      "from": 663,
-      "label": "",
-      "to": 710,
-      "category": "related"
-    },
-    {
-      "from": 688,
-      "label": "",
-      "to": 715,
-      "category": "related"
-    },
-    {
-      "from": 675,
-      "label": "",
-      "to": 694,
-      "category": "related"
-    },
-    {
-      "from": 688,
-      "label": "",
-      "to": 701,
-      "category": "related"
-    },
-    {
-      "from": 679,
-      "label": "",
-      "to": 712,
-      "category": "related"
-    },
-    {
-      "from": 712,
-      "label": "",
-      "to": 679,
-      "category": "related"
-    },
-    {
-      "from": 709,
-      "label": "",
-      "to": 711,
-      "category": "related"
-    },
-    {
-      "from": 679,
-      "label": "",
-      "to": 655,
-      "category": "related"
-    },
-    {
-      "from": 663,
-      "label": "",
-      "to": 681,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 655,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 714,
-      "category": "related"
-    },
-    {
-      "from": 704,
-      "label": "",
-      "to": 655,
-      "category": "related"
-    },
-    {
-      "from": 704,
-      "label": "",
-      "to": 708,
-      "category": "related"
-    },
-    {
-      "from": 688,
-      "label": "",
-      "to": 714,
-      "category": "related"
-    },
-    {
-      "from": 688,
-      "label": "",
-      "to": 705,
-      "category": "related"
-    },
-    {
-      "from": 655,
-      "label": "",
-      "to": 702,
-      "category": "related"
-    },
-    {
-      "from": 704,
-      "label": "",
-      "to": 688,
-      "category": "related"
-    },
-    {
-      "from": 663,
-      "label": "",
-      "to": 711,
-      "category": "related"
-    },
-    {
-      "from": 709,
-      "label": "",
-      "to": 710,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 701,
-      "category": "related"
-    },
-    {
-      "from": 705,
-      "label": "",
-      "to": 655,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 657,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 694,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 710,
-      "category": "related"
-    },
-    {
-      "from": 702,
-      "label": "",
-      "to": 663,
-      "category": "related"
-    },
-    {
-      "from": 712,
-      "label": "",
-      "to": 665,
-      "category": "related"
-    },
-    {
-      "from": 688,
-      "label": "",
-      "to": 711,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 712,
-      "category": "related"
-    },
-    {
-      "from": 712,
-      "label": "",
-      "to": 681,
-      "category": "related"
-    },
-    {
-      "from": 675,
-      "label": "",
-      "to": 710,
-      "category": "related"
-    },
-    {
-      "from": 711,
-      "label": "",
-      "to": 675,
-      "category": "related"
-    },
-    {
-      "from": 679,
-      "label": "",
-      "to": 710,
-      "category": "related"
-    },
-    {
-      "from": 710,
-      "label": "",
-      "to": 679,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 681,
-      "category": "related"
-    },
-    {
-      "from": 711,
-      "label": "",
-      "to": 701,
-      "category": "related"
-    },
-    {
-      "from": 704,
-      "label": "",
-      "to": 694,
-      "category": "related"
-    },
-    {
-      "from": 705,
-      "label": "",
-      "to": 701,
-      "category": "related"
-    },
-    {
-      "from": 688,
-      "label": "",
-      "to": 702,
-      "category": "related"
-    },
-    {
-      "from": 712,
-      "label": "",
-      "to": 705,
-      "category": "related"
-    },
-    {
-      "from": 705,
-      "label": "",
-      "to": 712,
-      "category": "related"
-    },
-    {
-      "from": 694,
-      "label": "",
-      "to": 712,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 710,
-      "category": "related"
-    },
-    {
-      "from": 712,
-      "label": "",
-      "to": 702,
-      "category": "related"
-    },
-    {
-      "from": 704,
-      "label": "",
-      "to": 701,
-      "category": "related"
-    },
-    {
-      "from": 702,
-      "label": "",
-      "to": 704,
-      "category": "related"
-    },
-    {
-      "from": 704,
-      "label": "",
-      "to": 705,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 715,
-      "category": "related"
-    },
-    {
-      "from": 708,
-      "label": "",
-      "to": 709,
-      "category": "related"
-    },
-    {
-      "from": 710,
-      "label": "",
-      "to": 711,
-      "category": "related"
-    },
-    {
-      "from": 712,
-      "label": "",
-      "to": 715,
-      "category": "related"
-    },
-    {
-      "from": 714,
-      "label": "",
-      "to": 715,
+      "to": 267,
       "category": "related"
     }
   ],
   "edges": [
     {
-      "id": 710,
-      "label": "Peshawar",
-      "category": "other",
-      "ner": "GPE",
-      "value": "GPE"
-    },
-    {
-      "id": 113,
-      "label": "Location",
-      "category": "Location",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 694,
-      "label": "Lahore",
-      "category": "other",
-      "ner": "GPE",
-      "value": "GPE"
-    },
-    {
-      "id": 5,
-      "label": "had shops",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 655,
-      "label": "Islamabad",
-      "category": "other",
-      "ner": "GPE",
-      "value": "GPE"
-    },
-    {
-      "id": 675,
-      "label": "India",
-      "category": "other",
-      "ner": "GPE",
-      "value": "GPE"
-    },
-    {
-      "id": 714,
-      "label": "Pakistan",
-      "category": "other",
-      "ner": "GPE",
-      "value": "GPE"
-    },
-    {
-      "id": 679,
-      "label": "Khyber Pakhtunkhwa",
-      "category": "other",
-      "ner": "GPE",
-      "value": "GPE"
-    },
-    {
-      "id": 708,
-      "label": "Khan",
-      "category": "other",
-      "ner": "PERSON",
-      "value": "PERSON"
-    },
-    {
-      "id": 15,
-      "label": "said",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 705,
-      "label": "Sindh",
-      "category": "other",
-      "ner": "GPE",
-      "value": "GPE"
-    },
-    {
-      "id": 709,
-      "label": "Punjab",
-      "category": "other",
-      "ner": "GPE",
-      "value": "GPE"
-    },
-    {
-      "id": 702,
-      "label": "Balochistan",
-      "category": "other",
-      "ner": "GPE",
-      "value": "GPE"
-    },
-    {
-      "id": 23,
-      "label": "cooperated",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 25,
-      "label": "drowned",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 712,
-      "label": "the Supreme Court",
+      "id": 266,
+      "label": "SOE",
       "category": "other",
       "ner": "ORG",
       "value": "ORG"
     },
     {
-      "id": 245,
+      "id": 87,
       "label": "Organization",
       "category": "Organization",
       "ner": null,
       "value": 0
     },
     {
-      "id": 711,
-      "label": "Karachi",
+      "id": 245,
+      "label": "Pakistan",
       "category": "other",
       "ner": "GPE",
       "value": "GPE"
     },
     {
-      "id": 701,
-      "label": "Dawn",
-      "category": "other",
-      "ner": "PERSON",
-      "value": "PERSON"
-    },
-    {
-      "id": 115,
-      "label": "Person",
-      "category": "other",
+      "id": 135,
+      "label": "Location",
+      "category": "Location",
       "ner": null,
       "value": 0
     },
     {
-      "id": 663,
+      "id": 262,
+      "label": "Punjab",
+      "category": "other",
+      "ner": "GPE",
+      "value": "GPE"
+    },
+    {
+      "id": 258,
       "label": "PTI",
       "category": "other",
       "ner": "ORG",
       "value": "ORG"
     },
     {
-      "id": 665,
-      "label": "CDA",
-      "category": "other",
-      "ner": "ORG",
-      "value": "ORG"
-    },
-    {
-      "id": 89,
-      "label": "failed",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 39,
-      "label": "expressed fears",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 41,
-      "label": "injured",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 704,
-      "label": "Imran Khan",
+      "id": 264,
+      "label": "Khan",
       "category": "other",
       "ner": "PERSON",
       "value": "PERSON"
     },
     {
-      "id": 45,
-      "label": "faced",
+      "id": 267,
+      "label": "Person",
       "category": "other",
       "ner": null,
       "value": 0
     },
     {
-      "id": 47,
-      "label": "playing role",
+      "id": 256,
+      "label": "the Supreme Court",
       "category": "other",
-      "ner": null,
-      "value": 0
+      "ner": "ORG",
+      "value": "ORG"
     },
     {
-      "id": 49,
-      "label": "accepted",
+      "id": 231,
+      "label": "Dawn",
       "category": "other",
-      "ner": null,
-      "value": 0
+      "ner": "PERSON",
+      "value": "PERSON"
     },
     {
-      "id": 51,
-      "label": "told reporters",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 53,
-      "label": "reported",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 55,
-      "label": "offered for",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 57,
-      "label": "revealed",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 59,
-      "label": "were",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 61,
-      "label": "ordered restoration",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 63,
-      "label": "told Dawn",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 65,
-      "label": "announce award",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 66,
+      "id": 236,
       "label": "SC",
       "category": "other",
-      "ner": null,
-      "value": 0
+      "ner": "ORG",
+      "value": "ORG"
     },
     {
-      "id": 69,
-      "label": "exploited situation",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 71,
-      "label": "made efforts",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 513,
-      "label": "is",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 75,
-      "label": "finalised list",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 173,
-      "label": "was",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 79,
-      "label": "remain",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 81,
-      "label": "placed order",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 83,
-      "label": "be",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 85,
-      "label": "wanted elections",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 87,
-      "label": "move court",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 91,
-      "label": "made mistakes",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 93,
-      "label": "believed that",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 97,
-      "label": "considering",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 99,
-      "label": "play dayer",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 101,
-      "label": "dealing",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 103,
-      "label": "has vaccine",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 105,
-      "label": "learnt",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 107,
-      "label": "purchase oil",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 109,
-      "label": "buy fuels",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 111,
-      "label": "facing",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 470,
-      "label": "US",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 688,
+      "id": 213,
       "label": "PPP",
       "category": "other",
       "ner": "ORG",
       "value": "ORG"
     },
     {
-      "id": 119,
-      "label": "amending laws",
+      "id": 234,
+      "label": "Balochistan",
       "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 121,
-      "label": "overcome challenge",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 123,
-      "label": "gearing",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 125,
-      "label": "told police",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 127,
-      "label": "directed Ministry",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 129,
-      "label": "reviewed decision",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 131,
-      "label": "stated",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 133,
-      "label": "laid",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 337,
-      "label": "came",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 137,
-      "label": "received gifts",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 139,
-      "label": "died",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 141,
-      "label": "wanted",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 143,
-      "label": "committed suicide",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 147,
-      "label": "made progress",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 149,
-      "label": "provided authorities",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 151,
-      "label": "was itself",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 153,
-      "label": "is member",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 157,
-      "label": "had position",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 159,
-      "label": "had ties",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 161,
-      "label": "launched campaign",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 163,
-      "label": "informed Rescue",
-      "category": "other",
-      "ner": null,
-      "value": 0
+      "ner": "GPE",
+      "value": "GPE"
     },
     {
       "id": 165,
-      "label": "transferred",
+      "label": "Mahil",
+      "category": "other",
+      "ner": "PERSON",
+      "value": "PERSON"
+    },
+    {
+      "id": 23,
+      "label": "provide that",
       "category": "other",
       "ner": null,
       "value": 0
     },
     {
-      "id": 167,
-      "label": "posted",
+      "id": 25,
+      "label": "formed",
       "category": "other",
       "ner": null,
       "value": 0
     },
     {
-      "id": 169,
-      "label": "made allegations",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 171,
-      "label": "appeared",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 175,
-      "label": "play",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 177,
-      "label": "believed",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 179,
-      "label": "ended ceasefire",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 181,
-      "label": "given award",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 183,
-      "label": "heard",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 185,
-      "label": "is Minister",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 187,
-      "label": "directed",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 189,
-      "label": "used language",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 193,
-      "label": "described raid",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 195,
-      "label": "learned",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 197,
-      "label": "participating",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 199,
-      "label": "wishes",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 201,
-      "label": "maintains policy",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 203,
-      "label": "claimed responsibility",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 205,
-      "label": "was market",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 207,
-      "label": "wanted end",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 211,
-      "label": "is architect",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 213,
-      "label": "contesting elections",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 215,
-      "label": "set",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 217,
-      "label": "moved Court",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 219,
-      "label": "taken oath",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 221,
-      "label": "distributed tickets",
+      "id": 27,
+      "label": "required",
       "category": "other",
       "ner": null,
       "value": 0
     },
     {
       "id": 223,
-      "label": "insisted",
+      "label": "CDA",
+      "category": "other",
+      "ner": "ORG",
+      "value": "ORG"
+    },
+    {
+      "id": 29,
+      "label": "auctioned acres",
       "category": "other",
       "ner": null,
       "value": 0
     },
     {
-      "id": 225,
-      "label": "ruled Pakhtunkhwa",
+      "id": 31,
+      "label": "canceled lease",
       "category": "other",
       "ner": null,
       "value": 0
     },
     {
-      "id": 227,
-      "label": "promised",
+      "id": 33,
+      "label": "exported rice",
       "category": "other",
       "ner": null,
       "value": 0
     },
     {
-      "id": 229,
-      "label": "observed",
+      "id": 35,
+      "label": "exported tonnes",
       "category": "other",
       "ner": null,
       "value": 0
     },
     {
-      "id": 231,
-      "label": "represented",
+      "id": 37,
+      "label": "stepped efforts",
       "category": "other",
       "ner": null,
       "value": 0
     },
     {
-      "id": 233,
-      "label": "condemned raid",
+      "id": 39,
+      "label": "accept",
       "category": "other",
       "ner": null,
       "value": 0
     },
     {
-      "id": 235,
-      "label": "clinching title",
+      "id": 41,
+      "label": "buy fuels",
       "category": "other",
       "ner": null,
       "value": 0
     },
     {
-      "id": 237,
-      "label": "announces intention",
+      "id": 248,
+      "label": "India",
+      "category": "other",
+      "ner": "GPE",
+      "value": "GPE"
+    },
+    {
+      "id": 45,
+      "label": "announced",
       "category": "other",
       "ner": null,
       "value": 0
     },
     {
-      "id": 239,
-      "label": "go",
+      "id": 139,
+      "label": "was",
       "category": "other",
       "ner": null,
       "value": 0
     },
     {
-      "id": 241,
-      "label": "approach court",
+      "id": 49,
+      "label": "facilitated leaders",
       "category": "other",
       "ner": null,
       "value": 0
     },
     {
-      "id": 243,
-      "label": "made appeal",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 244,
-      "label": "mpox",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 315,
-      "label": "has children",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 249,
-      "label": "captured",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 251,
-      "label": "State",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 253,
-      "label": "destined",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 255,
-      "label": "had cadre",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 257,
-      "label": "interviewed aspirants",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 259,
+      "id": 51,
       "label": "tweeted",
       "category": "other",
       "ner": null,
       "value": 0
     },
     {
-      "id": 261,
-      "label": "examined area",
+      "id": 53,
+      "label": "awarded ticket",
       "category": "other",
       "ner": null,
       "value": 0
     },
     {
-      "id": 263,
-      "label": "rejected attempts",
+      "id": 55,
+      "label": "written letters",
       "category": "other",
       "ner": null,
       "value": 0
     },
     {
-      "id": 265,
-      "label": "filed suit",
+      "id": 57,
+      "label": "made centre",
       "category": "other",
       "ner": null,
       "value": 0
     },
     {
-      "id": 267,
-      "label": "shed light",
+      "id": 59,
+      "label": "cancelled lease",
       "category": "other",
       "ner": null,
       "value": 0
     },
     {
-      "id": 269,
-      "label": "having affiliation",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 271,
-      "label": "fled",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 273,
-      "label": "reviewed",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 275,
-      "label": "claimed itself",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 487,
-      "label": "decided",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 279,
-      "label": "vying",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 281,
-      "label": "contesting",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 283,
-      "label": "distancing itself",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 285,
-      "label": "need training",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 287,
-      "label": "make progress",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 289,
-      "label": "has deaths",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 291,
-      "label": "established sites",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 293,
-      "label": "try",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 295,
-      "label": "has ability",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 297,
-      "label": "consulted Washington",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 299,
-      "label": "aimed",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 301,
-      "label": "received grant",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 303,
-      "label": "avoid",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 305,
-      "label": "city",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 307,
-      "label": "had children",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 309,
-      "label": "face situation",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 311,
-      "label": "distancing themselves",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 313,
-      "label": "has number",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 317,
-      "label": "have",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 319,
-      "label": "took lead",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 321,
-      "label": "accepting results",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 323,
-      "label": "had",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 325,
-      "label": "trying",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 327,
-      "label": "was state",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 329,
-      "label": "struggling",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 331,
-      "label": "alleged",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 333,
-      "label": "assemblies",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 335,
-      "label": "was stronghold",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 339,
-      "label": "has 5.4pc",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 341,
-      "label": "briefed",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 343,
-      "label": "started",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 345,
-      "label": "visited centres",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 347,
-      "label": "warned",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 431,
-      "label": "are",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 351,
-      "label": "form",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 353,
-      "label": "used",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 355,
-      "label": "was worst",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 357,
-      "label": "was place",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 359,
-      "label": "emerges",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 361,
-      "label": "brought",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 363,
-      "label": "continue",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 365,
-      "label": "shown optimism",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 367,
-      "label": "sit",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 369,
-      "label": "unite stakeholders",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 371,
-      "label": "calls",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 373,
-      "label": "announced rallies",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 375,
-      "label": "approach Court",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 377,
-      "label": "protesting",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 379,
-      "label": "knows",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 381,
-      "label": "deployed",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 383,
-      "label": "was brother",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 385,
-      "label": "says",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 387,
-      "label": "re",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 389,
-      "label": "dissolved assemblies",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 391,
-      "label": "returning",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 393,
-      "label": "addressed event",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 395,
-      "label": "wants success",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 397,
-      "label": "keen",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 399,
-      "label": "wants elections",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 401,
-      "label": "termed which",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 403,
-      "label": "power",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 405,
-      "label": "claimed",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 407,
-      "label": "fought",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 409,
-      "label": "hopes",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 411,
-      "label": "treat Karachi",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 413,
-      "label": "did",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 415,
-      "label": "approached PCB",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 417,
+      "id": 61,
       "label": "going",
       "category": "other",
       "ner": null,
       "value": 0
     },
     {
-      "id": 421,
-      "label": "started work",
+      "id": 63,
+      "label": "allotted plots",
       "category": "other",
       "ner": null,
       "value": 0
     },
     {
-      "id": 423,
-      "label": "planning",
+      "id": 67,
+      "label": "said",
       "category": "other",
       "ner": null,
       "value": 0
     },
     {
-      "id": 425,
-      "label": "aligned",
+      "id": 69,
+      "label": "having difficulty",
       "category": "other",
       "ner": null,
       "value": 0
     },
     {
-      "id": 427,
-      "label": "became country",
+      "id": 71,
+      "label": "placed order",
       "category": "other",
       "ner": null,
       "value": 0
     },
     {
-      "id": 429,
-      "label": "affected",
+      "id": 73,
+      "label": "faces crisis",
       "category": "other",
       "ner": null,
       "value": 0
     },
     {
-      "id": 433,
-      "label": "winds",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 435,
-      "label": "ranked 157",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 437,
-      "label": "come",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 439,
-      "label": "made Republic",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 441,
-      "label": "adapting",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 443,
-      "label": "facing shortage",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 445,
-      "label": "spends 0.6",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 447,
-      "label": "blamed policies",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 449,
-      "label": "demanded dissolution",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 451,
-      "label": "continued",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 453,
-      "label": "shared",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 455,
-      "label": "told journalists",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 457,
-      "label": "accompanied him",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 459,
-      "label": "pointed",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 461,
-      "label": "was hurdle",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 463,
-      "label": "hailing",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 465,
-      "label": "boosted Pakistan",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 467,
-      "label": "obtained bail",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 469,
-      "label": "formed team",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 471,
-      "label": "welcomed interest",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 473,
-      "label": "assembled team",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 475,
+      "id": 75,
       "label": "needs",
       "category": "other",
       "ner": null,
       "value": 0
     },
     {
-      "id": 477,
-      "label": "faced crisis",
+      "id": 77,
+      "label": "constituted committees",
       "category": "other",
       "ner": null,
       "value": 0
     },
     {
-      "id": 479,
-      "label": "resumed innings",
+      "id": 79,
+      "label": "shot",
       "category": "other",
       "ner": null,
       "value": 0
     },
     {
-      "id": 481,
-      "label": "allow",
+      "id": 259,
+      "label": "Sindh",
+      "category": "other",
+      "ner": "GPE",
+      "value": "GPE"
+    },
+    {
+      "id": 83,
+      "label": "adopted approaches",
       "category": "other",
       "ner": null,
       "value": 0
     },
     {
-      "id": 483,
-      "label": "fared best",
+      "id": 260,
+      "label": "Lahore",
       "category": "other",
-      "ner": null,
-      "value": 0
+      "ner": "GPE",
+      "value": "GPE"
     },
     {
-      "id": 489,
-      "label": "told court",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 491,
-      "label": "proposed",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 493,
-      "label": "granted to",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 495,
-      "label": "vowed",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 497,
-      "label": "specified",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 499,
-      "label": "spent amount",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 501,
-      "label": "posted 420",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 503,
-      "label": "lost wickets",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 505,
-      "label": "lamented",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 507,
-      "label": "scheduled",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 509,
-      "label": "appear",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 511,
-      "label": "conduct inquiry",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 515,
-      "label": "expressed disconcertment",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 517,
-      "label": "intended",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 519,
-      "label": "sought exemption",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 521,
-      "label": "resume",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 715,
-      "label": "PML",
+      "id": 233,
+      "label": "LDA",
       "category": "other",
       "ner": "ORG",
       "value": "ORG"
     },
     {
-      "id": 681,
-      "label": "ECP",
+      "id": 89,
+      "label": "moving",
       "category": "other",
-      "ner": "ORG",
-      "value": "ORG"
+      "ner": null,
+      "value": 0
     },
     {
-      "id": 657,
-      "label": "FIR",
+      "id": 91,
+      "label": "locked",
       "category": "other",
-      "ner": "ORG",
-      "value": "ORG"
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 93,
+      "label": "take",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 95,
+      "label": "wrote letter",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 97,
+      "label": "known",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 242,
+      "label": "Peshawar",
+      "category": "other",
+      "ner": "GPE",
+      "value": "GPE"
+    },
+    {
+      "id": 99,
+      "label": "had shops",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 103,
+      "label": "held meeting",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 105,
+      "label": "told police",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 107,
+      "label": "attended meeting",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 109,
+      "label": "fined confectioners",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 111,
+      "label": "wanted",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 113,
+      "label": "dissolve assemblies",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 115,
+      "label": "accused me",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 117,
+      "label": "performed groundbreaking",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 254,
+      "label": "Eidul Fitr",
+      "category": "other",
+      "ner": "PERSON",
+      "value": "PERSON"
+    },
+    {
+      "id": 121,
+      "label": "resist decision",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 123,
+      "label": "supporting involvement",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 125,
+      "label": "contest election",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 127,
+      "label": "named",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 129,
+      "label": "is one",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 131,
+      "label": "paid prices",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 133,
+      "label": "killed",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 253,
+      "label": "Karachi",
+      "category": "other",
+      "ner": "GPE",
+      "value": "GPE"
+    },
+    {
+      "id": 137,
+      "label": "is society",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 141,
+      "label": "has history",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 143,
+      "label": "consider",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 265,
+      "label": "Imran Khan",
+      "category": "other",
+      "ner": "PERSON",
+      "value": "PERSON"
+    },
+    {
+      "id": 147,
+      "label": "got assemblies",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 149,
+      "label": "refused",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 151,
+      "label": "launched campaign",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 153,
+      "label": "demanded",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 155,
+      "label": "was leader",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 157,
+      "label": "lodged FIR",
+      "category": "other",
+      "ner": null,
+      "value": 0
     }
   ]
 }
