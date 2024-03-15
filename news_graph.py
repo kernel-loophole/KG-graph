@@ -1,7 +1,9 @@
 import re
 from collections import Counter
 import spacy
+import pickle
 import json
+from tqdm import tqdm
 # from BFS import read_json_file
 from graph_show import GraphShow
 from textrank import TextRank
@@ -174,7 +176,7 @@ class NewsMining():
         triples = []        # store subject verb object
         events = []         # store events
 
-        for content in contents:
+        for content in tqdm(contents):
             # 01 remove linebreaks and bracketst
             try:
                 content = self.remove_noisy(content+".")
@@ -266,24 +268,24 @@ class NewsMining():
         events += co_events
         with open('test_json.json', 'r') as file:
             data = json.load(file)
-        # print(data['edges'])
-        # lables=[]
-        # for i in data['edges']:
-        #     lables.append(i['label'])
-        # # print(events)
-        # for k,i in enumerate(events):
-        #     for j in i:
-        #         # print(j)
-        #         if j in lables:
-        #             pass
-        #         else:
-        #             # print(i)
-        #             try:
-        #                 events.remove(i)
-        #                 events_test = [sublist for l, sublist in enumerate(events) if l != k]
+        print(data['edges'])
+        lables=[]
+        for i in data['edges']:
+            lables.append(i['label'])
+        # print(events)
+        for k,i in enumerate(events):
+            for j in i:
+                # print(j)
+                if j in lables:
+                    pass
+                else:
+                    # print(i)
+                    try:
+                        events.remove(i)
+                        events_test = [sublist for l, sublist in enumerate(events) if l != k]
 
-        #             except:
-        #                 pass
+                    except:
+                        pass
         tmp_event=[]
         Ner_data={"Person":0,"Location":0,"Organization":0}
         test_data=[]
@@ -325,7 +327,7 @@ class NewsMining():
             else:
                 # print("removing",i) 
                 events = [sublist for l, sublist in enumerate(events) if l != k]
-        # print(events)
+        print(events)
         seen = set()
         unique_data = [x for x in events if tuple(x) not in seen and not seen.add(tuple(x))]
         with open('graph_data.json','r') as file:
@@ -346,6 +348,9 @@ class NewsMining():
                         tmp_unique.append(ev)
         self.graph_shower.create_page(tmp_unique,result_dict)
         nodes,edge=self.graph_shower.return_edge(tmp_unique,result_dict)
+        # Save the Python object to the pickle file
+        # with open(file_path, 'wb') as file:
+        #     pickle.dump(tmp_unique, file)
         tmp_list=[]
         for i in edge:
             tmp_list.append(i['label'])        
@@ -384,6 +389,7 @@ class NewsMining():
             json.dump(data,file)            
         format_json_file('graph_data.json')
         format_json_file('query_graph.json')
+        return tmp_unique
     def get_events(self):
         return self.events,self.result_dict
        
