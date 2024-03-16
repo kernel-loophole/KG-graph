@@ -20,14 +20,14 @@ This will generate the `graph.html`.
 # Example Demo
 
 1) [Blockbuster *The Wandering Earth*](https://www.theverge.com/2019/2/9/18218479/the-wandering-earth-review-film-china-first-science-fiction-blockbuster-cixin-liu-gravity-the-core)
-![image1](https://ws4.sinaimg.cn/large/006tNc79gy1g02ikc4mqjj30n60ot42a.jpg)
-
+![image1](grap.png)
+<!-- 
 2) [Tokyo Marathon 2019 Elite Field](https://www.marathon.tokyo/en/news/detail/news_001178.html)
 ![image](https://user-images.githubusercontent.com/10768193/83982855-d4c93000-a964-11ea-86d8-1dd19f7d5334.png)
 )
 
 3) [EVEN ANONYMOUS CODERS LEAVE FINGERPRINTS](https://www.wired.com/story/machine-learning-identify-anonymous-code/?utm_campaign=Deep%20Learning%20Weekly&utm_medium=email&utm_source=Revue%20newsletter)
-![image3](https://ws3.sinaimg.cn/large/006tNc79gy1g02hulrjx8j30i00pvjuv.jpg)
+![image3](https://ws3.sinaimg.cn/large/006tNc79gy1g02hulrjx8j30i00pvjuv.jpg) -->
 # Loading the SpaCy Model
 The following line initializes the SpaCy language model for English language processing:
 ```python
@@ -92,19 +92,23 @@ The extract_keywords method extracts the top 10 keywords from a list of word-pos
 ```python 
 def extract_keywords(self, words_postags):
         return self.textranker.extract_keywords(words_postags, 10)
-Main Method for News Mining
+```
+# Main Method for News Mining
 The main method is a placeholder for the main functionality of news mining:
-
+```python
 def main(self, contents):
         # Implementation details omitted for brevity
         pass
-Getting Extracted Events and NER Results
+```
+# Getting Extracted Events and NER Results
 The get_events method returns the extracted events and Named Entity Recognition (NER) results:
-
+```python
 def get_events(self):
         return self.events, self.result_dict
 ```
 Instantiating the NewsMining Class
 The NewsMining class is instantiated as news_miner:
 # Call the class object
+```python
 news_miner = NewsMining()
+```
