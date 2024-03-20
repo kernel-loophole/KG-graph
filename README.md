@@ -7,6 +7,13 @@ Key information extration from text and graph visilization. Inspired by [TextGra
 How to represent a text in a simple way is a chanllenge topic. This peoject try to extraction key information from the text by NLP methods, which contain NER extraction, relation detection, keywords extraction, frequencies words extraction. And finally show the key information in a graph way.
 
 # How to use
+# clone this repo
+```bash
+   git clone https://github.com/kernel-loophole/KG-graph
+```
+Edit the main file with your text
+# run this main.py file to genrate html file 
+
 
 ```python
 from news_graph import NewsMining
@@ -14,7 +21,9 @@ content = 'Input you text here'
 Miner = NewsMining()
 Miner.main(content)
 ```
-
+```bash
+   python3 main.py
+```
 This will generate the `graph.html`. 
 
 # Example Demo
