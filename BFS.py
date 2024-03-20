@@ -181,4 +181,4 @@ def main(search_keyword):
     t1.start()
 
 if __name__ == "__main__":
-    main("the Punjab Assembly")
+    main("ECP")

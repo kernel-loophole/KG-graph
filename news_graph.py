@@ -335,19 +335,19 @@ class NewsMining():
         data_edges=match_events['edges']
         print(data_edges)
         ner_to_check = 'GPE'
-        tmp_unique=[]
-        # Iterate through each item in the data
-        for ev in unique_data:
-            for item in data_edges:
-                # Check if the 'ner' key has the specified value
-                if ev[0]==item['label']:
-                    if item['ner']==None:
-                        print("find none")
-                    else:
-                        print("not found")
-                        tmp_unique.append(ev)
-        self.graph_shower.create_page(tmp_unique,result_dict)
-        nodes,edge=self.graph_shower.return_edge(tmp_unique,result_dict)
+        # tmp_unique=[]
+        # # Iterate through each item in the data
+        # for ev in unique_data:
+        #     for item in data_edges:
+        #         # Check if the 'ner' key has the specified value
+        #         if ev[0]==item['label']:
+        #             if item['ner']==None:
+        #                 print("find none")
+        #             else:
+        #                 print("not found")
+        #                 tmp_unique.append(ev)
+        self.graph_shower.create_page(unique_data,result_dict)
+        nodes,edge=self.graph_shower.return_edge(unique_data,result_dict)
         # Save the Python object to the pickle file
         # with open(file_path, 'wb') as file:
         #     pickle.dump(tmp_unique, file)
@@ -389,7 +389,7 @@ class NewsMining():
             json.dump(data,file)            
         format_json_file('graph_data.json')
         format_json_file('query_graph.json')
-        return tmp_unique
+        # return tmp_unique
     def get_events(self):
         return self.events,self.result_dict
        
