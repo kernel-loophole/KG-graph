@@ -1,0 +1,102 @@
+{
+    "nodes": {
+        "0": {
+            "label": "Quaid-e-Azam Muhammad Ali Jinnah",
+            "category": "related"
+        },
+        "1": {
+            "label": "Karachi",
+            "category": "related"
+        },
+        "2": {
+            "label": "Angela Merkel",
+            "category": "related"
+        },
+        "3": {
+            "label": "Chancellor of Germany",
+            "category": "related"
+        },
+        "4": {
+            "label": "abc",
+            "category": "related"
+        },
+        "5": {
+            "label": "Elon Musk",
+            "category": "related"
+        },
+        "6": {
+            "label": "elon musk",
+            "category": "related"
+        },
+        "7": {
+            "label": "SpaceX",
+            "category": "related"
+        },
+        "8": {
+            "label": "elon mus",
+            "category": "related"
+        }
+    },
+    "edges": [
+        {
+            "from": 0,
+            "to": 1,
+            "label": "place of birth",
+            "category": "related"
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "label": "position held",
+            "category": "related"
+        },
+        {
+            "from": 3,
+            "to": 2,
+            "label": "officeholder",
+            "category": "related"
+        },
+        {
+            "from": 4,
+            "to": 5,
+            "label": "founded by",
+            "category": "related"
+        },
+        {
+            "from": 5,
+            "to": 4,
+            "label": "owner of",
+            "category": "related"
+        },
+        {
+            "from": 5,
+            "to": 6,
+            "label": "owner of",
+            "category": "related"
+        },
+        {
+            "from": 6,
+            "to": 7,
+            "label": "employer",
+            "category": "related"
+        },
+        {
+            "from": 6,
+            "to": 5,
+            "label": "owned by",
+            "category": "related"
+        },
+        {
+            "from": 5,
+            "to": 7,
+            "label": "owner of",
+            "category": "related"
+        },
+        {
+            "from": 5,
+            "to": 8,
+            "label": "owner of",
+            "category": "related"
+        }
+    ]
+}
