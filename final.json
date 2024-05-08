@@ -1,0 +1,52 @@
+{
+  "nodes": {
+    "0": {
+      "label": "petroleum levy",
+      "category": "related"
+    },
+    "1": {
+      "label": "petrol",
+      "category": "related"
+    },
+    "2": {
+      "label": "HSD",
+      "category": "related"
+    },
+    "3": {
+      "label": "petroleum",
+      "category": "related"
+    }
+  },
+  "edges": [
+    {
+      "from": 0,
+      "to": 1,
+      "label": "has part",
+      "category": "related"
+    },
+    {
+      "from": 0,
+      "to": 2,
+      "label": "has part",
+      "category": "related"
+    },
+    {
+      "from": 1,
+      "to": 0,
+      "label": "part of",
+      "category": "related"
+    },
+    {
+      "from": 2,
+      "to": 0,
+      "label": "part of",
+      "category": "related"
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "label": "part of",
+      "category": "related"
+    }
+  ]
+}

@@ -1,39 +1,19 @@
 {
     "nodes": {
         "0": {
-            "label": "Quaid-e-Azam Muhammad Ali Jinnah",
+            "label": "Paris",
             "category": "related"
         },
         "1": {
-            "label": "Karachi",
+            "label": "Eiffel Tower",
             "category": "related"
         },
         "2": {
-            "label": "Angela Merkel",
+            "label": "Seine River",
             "category": "related"
         },
         "3": {
-            "label": "Chancellor of Germany",
-            "category": "related"
-        },
-        "4": {
-            "label": "abc",
-            "category": "related"
-        },
-        "5": {
-            "label": "Elon Musk",
-            "category": "related"
-        },
-        "6": {
-            "label": "elon musk",
-            "category": "related"
-        },
-        "7": {
-            "label": "SpaceX",
-            "category": "related"
-        },
-        "8": {
-            "label": "elon mus",
+            "label": "Notre-Dame Cathedral",
             "category": "related"
         }
     },
@@ -41,61 +21,37 @@
         {
             "from": 0,
             "to": 1,
-            "label": "place of birth",
+            "label": "highest point",
+            "category": "related"
+        },
+        {
+            "from": 0,
+            "to": 2,
+            "label": "located in or next to body of water",
+            "category": "related"
+        },
+        {
+            "from": 1,
+            "to": 0,
+            "label": "located in the administrative territorial entity",
             "category": "related"
         },
         {
             "from": 2,
-            "to": 3,
-            "label": "position held",
+            "to": 0,
+            "label": "located in the administrative territorial entity",
             "category": "related"
         },
         {
             "from": 3,
-            "to": 2,
-            "label": "officeholder",
+            "to": 0,
+            "label": "located in the administrative",
             "category": "related"
         },
         {
-            "from": 4,
-            "to": 5,
-            "label": "founded by",
-            "category": "related"
-        },
-        {
-            "from": 5,
-            "to": 4,
-            "label": "owner of",
-            "category": "related"
-        },
-        {
-            "from": 5,
-            "to": 6,
-            "label": "owner of",
-            "category": "related"
-        },
-        {
-            "from": 6,
-            "to": 7,
-            "label": "employer",
-            "category": "related"
-        },
-        {
-            "from": 6,
-            "to": 5,
-            "label": "owned by",
-            "category": "related"
-        },
-        {
-            "from": 5,
-            "to": 7,
-            "label": "owner of",
-            "category": "related"
-        },
-        {
-            "from": 5,
-            "to": 8,
-            "label": "owner of",
+            "from": 3,
+            "to": 0,
+            "label": "located in the administrative territorial entity",
             "category": "related"
         }
     ]

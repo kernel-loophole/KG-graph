@@ -1,7 +1,7 @@
 {
   "nodes": [
     {
-      "from": 22,
+      "from": 24,
       "label": "",
       "to": 7,
       "category": "related",
@@ -15,7 +15,7 @@
       "distance": 0
     },
     {
-      "from": 23,
+      "from": 21,
       "label": "",
       "to": 5,
       "category": "related",
@@ -45,7 +45,7 @@
     {
       "from": 19,
       "label": "",
-      "to": 22,
+      "to": 24,
       "category": "related",
       "distance": 0
     },
@@ -71,14 +71,14 @@
       "distance": 0
     },
     {
-      "from": 22,
+      "from": 24,
       "label": "",
       "to": 21,
       "category": "related",
       "distance": 0
     },
     {
-      "from": 22,
+      "from": 24,
       "label": "",
       "to": 23,
       "category": "related",
@@ -87,7 +87,7 @@
     {
       "from": 24,
       "label": "",
-      "to": 26,
+      "to": 25,
       "category": "related",
       "distance": 0
     },
@@ -108,7 +108,7 @@
   ],
   "edges": [
     {
-      "id": 22,
+      "id": 24,
       "label": "Angela Merkel",
       "category": "other",
       "ner": "PERSON",
@@ -132,7 +132,7 @@
       "distance": 0
     },
     {
-      "id": 23,
+      "id": 21,
       "label": "the United Nations General Assembly",
       "category": "other",
       "ner": "ORG",
@@ -156,7 +156,7 @@
       "distance": 0
     },
     {
-      "id": 21,
+      "id": 19,
       "label": "Germany",
       "category": "other",
       "ner": "GPE",
@@ -164,7 +164,7 @@
       "distance": 0
     },
     {
-      "id": 19,
+      "id": 23,
       "label": "New York City",
       "category": "other",
       "ner": "GPE",
@@ -180,7 +180,7 @@
       "distance": 0
     },
     {
-      "id": 24,
+      "id": 25,
       "label": "SpaceX",
       "category": "other",
       "ner": "ORG",
@@ -189,18 +189,18 @@
     },
     {
       "id": 26,
-      "label": "Elon Musk",
-      "category": "other",
-      "ner": "PERSON",
-      "value": "PERSON",
-      "distance": 0
-    },
-    {
-      "id": 27,
       "label": "abc",
       "category": "other",
       "ner": "ORG",
       "value": "ORG",
+      "distance": 0
+    },
+    {
+      "id": 27,
+      "label": "Elon Musk",
+      "category": "other",
+      "ner": "PERSON",
+      "value": "PERSON",
       "distance": 0
     },
     {
