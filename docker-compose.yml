@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  newsgraph:
+    image: newsgraph
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 5002:5002
