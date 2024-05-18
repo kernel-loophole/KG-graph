@@ -1,0 +1,73 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: python-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: python-app
+  template:
+    metadata:
+      labels:
+        app: python-app
+    spec:
+      containers:
+      - name: python-container
+        image: python:3-slim
+        ports:
+        - containerPort: 5002
+        env:
+        - name: PYTHONDONTWRITEBYTECODE
+          value: "1"
+        - name: PYTHONUNBUFFERED
+          value: "1"
+        volumeMounts:
+        - name: app-volume
+          mountPath: /app
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "250m"
+          limits:
+            memory: "512Mi"
+            cpu: "500m"
+      volumes:
+      - name: app-volume
+        configMap:
+          name: app-config
+      initContainers:
+      - name: install-requirements
+        image: python:3-slim
+        command: ["sh", "-c", "pip install -r /app/requirements.txt"]
+        volumeMounts:
+        - name: app-volume
+          mountPath: /app
+      securityContext:
+        runAsUser: 5678
+        fsGroup: 5678
+
+---
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: standalone-python-app
+spec:
+  containers:
+  - name: standalone-python-container
+    image: python:3-slim
+    ports:
+    - containerPort: 5002
+    env:
+    - name: PYTHONDONTWRITEBYTECODE
+      value: "1"
+    - name: PYTHONUNBUFFERED
+      value: "1"
+    resources:
+      requests:
+        memory: "128Mi"
+        cpu: "100m"
+      limits:
+        memory: "256Mi"
+        cpu: "200m"
