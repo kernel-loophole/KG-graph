@@ -24,10 +24,10 @@ This will generate the `graph.html`.
 2) 
 ![image1](grap02.png)
 # Node coloring
-<mark>Red</mark>:Location<br>
-<mark>blue</mark>:Person<br>
-<mark>green</mark> :organization<br>  
-<mark>grey</mark>:other
+- Red:Location<br>
+- Blue:Person<br>
+- Green:organization<br>  
+- Grey:other
 <!-- 
 2) [Tokyo Marathon 2019 Elite Field](https://www.marathon.tokyo/en/news/detail/news_001178.html)
 ![image](https://user-images.githubusercontent.com/10768193/83982855-d4c93000-a964-11ea-86d8-1dd19f7d5334.png)
