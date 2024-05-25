@@ -16,13 +16,15 @@ Miner.main(content)
 ```
 
 This will generate the `graph.html`. 
+# Overview of model and NER extraction
+1) ![flow](flow.png)
 
 # Example Demo
 
 1) ![image1](grap.png)
 
 2) 
-![image1](grap02.png)
+![image02](grap02.png)
 # Node coloring
 - Red:Location<br>
 - Blue:Person<br>
