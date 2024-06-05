@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"Pakistan": "GPE", "PTI": "ORG", "Punjab": "GPE", "Khan": "PERSON", "SC": "ORG", "SOE": "ORG", "the Punjab Assembly": "ORG", "KP": "GPE", "PPP": "ORG", "the Supreme Court": "ORG", "Hussain": "PERSON", "Azad": "PERSON", "the apex court": "ORG", "ECP": "ORG", "PML": "ORG", "Rizvi": "PERSON", "Moonis Elahi": "PERSON", "WMO": "ORG", "Lal": "PERSON"}
-=======
-{"Angela Merkel": "PERSON", "Elon Musk": "PERSON", "John Smith": "PERSON", "XYZ Corporation": "ORG", "the United Nations General Assembly": "ORG", "New York City": "GPE", "Germany": "GPE", "SpaceX": "ORG", "Quaid-e-Azam Muhammad Ali Jinnah": "PERSON", "Karachi": "GPE", "abc": "ORG"}
->>>>>>> 210d00826b2839dc17e38695e3fd6974302d4aed
+{"Pakistan": "GPE", "PTI": "ORG", "Punjab": "GPE", "Karachi": "GPE", "Balochistan": "GPE", "Islamabad": "GPE", "Dawn": "PERSON", "Lahore": "GPE", "Sindh": "GPE", "Imran Khan": "PERSON", "the Supreme Court": "ORG", "CDA": "ORG", "Khan": "PERSON", "PPP": "ORG", "Khyber Pakhtunkhwa": "GPE", "India": "GPE", "PML": "ORG", "ECP": "ORG", "Sudan": "GPE", "SC": "ORG"}

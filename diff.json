@@ -1,0 +1,3242 @@
+{
+    "nodes": {
+        "7": {
+            "label": "Punjab",
+            "category": "related"
+        },
+        "13": {
+            "label": "Pakistan",
+            "category": "related"
+        },
+        "37": {
+            "label": "government",
+            "category": "related"
+        },
+        "40": {
+            "label": "wheat",
+            "category": "related"
+        },
+        "43": {
+            "label": "Imran Khan",
+            "category": "related"
+        },
+        "46": {
+            "label": "Fawad Chaudhry",
+            "category": "related"
+        },
+        "48": {
+            "label": "PTI",
+            "category": "related"
+        },
+        "50": {
+            "label": "Usman",
+            "category": "related"
+        },
+        "52": {
+            "label": "Sudan",
+            "category": "related"
+        },
+        "54": {
+            "label": "Shehbaz Sharif",
+            "category": "related"
+        },
+        "73": {
+            "label": "Islamabad",
+            "category": "related"
+        },
+        "77": {
+            "label": "Rawalpindi",
+            "category": "related"
+        },
+        "96": {
+            "label": "Karachi",
+            "category": "related"
+        },
+        "97": {
+            "label": "Sindh",
+            "category": "related"
+        },
+        "133": {
+            "label": "Lahore",
+            "category": "related"
+        },
+        "147": {
+            "label": "Umar",
+            "category": "related"
+        },
+        "158": {
+            "label": "MPA",
+            "category": "related"
+        },
+        "179": {
+            "label": "Balochistan",
+            "category": "related"
+        },
+        "182": {
+            "label": "Baloch",
+            "category": "related"
+        },
+        "184": {
+            "label": "census",
+            "category": "related"
+        },
+        "185": {
+            "label": "population",
+            "category": "related"
+        },
+        "196": {
+            "label": "President",
+            "category": "related"
+        },
+        "199": {
+            "label": "India",
+            "category": "related"
+        },
+        "207": {
+            "label": "Eidul Fitr",
+            "category": "related"
+        },
+        "217": {
+            "label": "DSP",
+            "category": "related"
+        },
+        "220": {
+            "label": "Khyber Pakhtunkhwa",
+            "category": "related"
+        },
+        "230": {
+            "label": "protesters",
+            "category": "related"
+        },
+        "231": {
+            "label": "police",
+            "category": "related"
+        },
+        "232": {
+            "label": "officials",
+            "category": "related"
+        },
+        "243": {
+            "label": "Naveed",
+            "category": "related"
+        },
+        "251": {
+            "label": "South Waziristan",
+            "category": "related"
+        },
+        "255": {
+            "label": "TMA",
+            "category": "related"
+        },
+        "258": {
+            "label": "Khyber",
+            "category": "related"
+        },
+        "284": {
+            "label": "elections",
+            "category": "related"
+        },
+        "286": {
+            "label": "agriculture",
+            "category": "related"
+        },
+        "298": {
+            "label": "ADB",
+            "category": "related"
+        },
+        "300": {
+            "label": "PM",
+            "category": "related"
+        },
+        "324": {
+            "label": "law",
+            "category": "related"
+        },
+        "328": {
+            "label": "CDA",
+            "category": "related"
+        },
+        "346": {
+            "label": "KARACHI",
+            "category": "related"
+        },
+        "359": {
+            "label": "province",
+            "category": "related"
+        },
+        "381": {
+            "label": "treated",
+            "category": "related"
+        },
+        "383": {
+            "label": "PPP",
+            "category": "related"
+        },
+        "429": {
+            "label": "Irfan",
+            "category": "related"
+        },
+        "445": {
+            "label": "Akbar",
+            "category": "related"
+        },
+        "521": {
+            "label": "PESHAWAR",
+            "category": "related"
+        },
+        "603": {
+            "label": "China",
+            "category": "related"
+        },
+        "630": {
+            "label": "commissioner",
+            "category": "related"
+        },
+        "641": {
+            "label": "Yasir",
+            "category": "related"
+        },
+        "672": {
+            "label": "terrorism",
+            "category": "related"
+        },
+        "733": {
+            "label": "Moonis Elahi",
+            "category": "related"
+        },
+        "833": {
+            "label": "disqualified",
+            "category": "related"
+        },
+        "836": {
+            "label": "unseated",
+            "category": "related"
+        },
+        "902": {
+            "label": "Passco",
+            "category": "related"
+        },
+        "904": {
+            "label": "Rahim",
+            "category": "related"
+        },
+        "910": {
+            "label": "LAHORE",
+            "category": "related"
+        },
+        "912": {
+            "label": "city",
+            "category": "related"
+        },
+        "925": {
+            "label": "CPO",
+            "category": "related"
+        },
+        "981": {
+            "label": "Constitution",
+            "category": "related"
+        },
+        "986": {
+            "label": "Nawaz",
+            "category": "related"
+        },
+        "1063": {
+            "label": "lead",
+            "category": "related"
+        },
+        "1099": {
+            "label": "injured",
+            "category": "related"
+        },
+        "1132": {
+            "label": "woman",
+            "category": "related"
+        },
+        "1181": {
+            "label": "shot",
+            "category": "related"
+        },
+        "1182": {
+            "label": "killed",
+            "category": "related"
+        },
+        "1185": {
+            "label": "parliament",
+            "category": "related"
+        },
+        "1187": {
+            "label": "politicians",
+            "category": "related"
+        },
+        "1203": {
+            "label": "mpox",
+            "category": "related"
+        },
+        "1304": {
+            "label": "Toyota",
+            "category": "related"
+        },
+        "1325": {
+            "label": "Chairman",
+            "category": "related"
+        },
+        "1328": {
+            "label": "army",
+            "category": "related"
+        },
+        "1355": {
+            "label": "teachers",
+            "category": "related"
+        },
+        "1357": {
+            "label": "schools",
+            "category": "related"
+        },
+        "1358": {
+            "label": "mosques",
+            "category": "related"
+        },
+        "1375": {
+            "label": "Germany",
+            "category": "related"
+        },
+        "1422": {
+            "label": "FIR",
+            "category": "related"
+        },
+        "1456": {
+            "label": "judge",
+            "category": "related"
+        },
+        "1462": {
+            "label": "Dawn",
+            "category": "related"
+        },
+        "1524": {
+            "label": "Imran",
+            "category": "related"
+        },
+        "1537": {
+            "label": "UN",
+            "category": "related"
+        },
+        "1575": {
+            "label": "Police",
+            "category": "related"
+        },
+        "1611": {
+            "label": "Marwat",
+            "category": "related"
+        },
+        "1639": {
+            "label": "NAB",
+            "category": "related"
+        },
+        "1646": {
+            "label": "Ikram",
+            "category": "related"
+        },
+        "1656": {
+            "label": "Ilyas",
+            "category": "related"
+        },
+        "1716": {
+            "label": "PML",
+            "category": "related"
+        },
+        "1745": {
+            "label": "economy",
+            "category": "related"
+        },
+        "1837": {
+            "label": "CTD",
+            "category": "related"
+        },
+        "1910": {
+            "label": "village",
+            "category": "related"
+        },
+        "1940": {
+            "label": "DPO",
+            "category": "related"
+        },
+        "2001": {
+            "label": "coaches",
+            "category": "related"
+        },
+        "2008": {
+            "label": "Gul",
+            "category": "related"
+        },
+        "2017": {
+            "label": "DG",
+            "category": "related"
+        },
+        "2066": {
+            "label": "attack",
+            "category": "related"
+        },
+        "2069": {
+            "label": "KP",
+            "category": "related"
+        },
+        "2075": {
+            "label": "president",
+            "category": "related"
+        },
+        "2078": {
+            "label": "labourers",
+            "category": "related"
+        },
+        "2084": {
+            "label": "ISPR",
+            "category": "related"
+        },
+        "2173": {
+            "label": "journalists",
+            "category": "related"
+        },
+        "2210": {
+            "label": "MNA",
+            "category": "related"
+        },
+        "2244": {
+            "label": "Adviser",
+            "category": "related"
+        },
+        "2293": {
+            "label": "Ismail",
+            "category": "related"
+        },
+        "2332": {
+            "label": "election",
+            "category": "related"
+        },
+        "2356": {
+            "label": "DIG",
+            "category": "related"
+        },
+        "2357": {
+            "label": "SSP",
+            "category": "related"
+        },
+        "2375": {
+            "label": "FIA",
+            "category": "related"
+        },
+        "2387": {
+            "label": "media",
+            "category": "related"
+        }
+    },
+    "edges": [
+        {
+            "from": 48,
+            "to": 43,
+            "label": "chairperson",
+            "category": "related"
+        },
+        {
+            "from": 48,
+            "to": 46,
+            "label": "chairperson",
+            "category": "related"
+        },
+        {
+            "from": 48,
+            "to": 50,
+            "label": "chairperson",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 54,
+            "label": "head of government",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 52,
+            "label": "diplomatic relation",
+            "category": "related"
+        },
+        {
+            "from": 54,
+            "to": 13,
+            "label": "country of citizenship",
+            "category": "related"
+        },
+        {
+            "from": 73,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 73,
+            "to": 13,
+            "label": "owner of",
+            "category": "related"
+        },
+        {
+            "from": 96,
+            "to": 97,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 96,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 96,
+            "to": 97,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 96,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 48,
+            "to": 147,
+            "label": "office held by head of the organization",
+            "category": "related"
+        },
+        {
+            "from": 158,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 179,
+            "to": 179,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 7,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 97,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 7,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 184,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 185,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 243,
+            "to": 243,
+            "label": "father",
+            "category": "related"
+        },
+        {
+            "from": 255,
+            "to": 255,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 258,
+            "to": 220,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 7,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 7,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 284,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 286,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 97,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 300,
+            "to": 54,
+            "label": "officeholder",
+            "category": "related"
+        },
+        {
+            "from": 54,
+            "to": 300,
+            "label": "position held",
+            "category": "related"
+        },
+        {
+            "from": 7,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 7,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 7,
+            "label": "contains administrative territorial",
+            "category": "related"
+        },
+        {
+            "from": 7,
+            "to": 97,
+            "label": "shares border with",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 7,
+            "label": "shares",
+            "category": "related"
+        },
+        {
+            "from": 324,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 324,
+            "to": 13,
+            "label": "applies to jurisdiction",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 73,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 328,
+            "to": 73,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 328,
+            "to": 328,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 231,
+            "to": 96,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 231,
+            "to": 96,
+            "label": "located",
+            "category": "related"
+        },
+        {
+            "from": 231,
+            "to": 96,
+            "label": "located in the",
+            "category": "related"
+        },
+        {
+            "from": 96,
+            "to": 97,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 96,
+            "to": 97,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 96,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 381,
+            "to": 381,
+            "label": "subclass of",
+            "category": "related"
+        },
+        {
+            "from": 381,
+            "to": 381,
+            "label": "subclass",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 97,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 220,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 220,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 179,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 179,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 429,
+            "to": 133,
+            "label": "place of death",
+            "category": "related"
+        },
+        {
+            "from": 50,
+            "to": 133,
+            "label": "place of death",
+            "category": "related"
+        },
+        {
+            "from": 48,
+            "to": 43,
+            "label": "chairperson",
+            "category": "related"
+        },
+        {
+            "from": 43,
+            "to": 48,
+            "label": "member of political party",
+            "category": "related"
+        },
+        {
+            "from": 43,
+            "to": 48,
+            "label": "member of",
+            "category": "related"
+        },
+        {
+            "from": 37,
+            "to": 220,
+            "label": "applies to jurisdiction",
+            "category": "related"
+        },
+        {
+            "from": 521,
+            "to": 220,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 220,
+            "to": 521,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 179,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 220,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 179,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 220,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 7,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 7,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 603,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 603,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 603,
+            "label": "diplomatic relation",
+            "category": "related"
+        },
+        {
+            "from": 37,
+            "to": 7,
+            "label": "applies to jurisdiction",
+            "category": "related"
+        },
+        {
+            "from": 231,
+            "to": 7,
+            "label": "applies to jurisdiction",
+            "category": "related"
+        },
+        {
+            "from": 630,
+            "to": 7,
+            "label": "applies to jurisdiction",
+            "category": "related"
+        },
+        {
+            "from": 231,
+            "to": 346,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 54,
+            "to": 48,
+            "label": "member of political party",
+            "category": "related"
+        },
+        {
+            "from": 48,
+            "to": 43,
+            "label": "chairperson",
+            "category": "related"
+        },
+        {
+            "from": 43,
+            "to": 48,
+            "label": "member of political party",
+            "category": "related"
+        },
+        {
+            "from": 672,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 96,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 7,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 7,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 7,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 97,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 7,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 97,
+            "label": "contains administrative territorial",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 77,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 77,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 13,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 73,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 73,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 220,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 7,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 220,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 7,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 43,
+            "to": 48,
+            "label": "member of political party",
+            "category": "related"
+        },
+        {
+            "from": 48,
+            "to": 43,
+            "label": "chairperson",
+            "category": "related"
+        },
+        {
+            "from": 54,
+            "to": 13,
+            "label": "country of citizenship",
+            "category": "related"
+        },
+        {
+            "from": 231,
+            "to": 346,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 231,
+            "to": 231,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 96,
+            "to": 97,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 96,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 96,
+            "to": 97,
+            "label": "located in the administrative territorial",
+            "category": "related"
+        },
+        {
+            "from": 48,
+            "to": 7,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 48,
+            "to": 220,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 220,
+            "to": 7,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 220,
+            "to": 48,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 48,
+            "to": 7,
+            "label": "contains administrative",
+            "category": "related"
+        },
+        {
+            "from": 220,
+            "to": 48,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 48,
+            "to": 7,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 48,
+            "to": 43,
+            "label": "chairperson",
+            "category": "related"
+        },
+        {
+            "from": 43,
+            "to": 48,
+            "label": "member of political party",
+            "category": "related"
+        },
+        {
+            "from": 133,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 7,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 902,
+            "to": 904,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 37,
+            "to": 7,
+            "label": "applies to jurisdiction",
+            "category": "related"
+        },
+        {
+            "from": 925,
+            "to": 133,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 925,
+            "to": 133,
+            "label": "located in the",
+            "category": "related"
+        },
+        {
+            "from": 133,
+            "to": 7,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 77,
+            "to": 7,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 7,
+            "to": 133,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 7,
+            "to": 77,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 77,
+            "to": 7,
+            "label": "located in the",
+            "category": "related"
+        },
+        {
+            "from": 7,
+            "to": 77,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 77,
+            "to": 7,
+            "label": "capital of",
+            "category": "related"
+        },
+        {
+            "from": 46,
+            "to": 48,
+            "label": "member of political party",
+            "category": "related"
+        },
+        {
+            "from": 284,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 220,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 220,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 981,
+            "to": 981,
+            "label": "has part",
+            "category": "related"
+        },
+        {
+            "from": 48,
+            "to": 43,
+            "label": "chairperson",
+            "category": "related"
+        },
+        {
+            "from": 284,
+            "to": 43,
+            "label": "successful candidate",
+            "category": "related"
+        },
+        {
+            "from": 37,
+            "to": 73,
+            "label": "located in the administrative territorial",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 603,
+            "label": "shares border with",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 199,
+            "label": "shares border with",
+            "category": "related"
+        },
+        {
+            "from": 603,
+            "to": 13,
+            "label": "shares border with",
+            "category": "related"
+        },
+        {
+            "from": 199,
+            "to": 13,
+            "label": "shares border with",
+            "category": "related"
+        },
+        {
+            "from": 77,
+            "to": 231,
+            "label": "located in the administrative",
+            "category": "related"
+        },
+        {
+            "from": 73,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 77,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 73,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 77,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 37,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 96,
+            "to": 97,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 96,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 96,
+            "to": 97,
+            "label": "capital of",
+            "category": "related"
+        },
+        {
+            "from": 231,
+            "to": 96,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 231,
+            "to": 1132,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 97,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 7,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 7,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 7,
+            "to": 133,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 7,
+            "to": 7,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 7,
+            "to": 7,
+            "label": "applies to jurisdiction",
+            "category": "related"
+        },
+        {
+            "from": 48,
+            "to": 43,
+            "label": "chairperson",
+            "category": "related"
+        },
+        {
+            "from": 43,
+            "to": 48,
+            "label": "member of political party",
+            "category": "related"
+        },
+        {
+            "from": 46,
+            "to": 48,
+            "label": "member of political party",
+            "category": "related"
+        },
+        {
+            "from": 133,
+            "to": 199,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 1181,
+            "to": 1182,
+            "label": "subclass of",
+            "category": "related"
+        },
+        {
+            "from": 1185,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 1185,
+            "label": "legislative body",
+            "category": "related"
+        },
+        {
+            "from": 1187,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 1185,
+            "to": 1185,
+            "label": "legislative body",
+            "category": "related"
+        },
+        {
+            "from": 1185,
+            "to": 1187,
+            "label": "legislative",
+            "category": "related"
+        },
+        {
+            "from": 1185,
+            "to": 1185,
+            "label": "has part",
+            "category": "related"
+        },
+        {
+            "from": 1185,
+            "to": 1187,
+            "label": "has",
+            "category": "related"
+        },
+        {
+            "from": 48,
+            "to": 43,
+            "label": "chairperson",
+            "category": "related"
+        },
+        {
+            "from": 43,
+            "to": 48,
+            "label": "member of political party",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 179,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 521,
+            "to": 220,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 220,
+            "to": 521,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 96,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 179,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 179,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 43,
+            "to": 48,
+            "label": "member of political party",
+            "category": "related"
+        },
+        {
+            "from": 7,
+            "to": 97,
+            "label": "shares border with",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 7,
+            "label": "shares border with",
+            "category": "related"
+        },
+        {
+            "from": 521,
+            "to": 220,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 521,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 220,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 220,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 46,
+            "to": 48,
+            "label": "member of political party",
+            "category": "related"
+        },
+        {
+            "from": 48,
+            "to": 46,
+            "label": "chairperson",
+            "category": "related"
+        },
+        {
+            "from": 1325,
+            "to": 43,
+            "label": "officeholder",
+            "category": "related"
+        },
+        {
+            "from": 43,
+            "to": 1325,
+            "label": "position held",
+            "category": "related"
+        },
+        {
+            "from": 48,
+            "to": 43,
+            "label": "chairperson",
+            "category": "related"
+        },
+        {
+            "from": 43,
+            "to": 48,
+            "label": "member of political party",
+            "category": "related"
+        },
+        {
+            "from": 7,
+            "to": 7,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 1358,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 328,
+            "to": 73,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 77,
+            "to": 77,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 1375,
+            "label": "diplomatic relation",
+            "category": "related"
+        },
+        {
+            "from": 1375,
+            "to": 13,
+            "label": "diplomatic relation",
+            "category": "related"
+        },
+        {
+            "from": 1375,
+            "to": 1375,
+            "label": "diplomatic relation",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 220,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 220,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 220,
+            "to": 13,
+            "label": "located in the administrative",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 97,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 96,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 97,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 96,
+            "to": 97,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 96,
+            "to": 179,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 179,
+            "to": 96,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 179,
+            "label": "shares border with",
+            "category": "related"
+        },
+        {
+            "from": 179,
+            "to": 97,
+            "label": "shares border with",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 7,
+            "label": "shares border with",
+            "category": "related"
+        },
+        {
+            "from": 7,
+            "to": 97,
+            "label": "shares border with",
+            "category": "related"
+        },
+        {
+            "from": 383,
+            "to": 1325,
+            "label": "office held by head of the organization",
+            "category": "related"
+        },
+        {
+            "from": 48,
+            "to": 43,
+            "label": "chairperson",
+            "category": "related"
+        },
+        {
+            "from": 43,
+            "to": 48,
+            "label": "member of political party",
+            "category": "related"
+        },
+        {
+            "from": 1422,
+            "to": 77,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 133,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 133,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 133,
+            "to": 13,
+            "label": "located in the administrative",
+            "category": "related"
+        },
+        {
+            "from": 179,
+            "to": 97,
+            "label": "shares border with",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 179,
+            "label": "shares border with",
+            "category": "related"
+        },
+        {
+            "from": 77,
+            "to": 73,
+            "label": "twinned administrative body",
+            "category": "related"
+        },
+        {
+            "from": 73,
+            "to": 77,
+            "label": "twinned administrative body",
+            "category": "related"
+        },
+        {
+            "from": 220,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 220,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 54,
+            "label": "head of government",
+            "category": "related"
+        },
+        {
+            "from": 54,
+            "to": 13,
+            "label": "country of citizenship",
+            "category": "related"
+        },
+        {
+            "from": 48,
+            "to": 43,
+            "label": "chairperson",
+            "category": "related"
+        },
+        {
+            "from": 43,
+            "to": 48,
+            "label": "member of political party",
+            "category": "related"
+        },
+        {
+            "from": 48,
+            "to": 1524,
+            "label": "chairperson",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 179,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 1185,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 1185,
+            "label": "legislative body",
+            "category": "related"
+        },
+        {
+            "from": 73,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 73,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 328,
+            "to": 73,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 231,
+            "to": 73,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 231,
+            "to": 328,
+            "label": "applies to jurisdiction",
+            "category": "related"
+        },
+        {
+            "from": 231,
+            "to": 328,
+            "label": "applies",
+            "category": "related"
+        },
+        {
+            "from": 231,
+            "to": 328,
+            "label": "part of",
+            "category": "related"
+        },
+        {
+            "from": 48,
+            "to": 43,
+            "label": "chairperson",
+            "category": "related"
+        },
+        {
+            "from": 43,
+            "to": 48,
+            "label": "member of political party",
+            "category": "related"
+        },
+        {
+            "from": 96,
+            "to": 97,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 96,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 97,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 96,
+            "to": 97,
+            "label": "located in the administrative territorial",
+            "category": "related"
+        },
+        {
+            "from": 199,
+            "to": 13,
+            "label": "shares border with",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 199,
+            "label": "shares border with",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 13,
+            "label": "shares border with",
+            "category": "related"
+        },
+        {
+            "from": 96,
+            "to": 97,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 1639,
+            "to": 97,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 1639,
+            "to": 97,
+            "label": "located in the administrative territorial",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 97,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 1185,
+            "label": "legislative body",
+            "category": "related"
+        },
+        {
+            "from": 1185,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 1185,
+            "to": 13,
+            "label": "applies to jurisdiction",
+            "category": "related"
+        },
+        {
+            "from": 1656,
+            "to": 7,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 231,
+            "to": 231,
+            "label": "has part",
+            "category": "related"
+        },
+        {
+            "from": 231,
+            "to": 231,
+            "label": "part of",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 220,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 73,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 97,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 220,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 220,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 37,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 1745,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 54,
+            "to": 48,
+            "label": "member of political party",
+            "category": "related"
+        },
+        {
+            "from": 48,
+            "to": 43,
+            "label": "chairperson",
+            "category": "related"
+        },
+        {
+            "from": 54,
+            "to": 48,
+            "label": "member of political party",
+            "category": "related"
+        },
+        {
+            "from": 231,
+            "to": 73,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 73,
+            "to": 231,
+            "label": "authority",
+            "category": "related"
+        },
+        {
+            "from": 231,
+            "to": 73,
+            "label": "located in the",
+            "category": "related"
+        },
+        {
+            "from": 73,
+            "to": 231,
+            "label": "legislative body",
+            "category": "related"
+        },
+        {
+            "from": 231,
+            "to": 73,
+            "label": "applies to jurisdiction",
+            "category": "related"
+        },
+        {
+            "from": 231,
+            "to": 73,
+            "label": "applies to",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 73,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 73,
+            "to": 73,
+            "label": "located in the",
+            "category": "related"
+        },
+        {
+            "from": 73,
+            "to": 13,
+            "label": "capital of",
+            "category": "related"
+        },
+        {
+            "from": 77,
+            "to": 7,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 231,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 231,
+            "to": 73,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 73,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 37,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 73,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 37,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 37,
+            "to": 13,
+            "label": "applies to jurisdiction",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 603,
+            "label": "diplomatic relation",
+            "category": "related"
+        },
+        {
+            "from": 603,
+            "to": 13,
+            "label": "diplomatic relation",
+            "category": "related"
+        },
+        {
+            "from": 603,
+            "to": 13,
+            "label": "shares border with",
+            "category": "related"
+        },
+        {
+            "from": 96,
+            "to": 97,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 37,
+            "to": 258,
+            "label": "officeholder",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 97,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 96,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 96,
+            "to": 97,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 97,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 97,
+            "label": "contains administrative territorial",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 179,
+            "label": "shares border with",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 7,
+            "label": "shares border with",
+            "category": "related"
+        },
+        {
+            "from": 179,
+            "to": 97,
+            "label": "shares border with",
+            "category": "related"
+        },
+        {
+            "from": 7,
+            "to": 97,
+            "label": "shares border with",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 7,
+            "label": "shares border",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 179,
+            "label": "shares",
+            "category": "related"
+        },
+        {
+            "from": 7,
+            "to": 179,
+            "label": "shares border with",
+            "category": "related"
+        },
+        {
+            "from": 96,
+            "to": 97,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 96,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 97,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 179,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 179,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 46,
+            "to": 48,
+            "label": "member of political party",
+            "category": "related"
+        },
+        {
+            "from": 7,
+            "to": 133,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 133,
+            "to": 7,
+            "label": "capital of",
+            "category": "related"
+        },
+        {
+            "from": 133,
+            "to": 7,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 73,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 73,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 97,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 1185,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 7,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 97,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 7,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 231,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 231,
+            "to": 73,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 73,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 37,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 73,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 231,
+            "to": 73,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 73,
+            "to": 231,
+            "label": "authority",
+            "category": "related"
+        },
+        {
+            "from": 231,
+            "to": 73,
+            "label": "located in the",
+            "category": "related"
+        },
+        {
+            "from": 73,
+            "to": 231,
+            "label": "legislative body",
+            "category": "related"
+        },
+        {
+            "from": 231,
+            "to": 73,
+            "label": "applies to jurisdiction",
+            "category": "related"
+        },
+        {
+            "from": 231,
+            "to": 73,
+            "label": "applies to",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 77,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 77,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 73,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 73,
+            "to": 13,
+            "label": "capital of",
+            "category": "related"
+        },
+        {
+            "from": 77,
+            "to": 13,
+            "label": "capital of",
+            "category": "related"
+        },
+        {
+            "from": 73,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 73,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 7,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 133,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 7,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 7,
+            "to": 133,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 133,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 7,
+            "to": 133,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 133,
+            "to": 7,
+            "label": "capital of",
+            "category": "related"
+        },
+        {
+            "from": 133,
+            "to": 7,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 37,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 96,
+            "to": 97,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 96,
+            "to": 97,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 96,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 97,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 1639,
+            "to": 2017,
+            "label": "office held by head of the organization",
+            "category": "related"
+        },
+        {
+            "from": 2017,
+            "to": 1639,
+            "label": "part of",
+            "category": "related"
+        },
+        {
+            "from": 133,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 133,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 7,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 7,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 133,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 133,
+            "to": 7,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 179,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 179,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 179,
+            "to": 13,
+            "label": "located in the administrative territorial",
+            "category": "related"
+        },
+        {
+            "from": 179,
+            "to": 13,
+            "label": "located in",
+            "category": "related"
+        },
+        {
+            "from": 48,
+            "to": 43,
+            "label": "chairperson",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 220,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 220,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 220,
+            "to": 13,
+            "label": "located in the administrative",
+            "category": "related"
+        },
+        {
+            "from": 220,
+            "to": 13,
+            "label": "located",
+            "category": "related"
+        },
+        {
+            "from": 220,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 2075,
+            "label": "office held by head of government",
+            "category": "related"
+        },
+        {
+            "from": 220,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 220,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 97,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 7,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 7,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 258,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 220,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 220,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 220,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 220,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 1185,
+            "to": 1185,
+            "label": "part of",
+            "category": "related"
+        },
+        {
+            "from": 1185,
+            "to": 1185,
+            "label": "has part",
+            "category": "related"
+        },
+        {
+            "from": 1185,
+            "to": 1185,
+            "label": "has",
+            "category": "related"
+        },
+        {
+            "from": 1185,
+            "to": 1185,
+            "label": "part",
+            "category": "related"
+        },
+        {
+            "from": 133,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 96,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 73,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 133,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 96,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 73,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 54,
+            "to": 43,
+            "label": "relative",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 54,
+            "label": "head of government",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 603,
+            "label": "diplomatic relation",
+            "category": "related"
+        },
+        {
+            "from": 603,
+            "to": 13,
+            "label": "diplomatic relation",
+            "category": "related"
+        },
+        {
+            "from": 96,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 97,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 97,
+            "label": "contains administrative",
+            "category": "related"
+        },
+        {
+            "from": 43,
+            "to": 48,
+            "label": "member of political party",
+            "category": "related"
+        },
+        {
+            "from": 43,
+            "to": 48,
+            "label": "member of political",
+            "category": "related"
+        },
+        {
+            "from": 2210,
+            "to": 73,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 2210,
+            "to": 73,
+            "label": "located in the administrative territorial",
+            "category": "related"
+        },
+        {
+            "from": 133,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 97,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 179,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 179,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 179,
+            "to": 13,
+            "label": "located in the administrative",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 54,
+            "label": "head of government",
+            "category": "related"
+        },
+        {
+            "from": 73,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 73,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 73,
+            "to": 13,
+            "label": "capital of",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 54,
+            "label": "head of government",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 220,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 179,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 54,
+            "to": 13,
+            "label": "country of citizenship",
+            "category": "related"
+        },
+        {
+            "from": 220,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 220,
+            "to": 179,
+            "label": "shares border with",
+            "category": "related"
+        },
+        {
+            "from": 179,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 179,
+            "to": 220,
+            "label": "shares border with",
+            "category": "related"
+        },
+        {
+            "from": 179,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 220,
+            "to": 7,
+            "label": "shares border with",
+            "category": "related"
+        },
+        {
+            "from": 7,
+            "to": 220,
+            "label": "shares border with",
+            "category": "related"
+        },
+        {
+            "from": 521,
+            "to": 220,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 220,
+            "to": 521,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 521,
+            "to": 258,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 258,
+            "to": 521,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 258,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 258,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 258,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 220,
+            "to": 258,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 258,
+            "to": 220,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 258,
+            "to": 220,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 284,
+            "to": 7,
+            "label": "applies to jurisdiction",
+            "category": "related"
+        },
+        {
+            "from": 284,
+            "to": 2069,
+            "label": "applies to jurisdiction",
+            "category": "related"
+        },
+        {
+            "from": 2332,
+            "to": 7,
+            "label": "applies to jurisdiction",
+            "category": "related"
+        },
+        {
+            "from": 2332,
+            "to": 2069,
+            "label": "applies to jurisdiction",
+            "category": "related"
+        },
+        {
+            "from": 2069,
+            "to": 7,
+            "label": "applies to jurisdiction",
+            "category": "related"
+        },
+        {
+            "from": 7,
+            "to": 2069,
+            "label": "applies to jurisdiction",
+            "category": "related"
+        },
+        {
+            "from": 179,
+            "to": 179,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 7,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 97,
+            "label": "contains administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 7,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 13,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 184,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 185,
+            "to": 13,
+            "label": "country",
+            "category": "related"
+        },
+        {
+            "from": 7,
+            "to": 220,
+            "label": "shares border with",
+            "category": "related"
+        },
+        {
+            "from": 220,
+            "to": 7,
+            "label": "shares border with",
+            "category": "related"
+        },
+        {
+            "from": 220,
+            "to": 220,
+            "label": "shares border with",
+            "category": "related"
+        },
+        {
+            "from": 48,
+            "to": 43,
+            "label": "chairperson",
+            "category": "related"
+        },
+        {
+            "from": 48,
+            "to": 46,
+            "label": "chairperson",
+            "category": "related"
+        },
+        {
+            "from": 48,
+            "to": 50,
+            "label": "chairperson",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 199,
+            "label": "diplomatic relation",
+            "category": "related"
+        },
+        {
+            "from": 199,
+            "to": 13,
+            "label": "diplomatic relation",
+            "category": "related"
+        },
+        {
+            "from": 48,
+            "to": 147,
+            "label": "office held by head of the organization",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 54,
+            "label": "head of government",
+            "category": "related"
+        },
+        {
+            "from": 13,
+            "to": 52,
+            "label": "diplomatic relation",
+            "category": "related"
+        },
+        {
+            "from": 54,
+            "to": 13,
+            "label": "country of citizenship",
+            "category": "related"
+        },
+        {
+            "from": 96,
+            "to": 97,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 96,
+            "label": "capital",
+            "category": "related"
+        },
+        {
+            "from": 96,
+            "to": 97,
+            "label": "located in the administrative territorial entity",
+            "category": "related"
+        },
+        {
+            "from": 97,
+            "to": 96,
+            "label": "capital",
+            "category": "related"
+        }
+    ]
+}

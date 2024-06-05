@@ -204,23 +204,48 @@ class NewsMining():
                 
                 #       03 get keywords
                 keywords = [i[0] for i in self.extract_keywords(words_postags)]
-               
+                # print(keywords)
+                
+                # for keyword in keywords:
+                #     name = keyword
+                #     cate = 'keyword'
+                #     events.append([name, cate])
+                    
+                # print(keywords)
+                #For instance, if there is a triple (subject, verb, object) such as ("cat", "chase", "mouse"), and "cat" and "mouse" 
+                # are keywords identified earlier, then an event of type "related" could be created to signify the relationship between "cat" and "mouse" through the action "chase."
+                # print(events)
+
                 for t in triples:
                     if (t[0] in keywords or t[1] in keywords) and len(t[0]) > 1 and len(t[1]) > 1:
                         events.append([t[0], t[1]])
-    
+                # print(events)
+                # 05 get word frequency and add to events
+                #identifies the most common words (nouns, proper nouns, and verbs) in the text and categorizes them as "frequency."
                 word_dict = [i for i in Counter([i[0] for i in words_postags if i[1] in [
                                                     'NOUN', 'PROPN', 'VERB'] and len(i[0]) > 1]).most_common()][:10]
             
+                # for wd in word_dict:
+                #     name = wd[0]
+                #     cate = 'frequency'
+                #     events.append([name, cate])
+                
+                # dumpy_ner={i[0]: i[1] for i in Counter(ners).most_common(20)}
                 ner_dict = {i[0]: i[1] for i in Counter(ners).most_common(20)}
                 # print(ner_dict)
                 for ner in ner_dict:
                     name = ner.split('/')[0]  # Jessica Miller
                     cate = self.ner_dict[ner.split('/')[1]]  # PERSON
                     events.append([name, cate])
+                # print(events)
+                # 07 get all NER entity co-occurrence information
+                # here ner_dict is from above 06
                 co_dict = self.collect_coexist(ner_sents, list(ner_dict.keys()))
                 co_events = [[i.split('@')[0].split(
                     '/')[0], i.split('@')[1].split('/')[0]] for i in co_dict]
+                # events += co_events
+                # print(ner_dict.keys())
+                # print(events)
                 result_dict = {}
 
                 for item in ner_dict:
@@ -229,7 +254,17 @@ class NewsMining():
                         key, value = parts
                         result_dict[key] = value
             except:
-                pass 
+                pass
+        # for t in triples:
+        #     if t[0] in keywords:
+        #         events.append([t[0], 'related', t[1]])
+
+        #     if t[1] in keywords:
+        #         events.append([t[1], 'related', t[0]])
+        # for wd in word_dict:
+        #     if wd[0] in keywords:
+        #         # print(wd[0])
+        #         events.append([wd[0], 'related', 'frequency'])  
         events += co_events
         with open('test_json.json', 'r') as file:
             data = json.load(file)
@@ -263,6 +298,8 @@ class NewsMining():
                 Ner_data['Location']+=1
             if i[1]=="Person":
                 Ner_data['Person']+=1
+            # print("removing",i) 
+                #events = [sublist for l, sublist in enumerate(events) if l != k]
         org_count=0
         for k,i in enumerate(events):
         
@@ -298,8 +335,22 @@ class NewsMining():
         data_edges=match_events['edges']
         print(data_edges)
         ner_to_check = 'GPE'
+        # tmp_unique=[]
+        # # Iterate through each item in the data
+        # for ev in unique_data:
+        #     for item in data_edges:
+        #         # Check if the 'ner' key has the specified value
+        #         if ev[0]==item['label']:
+        #             if item['ner']==None:
+        #                 print("find none")
+        #             else:
+        #                 print("not found")
+        #                 tmp_unique.append(ev)
         self.graph_shower.create_page(unique_data,result_dict)
         nodes,edge=self.graph_shower.return_edge(unique_data,result_dict)
+        # Save the Python object to the pickle file
+        # with open(file_path, 'wb') as file:
+        #     pickle.dump(tmp_unique, file)
         tmp_list=[]
         for i in edge:
             tmp_list.append(i['label'])        
