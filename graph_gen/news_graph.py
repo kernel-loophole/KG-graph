@@ -207,7 +207,9 @@ class NewsMining:
         # content_ids = data_object[0]
         # print(contents)
         tmp_id = {}
-        for idx_count, content in enumerate(tqdm(contents)):
+        content_id_text = {}
+        idx_count = 1
+        for idx, content in tqdm(data_object):
             # content_id = content_ids[idx]
             # 01 remove linebreaks and brackets
             try:
@@ -235,7 +237,7 @@ class NewsMining:
 
                 # 03 get keywords
                 keywords = [i[0] for i in self.extract_keywords(words_postags)]
-
+                print("#################", keywords)
                 for t in triples:
                     if (t[0] in keywords or t[1] in keywords) and len(t[0]) > 1 and len(t[1]) > 1:
                         events.append([t[0], t[1]])
@@ -245,16 +247,27 @@ class NewsMining:
                     'NOUN', 'PROPN', 'VERB'] and len(i[0]) > 1]).most_common()][:10]
 
                 ner_dict = {i[0]: i[1] for i in Counter(ners).most_common(20)}
-
+                print("///////////////", ner_dict)
                 for ner in ner_dict:
                     name = ner.split('/')[0]  # Jessica Miller
                     cate = self.ner_dict[ner.split('/')[1]]  # PERSON
                     events.append([name, cate])
                 # print(events)
+                print("+++++++", idx_count)
+                print("------tmp------", tmp_id)
+                print("---------------", events)
                 for label_id in events:
+                    print("------label-------", label_id[0])
                     if label_id[0] in tmp_id.keys():
+                        print("cont", label_id[0])
                         continue
-                    tmp_id[label_id[0]] = idx_count
+                    tmp_id[label_id[0]] = idx
+                    if label_id[0] in content_id_text.keys():
+                        #print("cont",label_id[0])
+                        continue
+                    content_id_text[label_id[0]] = str(content)
+                    print(tmp_id, idx_count)
+
                 # print(events)
                 # 07 get all NER entity co-occurrence information
 
@@ -270,7 +283,7 @@ class NewsMining:
                     if len(parts) == 2:
                         key, value = parts
                         result_dict[key] = value
-
+                idx_count += 1
             except:
                 pass
 
@@ -345,17 +358,19 @@ class NewsMining:
             else:
                 edge['ner'] = None
             if edge['label'] in tmp_id.keys():
-                # print(edge['label'],tmp_id[edge['label']])
+                print("=====================", tmp_id[edge['label']])
                 edge['doc_id'] = tmp_id[edge['label']]
-            #=========================match the list of obejct and assigne the news title to label#===============
-            # for news_list in data_object:
-            #     if news_list[0]==tmp_id[edge['label']]:
-            #         # print(news_list[1])
-            #         edge['label']=str(news_list[0])
+                edge['content'] = content_id_text[edge['label']]
+        # print(tmp_id)
+        #=========================match the list of obejct and assigne the news title to label#===============
+        # for news_list in data_object:
+        #     if news_list[0]==tmp_id[edge['label']]:
+        #         # print(news_list[1])
+        #         edge['label']=str(news_list[0])
 
-            # print(edge['label'])
-            # label_id=tmp_id[edge['label']]
-            # print(edge['label'],label_id)
+        # print(edge['label'])
+        # label_id=tmp_id[edge['label']]
+        # print(edge['label'],label_id)
         # print(data['edges'])
         unique_edges = []
         seen_labels = set()
