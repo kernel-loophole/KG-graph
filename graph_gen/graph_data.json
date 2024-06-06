@@ -1,57 +1,57 @@
 {
   "nodes": [
     {
-      "from": 170,
+      "from": 18,
       "label": "",
-      "to": 127,
+      "to": 9,
       "category": "related"
     },
     {
-      "from": 168,
+      "from": 2,
       "label": "",
-      "to": 173,
-      "category": "related"
-    },
-    {
-      "from": 172,
-      "label": "",
-      "to": 171,
-      "category": "related"
-    },
-    {
-      "from": 168,
-      "label": "",
-      "to": 170,
-      "category": "related"
-    },
-    {
-      "from": 35,
-      "label": "",
-      "to": 168,
-      "category": "related"
-    },
-    {
-      "from": 10,
-      "label": "",
-      "to": 170,
+      "to": 3,
       "category": "related"
     },
     {
       "from": 12,
       "label": "",
-      "to": 127,
-      "category": "related"
-    },
-    {
-      "from": 14,
-      "label": "",
-      "to": 173,
+      "to": 19,
       "category": "related"
     },
     {
       "from": 18,
       "label": "",
-      "to": 171,
+      "to": 10,
+      "category": "related"
+    },
+    {
+      "from": 16,
+      "label": "",
+      "to": 9,
+      "category": "related"
+    },
+    {
+      "from": 10,
+      "label": "",
+      "to": 18,
+      "category": "related"
+    },
+    {
+      "from": 12,
+      "label": "",
+      "to": 13,
+      "category": "related"
+    },
+    {
+      "from": 17,
+      "label": "",
+      "to": 15,
+      "category": "related"
+    },
+    {
+      "from": 16,
+      "label": "",
+      "to": 17,
       "category": "related"
     },
     {
@@ -59,634 +59,84 @@
       "label": "",
       "to": 19,
       "category": "related"
-    },
-    {
-      "from": 158,
-      "label": "",
-      "to": 127,
-      "category": "related"
-    },
-    {
-      "from": 135,
-      "label": "",
-      "to": 173,
-      "category": "related"
-    },
-    {
-      "from": 32,
-      "label": "",
-      "to": 127,
-      "category": "related"
-    },
-    {
-      "from": 35,
-      "label": "",
-      "to": 127,
-      "category": "related"
-    },
-    {
-      "from": 157,
-      "label": "",
-      "to": 158,
-      "category": "related"
-    },
-    {
-      "from": 51,
-      "label": "",
-      "to": 158,
-      "category": "related"
-    },
-    {
-      "from": 32,
-      "label": "",
-      "to": 126,
-      "category": "related"
-    },
-    {
-      "from": 168,
-      "label": "",
-      "to": 35,
-      "category": "related"
-    },
-    {
-      "from": 166,
-      "label": "",
-      "to": 157,
-      "category": "related"
-    },
-    {
-      "from": 168,
-      "label": "",
-      "to": 158,
-      "category": "related"
-    },
-    {
-      "from": 85,
-      "label": "",
-      "to": 157,
-      "category": "related"
-    },
-    {
-      "from": 158,
-      "label": "",
-      "to": 85,
-      "category": "related"
-    },
-    {
-      "from": 154,
-      "label": "",
-      "to": 171,
-      "category": "related"
-    },
-    {
-      "from": 154,
-      "label": "",
-      "to": 158,
-      "category": "related"
-    },
-    {
-      "from": 158,
-      "label": "",
-      "to": 154,
-      "category": "related"
-    },
-    {
-      "from": 154,
-      "label": "",
-      "to": 51,
-      "category": "related"
-    },
-    {
-      "from": 170,
-      "label": "",
-      "to": 168,
-      "category": "related"
-    },
-    {
-      "from": 157,
-      "label": "",
-      "to": 159,
-      "category": "related"
-    },
-    {
-      "from": 158,
-      "label": "",
-      "to": 168,
-      "category": "related"
-    },
-    {
-      "from": 80,
-      "label": "",
-      "to": 158,
-      "category": "related"
-    },
-    {
-      "from": 85,
-      "label": "",
-      "to": 158,
-      "category": "related"
-    },
-    {
-      "from": 143,
-      "label": "",
-      "to": 127,
-      "category": "related"
-    },
-    {
-      "from": 167,
-      "label": "",
-      "to": 127,
-      "category": "related"
-    },
-    {
-      "from": 81,
-      "label": "",
-      "to": 171,
-      "category": "related"
-    },
-    {
-      "from": 85,
-      "label": "",
-      "to": 171,
-      "category": "related"
-    },
-    {
-      "from": 143,
-      "label": "",
-      "to": 167,
-      "category": "related"
-    },
-    {
-      "from": 167,
-      "label": "",
-      "to": 154,
-      "category": "related"
-    },
-    {
-      "from": 159,
-      "label": "",
-      "to": 167,
-      "category": "related"
-    },
-    {
-      "from": 159,
-      "label": "",
-      "to": 166,
-      "category": "related"
-    },
-    {
-      "from": 158,
-      "label": "",
-      "to": 166,
-      "category": "related"
-    },
-    {
-      "from": 80,
-      "label": "",
-      "to": 81,
-      "category": "related"
-    },
-    {
-      "from": 85,
-      "label": "",
-      "to": 154,
-      "category": "related"
-    },
-    {
-      "from": 157,
-      "label": "",
-      "to": 85,
-      "category": "related"
-    },
-    {
-      "from": 169,
-      "label": "",
-      "to": 88,
-      "category": "related"
-    },
-    {
-      "from": 88,
-      "label": "",
-      "to": 167,
-      "category": "related"
-    },
-    {
-      "from": 90,
-      "label": "",
-      "to": 91,
-      "category": "related"
-    },
-    {
-      "from": 157,
-      "label": "",
-      "to": 127,
-      "category": "related"
-    },
-    {
-      "from": 159,
-      "label": "",
-      "to": 127,
-      "category": "related"
-    },
-    {
-      "from": 164,
-      "label": "",
-      "to": 135,
-      "category": "related"
-    },
-    {
-      "from": 164,
-      "label": "",
-      "to": 167,
-      "category": "related"
-    },
-    {
-      "from": 135,
-      "label": "",
-      "to": 162,
-      "category": "related"
-    },
-    {
-      "from": 154,
-      "label": "",
-      "to": 166,
-      "category": "related"
-    },
-    {
-      "from": 158,
-      "label": "",
-      "to": 167,
-      "category": "related"
-    },
-    {
-      "from": 166,
-      "label": "",
-      "to": 159,
-      "category": "related"
-    },
-    {
-      "from": 169,
-      "label": "",
-      "to": 168,
-      "category": "related"
-    },
-    {
-      "from": 167,
-      "label": "",
-      "to": 111,
-      "category": "related"
-    },
-    {
-      "from": 168,
-      "label": "",
-      "to": 167,
-      "category": "related"
-    },
-    {
-      "from": 167,
-      "label": "",
-      "to": 168,
-      "category": "related"
-    },
-    {
-      "from": 164,
-      "label": "",
-      "to": 162,
-      "category": "related"
-    },
-    {
-      "from": 164,
-      "label": "",
-      "to": 150,
-      "category": "related"
-    },
-    {
-      "from": 162,
-      "label": "",
-      "to": 168,
-      "category": "related"
-    },
-    {
-      "from": 122,
-      "label": "",
-      "to": 123,
-      "category": "related"
-    },
-    {
-      "from": 164,
-      "label": "",
-      "to": 127,
-      "category": "related"
-    },
-    {
-      "from": 126,
-      "label": "",
-      "to": 127,
-      "category": "related"
-    },
-    {
-      "from": 135,
-      "label": "",
-      "to": 164,
-      "category": "related"
-    },
-    {
-      "from": 143,
-      "label": "",
-      "to": 135,
-      "category": "related"
-    },
-    {
-      "from": 167,
-      "label": "",
-      "to": 164,
-      "category": "related"
-    },
-    {
-      "from": 162,
-      "label": "",
-      "to": 135,
-      "category": "related"
-    },
-    {
-      "from": 167,
-      "label": "",
-      "to": 158,
-      "category": "related"
-    },
-    {
-      "from": 159,
-      "label": "",
-      "to": 154,
-      "category": "related"
-    },
-    {
-      "from": 154,
-      "label": "",
-      "to": 159,
-      "category": "related"
-    },
-    {
-      "from": 168,
-      "label": "",
-      "to": 143,
-      "category": "related"
-    },
-    {
-      "from": 168,
-      "label": "",
-      "to": 164,
-      "category": "related"
-    },
-    {
-      "from": 164,
-      "label": "",
-      "to": 168,
-      "category": "related"
-    },
-    {
-      "from": 162,
-      "label": "",
-      "to": 164,
-      "category": "related"
-    },
-    {
-      "from": 150,
-      "label": "",
-      "to": 164,
-      "category": "related"
-    },
-    {
-      "from": 168,
-      "label": "",
-      "to": 162,
-      "category": "related"
-    },
-    {
-      "from": 154,
-      "label": "",
-      "to": 157,
-      "category": "related"
-    },
-    {
-      "from": 159,
-      "label": "",
-      "to": 157,
-      "category": "related"
-    },
-    {
-      "from": 158,
-      "label": "",
-      "to": 159,
-      "category": "related"
-    },
-    {
-      "from": 160,
-      "label": "",
-      "to": 161,
-      "category": "related"
-    },
-    {
-      "from": 162,
-      "label": "",
-      "to": 171,
-      "category": "related"
-    },
-    {
-      "from": 164,
-      "label": "",
-      "to": 173,
-      "category": "related"
-    },
-    {
-      "from": 166,
-      "label": "",
-      "to": 167,
-      "category": "related"
-    },
-    {
-      "from": 168,
-      "label": "",
-      "to": 169,
-      "category": "related"
-    },
-    {
-      "from": 170,
-      "label": "",
-      "to": 171,
-      "category": "related"
-    },
-    {
-      "from": 172,
-      "label": "",
-      "to": 173,
-      "category": "related"
     }
   ],
   "edges": [
     {
-      "label": "0",
+      "label": "In a major relief for incarcerated ex-premier and PTI founder , the Nawaz Sahraif  on Thursday set aside his physical remand in a dozen new cases over last year\u2019s May 9 riots.",
       "category": "other",
       "ner": null,
       "value": "ORG",
-      "id": 170
+      "id": 18
     },
     {
       "label": "Organization",
       "category": "Organization",
       "ner": null,
       "value": 0,
-      "id": 127
+      "id": 9
     },
     {
-      "label": "0",
-      "category": "other",
-      "ner": null,
-      "value": "GPE",
-      "id": 168
-    },
-    {
-      "label": "Location",
-      "category": "Location",
-      "ner": null,
-      "value": 0,
-      "id": 173
-    },
-    {
-      "label": "0",
+      "label": "Rumours started circulating that Petitioner No. 1 Imran Khan will be shifted to the custody of Prvez Mushraf today  in connection with the very cases which form the subject matter of Writ Petition No. 45901 of 2024 and connected matters.",
       "category": "other",
       "ner": null,
       "value": 0,
-      "id": 172
+      "id": 2
+    },
+    {
+      "label": "shifted",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "id": 3
+    },
+    {
+      "label": "Imran Khan",
+      "category": "other",
+      "ner": "PERSON",
+      "value": "PERSON",
+      "id": 12,
+      "doc_id": 2,
+      "content": "Rumours started circulating that Petitioner No. 1 Imran Khan will be shifted to the custody of Prvez Mushraf today  in connection with the very cases which form the subject matter of Writ Petition No. 45901 of 2024 and connected matters."
     },
     {
       "label": "Person",
       "category": "other",
       "ner": null,
       "value": 0,
-      "id": 171
+      "id": 19
     },
     {
-      "label": "1",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "id": 18
-    },
-    {
-      "label": "2",
-      "category": "other",
-      "ner": null,
-      "value": "ORG",
-      "id": 158
-    },
-    {
-      "label": "2",
-      "category": "other",
-      "ner": null,
-      "value": "GPE",
-      "id": 135
-    },
-    {
-      "label": "2",
+      "label": "In a major relief for incarcerated ex-premier and PTI founder , the Nawaz Sahraif  on Thursday set aside his physical remand in a dozen new cases over last year\u2019s May 9 riots.",
       "category": "other",
       "ner": null,
       "value": "PERSON",
-      "id": 51
+      "id": 10
     },
     {
-      "label": "2",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "id": 85
-    },
-    {
-      "label": "4",
+      "label": "The \u201carrest\u201d in these cases had come just a day after the former prime minister and his wife Bushra Bibi had been rearrested in a new Toshakhana case \u2014 following their acquittal in the Iddat case, which had them on the brink of being free from jail..",
       "category": "other",
       "ner": null,
       "value": "ORG",
-      "id": 143
+      "id": 16
     },
     {
-      "label": "3",
+      "label": "Pakistan",
       "category": "other",
-      "ner": null,
+      "ner": "GPE",
       "value": "GPE",
-      "id": 169
+      "id": 13,
+      "doc_id": 3,
+      "content": "Imran Khan  is a Pakistani politician and former cricketer who served as the 22nd prime minister of Pakistan from August 2018 until April 2022. He is the founder and former chairman of the political party Pakistan Tehreek-e-Insaf from 1996 to 2023."
     },
     {
-      "label": "4",
+      "label": "Bushra Bibi",
       "category": "other",
-      "ner": null,
-      "value": 0,
-      "id": 88
-    },
-    {
-      "label": "holding",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "id": 90,
-      "doc_id": 5
-    },
-    {
-      "label": "lead",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "id": 91
-    },
-    {
-      "label": "5",
-      "category": "other",
-      "ner": null,
-      "value": "GPE",
-      "id": 164
-    },
-    {
-      "label": "5",
-      "category": "other",
-      "ner": null,
+      "ner": "PERSON",
       "value": "PERSON",
-      "id": 162
-    },
-    {
-      "label": "5",
-      "category": "other",
-      "ner": null,
-      "value": "ORG",
-      "id": 111
-    },
-    {
-      "label": "you",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "id": 122,
-      "doc_id": 6
-    },
-    {
-      "label": "are",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "id": 123
-    },
-    {
-      "label": "losses",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "id": 160,
-      "doc_id": 0
-    },
-    {
-      "label": "concentrated",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "id": 161
+      "id": 15,
+      "doc_id": 4,
+      "content": "The \u201carrest\u201d in these cases had come just a day after the former prime minister and his wife Bushra Bibi had been rearrested in a new Toshakhana case \u2014 following their acquittal in the Iddat case, which had them on the brink of being free from jail.."
     }
   ]
 }
