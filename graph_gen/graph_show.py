@@ -96,7 +96,8 @@ var network = new vis.Network(container, data, options);
 
     def create_html(self, data_nodes, data_edges):
         """Generate html file"""
-        f = open('graph_show.html', 'w+')
+        f = open('graph_show_id.html', 'w+')
+        print(data_edges)
         html = self.base.replace('data_nodes', str(data_nodes)).replace('data_edges', str(data_edges))
         f.write(html)
         f.close()
@@ -109,8 +110,9 @@ var network = new vis.Network(container, data, options);
         test_lable = {}
         for i in data_nodes:
             # print(i['doc_id'])
+            #label plot from JSON file
             try:
-                test_lable[i['label']] = i['doc_id']
+                test_lable[i['label']] = i['content']
             except:
                 pass
         """Read data and values"""
@@ -132,6 +134,8 @@ var network = new vis.Network(container, data, options);
         data_edges = []
         for node, id in node_dict.items():
             if node in test_lable.keys():
+                print("~~~~~~~~~~~",node)
+                print("~~~~~~~~~~~~~~~~~~",test_lable)
                 node_x = str(test_lable[node])
                 data = {
                 "label": node_x,
@@ -229,3 +233,8 @@ var network = new vis.Network(container, data, options);
             return 'red'
         else:
             return 'gray'
+test=GraphShow()
+with open('cleaned_data_two.json', 'r') as f:
+    data = json.load(f)
+
+test.create_html(data['edges'],data['nodes'])
