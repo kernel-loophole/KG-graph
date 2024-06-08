@@ -1,10 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Title</title>
+  <meta charset="utf-8">
+  <title>Graph Visualization</title>
+  <style>
+    .node {
+      stroke: #fff;
+      stroke-width: 1.5px;
+    }
+
+    .link {
+      stroke: #999;
+      stroke-opacity: 0.6;
+    }
+
+    text {
+      font-family: sans-serif;
+      font-size: 10px;
+    }
+  </style>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
+  <script>
+    const width = 960, height = 600;
 
+    const svg = d3.select("body").append("svg")
+        .attr("width", width)
+        .attr("height", height);
+
+    d3.json("test_data.json").then(data => {
+      const nodesMap = {};
+      data.edges.forEach(edge => {
+        nodesMap[edge.id] = {id: edge.id, label: edge.label};
+      });
+
+      const nodes = Object.values(nodesMap);
+      const links = data.nodes.map(d => ({
+        source: d.from,
+        target: d.to,
+        category: d.category
+      }));
+
+      const simulation = d3.forceSimulation(nodes)
+          .force("link", d3.forceLink(links).id(d => d.id).distance(50))
+          .force("charge", d3.forceManyBody().strength(-100))
+          .force("center", d3.forceCenter(width / 2, height / 2));
+
+      const link = svg.append("g")
+          .attr("class", "links")
+        .selectAll("line")
+        .data(links)
+        .enter().append("line")
+          .attr("class", "link");
+
+      const node = svg.append("g")
+          .attr("class", "nodes")
+        .selectAll("g")
+        .data(nodes)
+        .enter().append("g");
+
+      node.append("circle")
+          .attr("class", "node")
+          .attr("r", 5);
+
+      node.append("text")
+          .attr("dx", 12)
+          .attr("dy", ".35em")
+          .text(d => d.label);
+
+      simulation.on("tick", () => {
+        link
+            .attr("x1", d => d.source.x)
+            .attr("y1", d => d.source.y)
+            .attr("x2", d => d.target.x)
+            .attr("y2", d => d.target.y);
+
+        node
+            .attr("transform", d => `translate(${d.x},${d.y})`);
+      });
+    }).catch(error => {
+      console.error('Error loading or parsing data.json:', error);
+    });
+  </script>
 </body>
 </html>
