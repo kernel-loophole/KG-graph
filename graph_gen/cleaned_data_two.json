@@ -1,849 +1,142 @@
 {
   "nodes": [
     {
-      "from": 25,
+      "from": 18,
       "label": "",
-      "to": 203,
+      "to": 9,
       "category": "related"
     },
     {
-      "from": 212,
+      "from": 2,
       "label": "",
-      "to": 187,
+      "to": 3,
       "category": "related"
     },
     {
-      "from": 22,
+      "from": 13,
       "label": "",
-      "to": 213,
+      "to": 19,
       "category": "related"
     },
     {
-      "from": 25,
+      "from": 18,
       "label": "",
-      "to": 212,
+      "to": 10,
       "category": "related"
     },
     {
-      "from": 212,
+      "from": 15,
       "label": "",
-      "to": 25,
+      "to": 9,
       "category": "related"
     },
     {
-      "from": 25,
+      "from": 10,
       "label": "",
-      "to": 24,
+      "to": 18,
       "category": "related"
     },
     {
       "from": 12,
       "label": "",
-      "to": 203,
+      "to": 13,
       "category": "related"
     },
     {
-      "from": 14,
+      "from": 17,
       "label": "",
-      "to": 187,
+      "to": 15,
       "category": "related"
     },
     {
       "from": 16,
       "label": "",
-      "to": 213,
+      "to": 17,
       "category": "related"
     },
     {
-      "from": 25,
+      "from": 18,
       "label": "",
-      "to": 20,
-      "category": "related"
-    },
-    {
-      "from": 20,
-      "label": "",
-      "to": 212,
-      "category": "related"
-    },
-    {
-      "from": 22,
-      "label": "",
-      "to": 23,
-      "category": "related"
-    },
-    {
-      "from": 24,
-      "label": "",
-      "to": 25,
-      "category": "related"
-    },
-    {
-      "from": 212,
-      "label": "",
-      "to": 27,
-      "category": "related"
-    },
-    {
-      "from": 164,
-      "label": "",
-      "to": 213,
-      "category": "related"
-    },
-    {
-      "from": 80,
-      "label": "",
-      "to": 213,
-      "category": "related"
-    },
-    {
-      "from": 54,
-      "label": "",
-      "to": 213,
-      "category": "related"
-    },
-    {
-      "from": 34,
-      "label": "",
-      "to": 213,
-      "category": "related"
-    },
-    {
-      "from": 164,
-      "label": "",
-      "to": 206,
-      "category": "related"
-    },
-    {
-      "from": 206,
-      "label": "",
-      "to": 53,
-      "category": "related"
-    },
-    {
-      "from": 170,
-      "label": "",
-      "to": 162,
-      "category": "related"
-    },
-    {
-      "from": 206,
-      "label": "",
-      "to": 212,
-      "category": "related"
-    },
-    {
-      "from": 206,
-      "label": "",
-      "to": 78,
-      "category": "related"
-    },
-    {
-      "from": 53,
-      "label": "",
-      "to": 80,
-      "category": "related"
-    },
-    {
-      "from": 79,
-      "label": "",
-      "to": 213,
-      "category": "related"
-    },
-    {
-      "from": 206,
-      "label": "",
-      "to": 164,
-      "category": "related"
-    },
-    {
-      "from": 164,
-      "label": "",
-      "to": 53,
-      "category": "related"
-    },
-    {
-      "from": 54,
-      "label": "",
-      "to": 170,
-      "category": "related"
-    },
-    {
-      "from": 212,
-      "label": "",
-      "to": 206,
-      "category": "related"
-    },
-    {
-      "from": 192,
-      "label": "",
-      "to": 80,
-      "category": "related"
-    },
-    {
-      "from": 80,
-      "label": "",
-      "to": 192,
-      "category": "related"
-    },
-    {
-      "from": 206,
-      "label": "",
-      "to": 80,
-      "category": "related"
-    },
-    {
-      "from": 209,
-      "label": "",
-      "to": 203,
-      "category": "related"
-    },
-    {
-      "from": 132,
-      "label": "",
-      "to": 187,
-      "category": "related"
-    },
-    {
-      "from": 180,
-      "label": "",
-      "to": 203,
-      "category": "related"
-    },
-    {
-      "from": 132,
-      "label": "",
-      "to": 209,
-      "category": "related"
-    },
-    {
-      "from": 164,
-      "label": "",
-      "to": 180,
-      "category": "related"
-    },
-    {
-      "from": 180,
-      "label": "",
-      "to": 206,
-      "category": "related"
-    },
-    {
-      "from": 206,
-      "label": "",
-      "to": 180,
-      "category": "related"
-    },
-    {
-      "from": 78,
-      "label": "",
-      "to": 79,
-      "category": "related"
-    },
-    {
-      "from": 80,
-      "label": "",
-      "to": 206,
-      "category": "related"
-    },
-    {
-      "from": 212,
-      "label": "",
-      "to": 172,
-      "category": "related"
-    },
-    {
-      "from": 180,
-      "label": "",
-      "to": 85,
-      "category": "related"
-    },
-    {
-      "from": 212,
-      "label": "",
-      "to": 209,
-      "category": "related"
-    },
-    {
-      "from": 149,
-      "label": "",
-      "to": 203,
-      "category": "related"
-    },
-    {
-      "from": 159,
-      "label": "",
-      "to": 203,
-      "category": "related"
-    },
-    {
-      "from": 132,
-      "label": "",
-      "to": 149,
-      "category": "related"
-    },
-    {
-      "from": 180,
-      "label": "",
-      "to": 209,
-      "category": "related"
-    },
-    {
-      "from": 180,
-      "label": "",
-      "to": 149,
-      "category": "related"
-    },
-    {
-      "from": 151,
-      "label": "",
-      "to": 132,
-      "category": "related"
-    },
-    {
-      "from": 207,
-      "label": "",
-      "to": 164,
-      "category": "related"
-    },
-    {
-      "from": 180,
-      "label": "",
-      "to": 164,
-      "category": "related"
-    },
-    {
-      "from": 159,
-      "label": "",
-      "to": 164,
-      "category": "related"
-    },
-    {
-      "from": 149,
-      "label": "",
-      "to": 132,
-      "category": "related"
-    },
-    {
-      "from": 180,
-      "label": "",
-      "to": 212,
-      "category": "related"
-    },
-    {
-      "from": 212,
-      "label": "",
-      "to": 149,
-      "category": "related"
-    },
-    {
-      "from": 149,
-      "label": "",
-      "to": 151,
-      "category": "related"
-    },
-    {
-      "from": 149,
-      "label": "",
-      "to": 148,
-      "category": "related"
-    },
-    {
-      "from": 151,
-      "label": "",
-      "to": 212,
-      "category": "related"
-    },
-    {
-      "from": 118,
-      "label": "",
-      "to": 119,
-      "category": "related"
-    },
-    {
-      "from": 120,
-      "label": "",
-      "to": 121,
-      "category": "related"
-    },
-    {
-      "from": 206,
-      "label": "",
-      "to": 203,
-      "category": "related"
-    },
-    {
-      "from": 151,
-      "label": "",
-      "to": 213,
-      "category": "related"
-    },
-    {
-      "from": 149,
-      "label": "",
-      "to": 187,
-      "category": "related"
-    },
-    {
-      "from": 192,
-      "label": "",
-      "to": 206,
-      "category": "related"
-    },
-    {
-      "from": 149,
-      "label": "",
-      "to": 180,
-      "category": "related"
-    },
-    {
-      "from": 132,
-      "label": "",
-      "to": 151,
-      "category": "related"
-    },
-    {
-      "from": 192,
-      "label": "",
-      "to": 159,
-      "category": "related"
-    },
-    {
-      "from": 207,
-      "label": "",
-      "to": 159,
-      "category": "related"
-    },
-    {
-      "from": 159,
-      "label": "",
-      "to": 206,
-      "category": "related"
-    },
-    {
-      "from": 184,
-      "label": "",
-      "to": 180,
-      "category": "related"
-    },
-    {
-      "from": 212,
-      "label": "",
-      "to": 180,
-      "category": "related"
-    },
-    {
-      "from": 149,
-      "label": "",
-      "to": 212,
-      "category": "related"
-    },
-    {
-      "from": 151,
-      "label": "",
-      "to": 149,
-      "category": "related"
-    },
-    {
-      "from": 148,
-      "label": "",
-      "to": 149,
-      "category": "related"
-    },
-    {
-      "from": 212,
-      "label": "",
-      "to": 151,
-      "category": "related"
-    },
-    {
-      "from": 192,
-      "label": "",
-      "to": 203,
-      "category": "related"
-    },
-    {
-      "from": 192,
-      "label": "",
-      "to": 180,
-      "category": "related"
-    },
-    {
-      "from": 207,
-      "label": "",
-      "to": 206,
-      "category": "related"
-    },
-    {
-      "from": 206,
-      "label": "",
-      "to": 159,
-      "category": "related"
-    },
-    {
-      "from": 160,
-      "label": "",
-      "to": 161,
-      "category": "related"
-    },
-    {
-      "from": 162,
-      "label": "",
-      "to": 203,
-      "category": "related"
-    },
-    {
-      "from": 164,
-      "label": "",
-      "to": 207,
-      "category": "related"
-    },
-    {
-      "from": 180,
-      "label": "",
-      "to": 207,
-      "category": "related"
-    },
-    {
-      "from": 168,
-      "label": "",
-      "to": 169,
-      "category": "related"
-    },
-    {
-      "from": 170,
-      "label": "",
-      "to": 203,
-      "category": "related"
-    },
-    {
-      "from": 172,
-      "label": "",
-      "to": 212,
-      "category": "related"
-    },
-    {
-      "from": 206,
-      "label": "",
-      "to": 175,
-      "category": "related"
-    },
-    {
-      "from": 176,
-      "label": "",
-      "to": 177,
-      "category": "related"
-    },
-    {
-      "from": 178,
-      "label": "",
-      "to": 179,
-      "category": "related"
-    },
-    {
-      "from": 180,
-      "label": "",
-      "to": 192,
-      "category": "related"
-    },
-    {
-      "from": 182,
-      "label": "",
-      "to": 183,
-      "category": "related"
-    },
-    {
-      "from": 184,
-      "label": "",
-      "to": 203,
-      "category": "related"
-    },
-    {
-      "from": 189,
-      "label": "",
-      "to": 187,
-      "category": "related"
-    },
-    {
-      "from": 212,
-      "label": "",
-      "to": 189,
-      "category": "related"
-    },
-    {
-      "from": 190,
-      "label": "",
-      "to": 191,
-      "category": "related"
-    },
-    {
-      "from": 192,
-      "label": "",
-      "to": 207,
-      "category": "related"
-    },
-    {
-      "from": 194,
-      "label": "",
-      "to": 197,
-      "category": "related"
-    },
-    {
-      "from": 196,
-      "label": "",
-      "to": 197,
-      "category": "related"
-    },
-    {
-      "from": 198,
-      "label": "",
-      "to": 213,
-      "category": "related"
-    },
-    {
-      "from": 207,
-      "label": "",
-      "to": 203,
-      "category": "related"
-    },
-    {
-      "from": 202,
-      "label": "",
-      "to": 203,
-      "category": "related"
-    },
-    {
-      "from": 211,
-      "label": "",
-      "to": 208,
-      "category": "related"
-    },
-    {
-      "from": 206,
-      "label": "",
-      "to": 207,
-      "category": "related"
-    },
-    {
-      "from": 208,
-      "label": "",
-      "to": 209,
-      "category": "related"
-    },
-    {
-      "from": 212,
-      "label": "",
-      "to": 211,
-      "category": "related"
-    },
-    {
-      "from": 212,
-      "label": "",
-      "to": 213,
+      "to": 19,
       "category": "related"
     }
   ],
   "edges": [
     {
-      "label": "0",
+      "label": "",
       "category": "other",
-      "ner": null,
+      "ner": "",
       "value": "ORG",
-      "id": 25
+      "id": 18
     },
     {
-      "label": "Organization",
+      "label": "",
       "category": "Organization",
-      "ner": null,
+      "ner": "",
       "value": 0,
-      "id": 203
+      "id": 9
     },
     {
-      "label": "Pakistan",
+      "label": "",
       "category": "other",
-      "ner": "GPE",
-      "value": "GPE",
-      "id": 212,
-      "doc_id": 0
-    },
-    {
-      "label": "Location",
-      "category": "Location",
-      "ner": null,
+      "ner": "",
       "value": 0,
-      "id": 187
+      "id": 2
     },
     {
-      "label": "Person",
+      "label": "",
       "category": "other",
-      "ner": null,
+      "ner": "",
       "value": 0,
-      "id": 213
-    },
-    {
-      "label": "1",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "id": 16
-    },
-    {
-      "label": "the Rice Exporters Association",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "id": 27,
-      "doc_id": 1
+      "id": 3
     },
     {
       "label": "2",
       "category": "other",
-      "ner": null,
-      "value": 0,
-      "id": 164
+      "ner": "PERSON",
+      "value": "PERSON",
+      "id": 13,
+      "doc_id": 2,
+      "content": "Rumours started circulating that Petitioner No. 1 Imran Khan will be shifted to the custody of Prvez Mushraf today  in connection with the very cases which form the subject matter of Writ Petition No. 45901 of 2024 and connected matters."
     },
     {
-      "label": "Elahi",
+      "label": "",
       "category": "other",
-      "ner": null,
+      "ner": "",
       "value": 0,
-      "id": 80,
-      "doc_id": 2
+      "id": 19
     },
     {
-      "label": "SC",
+      "label": "",
       "category": "other",
-      "ner": "ORG",
+      "ner": "",
+      "value": "PERSON",
+      "id": 10
+    },
+    {
+      "label": "",
+      "category": "other",
+      "ner": "",
       "value": "ORG",
-      "id": 209,
-      "doc_id": 4
+      "id": 15
     },
     {
-      "label": "Sudan",
+      "label": "3",
       "category": "other",
       "ner": "GPE",
       "value": "GPE",
-      "id": 172,
-      "doc_id": 3
+      "id": 12,
+      "doc_id": 3,
+      "content": "Imran Khan  is a Pakistani politician and former cricketer who served as the 22nd prime minister of Pakistan from August 2018 until April 2022. He is the founder and former chairman of the political party Pakistan Tehreek-e-Insaf from 1996 to 2023."
     },
     {
-      "label": "KP",
+      "label": "4",
       "category": "other",
-      "ner": "ORG",
-      "value": "ORG",
-      "id": 149,
-      "doc_id": 5
-    },
-    {
-      "label": "she",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "id": 118,
-      "doc_id": 6
-    },
-    {
-      "label": "face",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "id": 119
-    },
-    {
-      "label": "asked",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "id": 121
-    },
-    {
-      "label": "found",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "id": 161
-    },
-    {
-      "label": "escorted",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "id": 169
-    },
-    {
-      "label": "Gandapur",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "id": 175,
-      "doc_id": 9
-    },
-    {
-      "label": "hospital",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "id": 176,
-      "doc_id": 10
-    },
-    {
-      "label": "had units",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "id": 177
-    },
-    {
-      "label": "added",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "id": 179
-    },
-    {
-      "label": "Shah",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "id": 182,
-      "doc_id": 11
-    },
-    {
-      "label": "accompanied minister",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "id": 183
-    },
-    {
-      "label": "deceased",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "id": 190,
-      "doc_id": 12
-    },
-    {
-      "label": "taken",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "id": 191
-    },
-    {
-      "label": "Malik",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "id": 194,
-      "doc_id": 13
-    },
-    {
-      "label": "says",
-      "category": "other",
-      "ner": null,
-      "value": 0,
-      "id": 197
+      "ner": "PERSON",
+      "value": "PERSON",
+      "id": 17,
+      "doc_id": 4,
+      "content": "The \u201carrest\u201d in these cases had come just a day after the former prime minister and his wife Bushra Bibi had been rearrested in a new Toshakhana case \u2014 following their acquittal in the Iddat case, which had them on the brink of being free from jail.."
     }
   ]
 }
