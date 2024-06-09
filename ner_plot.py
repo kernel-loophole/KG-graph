@@ -98,10 +98,9 @@ html_template = """
 </html>
 """
 
-# Fill the template with the actual data
 html_output = html_template.format(nodes=json.dumps(nodes), edges=json.dumps(edges))
 
-# Write the output to an HTML file
+
 with open('graph_color_put.html', 'w') as f:
     f.write(html_output)
 
