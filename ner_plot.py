@@ -1,8 +1,7 @@
 import json
 
-# Read data from JSON file
 def ner_plotter():
-    with open('updated_file_two_final.json', 'r') as f:
+    with open('graph_gen/cleaned_data.json', 'r') as f:
         data = json.load(f)
 
     # Convert data to vis.js format
@@ -12,26 +11,36 @@ def ner_plotter():
     node_colors = {
         "PERSON": "blue",
         "ORG": "green",
-        "GPE":"red",
+        "GPE": "red",
     }
-    print(data)
-    for node_id, node_data in data["nodes"].items():
-        node_id = int(node_id)
-        node = {
-            "id": node_id,
-            "label": node_data["label"],
-            "color": node_colors.get(node_data.get("ner", ""), "gray"),
-            "category": node_data["category"],
-            "ner": node_data.get("ner", "")
-        }
-        nodes.append(node)
 
-    for edge in data["edges"]:
+    for node in data["nodes"]:
+        node_entry = {
+            "id": node['from'],
+            "label": node.get("label", ""),
+            "color": node_colors.get(node.get("ner", ""), "gray"),
+            "category": node.get("category", ""),
+            "ner": node.get("ner", "")
+        }
+        nodes.append(node_entry)
+        node_entry = {
+            "id": node['to'],
+            "label": node.get("label", ""),
+            "color": node_colors.get(node.get("ner", ""), "gray"),
+            "category": node.get("category", ""),
+            "ner": node.get("ner", "")
+        }
+        nodes.append(node_entry)
+
+    # Remove duplicate nodes
+    unique_nodes = {node['id']: node for node in nodes}.values()
+
+    for edge in data["nodes"]:
         edges.append({
             "from": edge["from"],
             "to": edge["to"],
-            "label": edge["label"],
-            "category": edge["category"],
+            "label": edge.get("label", ""),
+            "category": edge.get("category", ""),
             "arrows": "to"
         })
 
@@ -100,11 +109,12 @@ def ner_plotter():
     """
 
     # Fill the template with the actual data
-    html_output = html_template.format(nodes=json.dumps(nodes), edges=json.dumps(edges))
+    html_output = html_template.format(nodes=json.dumps(list(unique_nodes)), edges=json.dumps(edges))
 
     # Write the output to an HTML file
-    with open('graph_color_put.html', 'w') as f:
+    with open('graph_color_output.html', 'w') as f:
         f.write(html_output)
 
-    print("HTML file generated: graph.html")
+    print("HTML file generated: graph_color_output.html")
+
 ner_plotter()
