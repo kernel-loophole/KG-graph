@@ -25,7 +25,9 @@ This will generate the `graph.html`.
 
 # Example Demo
 
-1) ![image1](grap.png)
+1) ![image1](image_03.jpg)
+
+1) ![image1](image_05.jpg)
 
 2) 
 ![image02](grap02.png)
