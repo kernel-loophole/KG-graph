@@ -1,0 +1,493 @@
+{
+  "nodes": [
+    {
+      "from": 86,
+      "label": "",
+      "to": 71,
+      "category": "related"
+    },
+    {
+      "from": 18,
+      "label": "",
+      "to": 71,
+      "category": "related"
+    },
+    {
+      "from": 88,
+      "label": "",
+      "to": 71,
+      "category": "related"
+    },
+    {
+      "from": 28,
+      "label": "",
+      "to": 71,
+      "category": "related"
+    },
+    {
+      "from": 86,
+      "label": "",
+      "to": 18,
+      "category": "related"
+    },
+    {
+      "from": 10,
+      "label": "",
+      "to": 11,
+      "category": "related"
+    },
+    {
+      "from": 12,
+      "label": "",
+      "to": 89,
+      "category": "related"
+    },
+    {
+      "from": 21,
+      "label": "",
+      "to": 89,
+      "category": "related"
+    },
+    {
+      "from": 16,
+      "label": "",
+      "to": 18,
+      "category": "related"
+    },
+    {
+      "from": 18,
+      "label": "",
+      "to": 86,
+      "category": "related"
+    },
+    {
+      "from": 38,
+      "label": "",
+      "to": 21,
+      "category": "related"
+    },
+    {
+      "from": 22,
+      "label": "",
+      "to": 86,
+      "category": "related"
+    },
+    {
+      "from": 24,
+      "label": "",
+      "to": 65,
+      "category": "related"
+    },
+    {
+      "from": 26,
+      "label": "",
+      "to": 64,
+      "category": "related"
+    },
+    {
+      "from": 28,
+      "label": "",
+      "to": 66,
+      "category": "related"
+    },
+    {
+      "from": 33,
+      "label": "",
+      "to": 86,
+      "category": "related"
+    },
+    {
+      "from": 86,
+      "label": "",
+      "to": 33,
+      "category": "related"
+    },
+    {
+      "from": 83,
+      "label": "",
+      "to": 65,
+      "category": "related"
+    },
+    {
+      "from": 78,
+      "label": "",
+      "to": 89,
+      "category": "related"
+    },
+    {
+      "from": 38,
+      "label": "",
+      "to": 65,
+      "category": "related"
+    },
+    {
+      "from": 76,
+      "label": "",
+      "to": 89,
+      "category": "related"
+    },
+    {
+      "from": 82,
+      "label": "",
+      "to": 89,
+      "category": "related"
+    },
+    {
+      "from": 44,
+      "label": "",
+      "to": 65,
+      "category": "related"
+    },
+    {
+      "from": 78,
+      "label": "",
+      "to": 83,
+      "category": "related"
+    },
+    {
+      "from": 61,
+      "label": "",
+      "to": 78,
+      "category": "related"
+    },
+    {
+      "from": 78,
+      "label": "",
+      "to": 51,
+      "category": "related"
+    },
+    {
+      "from": 86,
+      "label": "",
+      "to": 66,
+      "category": "related"
+    },
+    {
+      "from": 78,
+      "label": "",
+      "to": 74,
+      "category": "related"
+    },
+    {
+      "from": 83,
+      "label": "",
+      "to": 86,
+      "category": "related"
+    },
+    {
+      "from": 83,
+      "label": "",
+      "to": 76,
+      "category": "related"
+    },
+    {
+      "from": 82,
+      "label": "",
+      "to": 61,
+      "category": "related"
+    },
+    {
+      "from": 74,
+      "label": "",
+      "to": 65,
+      "category": "related"
+    },
+    {
+      "from": 64,
+      "label": "",
+      "to": 65,
+      "category": "related"
+    },
+    {
+      "from": 66,
+      "label": "",
+      "to": 71,
+      "category": "related"
+    },
+    {
+      "from": 68,
+      "label": "",
+      "to": 89,
+      "category": "related"
+    },
+    {
+      "from": 70,
+      "label": "",
+      "to": 71,
+      "category": "related"
+    },
+    {
+      "from": 72,
+      "label": "",
+      "to": 83,
+      "category": "related"
+    },
+    {
+      "from": 74,
+      "label": "",
+      "to": 83,
+      "category": "related"
+    },
+    {
+      "from": 76,
+      "label": "",
+      "to": 83,
+      "category": "related"
+    },
+    {
+      "from": 78,
+      "label": "",
+      "to": 82,
+      "category": "related"
+    },
+    {
+      "from": 83,
+      "label": "",
+      "to": 82,
+      "category": "related"
+    },
+    {
+      "from": 82,
+      "label": "",
+      "to": 83,
+      "category": "related"
+    },
+    {
+      "from": 84,
+      "label": "",
+      "to": 86,
+      "category": "related"
+    },
+    {
+      "from": 86,
+      "label": "",
+      "to": 89,
+      "category": "related"
+    },
+    {
+      "from": 88,
+      "label": "",
+      "to": 89,
+      "category": "related"
+    }
+  ],
+  "edges": [
+    {
+      "id": 86,
+      "label": "Pakistan",
+      "category": "other",
+      "ner": "GPE",
+      "value": "GPE"
+    },
+    {
+      "id": 71,
+      "label": "Location",
+      "category": "Location",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 18,
+      "label": "East Africa",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 88,
+      "label": "Iceland",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 28,
+      "label": "Ukraine",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 10,
+      "label": "losses",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 11,
+      "label": "concentrated",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 12,
+      "label": "Lac Leman",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 89,
+      "label": "Person",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 21,
+      "label": "0.5pc",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 16,
+      "label": "China",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 38,
+      "label": "the World Bank",
+      "category": "other",
+      "ner": "ORG",
+      "value": "ORG"
+    },
+    {
+      "id": 22,
+      "label": "SOE",
+      "category": "other",
+      "ner": "ORG",
+      "value": "ORG"
+    },
+    {
+      "id": 24,
+      "label": "UN",
+      "category": "other",
+      "ner": "ORG",
+      "value": "ORG"
+    },
+    {
+      "id": 65,
+      "label": "Organization",
+      "category": "Organization",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 26,
+      "label": "Petteri Taalas",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 64,
+      "label": "WMO",
+      "category": "other",
+      "ner": "ORG",
+      "value": "ORG"
+    },
+    {
+      "id": 66,
+      "label": "India",
+      "category": "other",
+      "ner": "GPE",
+      "value": "GPE"
+    },
+    {
+      "id": 33,
+      "label": "the Public Expenditure Review",
+      "category": "other",
+      "ner": null,
+      "value": 0
+    },
+    {
+      "id": 83,
+      "label": "PTI",
+      "category": "other",
+      "ner": "ORG",
+      "value": "ORG"
+    },
+    {
+      "id": 78,
+      "label": "Moonis Elahi",
+      "category": "other",
+      "ner": "PERSON",
+      "value": "PERSON"
+    },
+    {
+      "id": 76,
+      "label": "Hammad Azhar",
+      "category": "other",
+      "ner": "PERSON",
+      "value": "PERSON"
+    },
+    {
+      "id": 82,
+      "label": "Elahi",
+      "category": "other",
+      "ner": "PERSON",
+      "value": "PERSON"
+    },
+    {
+      "id": 44,
+      "label": "the World Meteorological Organisation",
+      "category": "other",
+      "ner": "ORG",
+      "value": "ORG"
+    },
+    {
+      "id": 61,
+      "label": "PML",
+      "category": "other",
+      "ner": "ORG",
+      "value": "ORG"
+    },
+    {
+      "id": 51,
+      "label": "Khan",
+      "category": "other",
+      "ner": "PERSON",
+      "value": "PERSON"
+    },
+    {
+      "id": 74,
+      "label": "ECP",
+      "category": "other",
+      "ner": "ORG",
+      "value": "ORG"
+    },
+    {
+      "id": 68,
+      "label": "Ejaz Chaudhry",
+      "category": "other",
+      "ner": "PERSON",
+      "value": "PERSON"
+    },
+    {
+      "id": 70,
+      "label": "Punjab",
+      "category": "other",
+      "ner": "GPE",
+      "value": "GPE"
+    },
+    {
+      "id": 72,
+      "label": "20pc",
+      "category": "other",
+      "ner": "ORG",
+      "value": "ORG"
+    },
+    {
+      "id": 84,
+      "label": "Sudan",
+      "category": "other",
+      "ner": "GPE",
+      "value": "GPE"
+    }
+  ]
+}
