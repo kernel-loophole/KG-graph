@@ -1,493 +1,692 @@
 {
   "nodes": [
     {
-      "from": 86,
+      "from": 170,
       "label": "",
-      "to": 71,
+      "to": 127,
       "category": "related"
     },
     {
-      "from": 18,
+      "from": 168,
       "label": "",
-      "to": 71,
+      "to": 173,
       "category": "related"
     },
     {
-      "from": 88,
+      "from": 172,
       "label": "",
-      "to": 71,
+      "to": 171,
       "category": "related"
     },
     {
-      "from": 28,
+      "from": 168,
       "label": "",
-      "to": 71,
+      "to": 170,
       "category": "related"
     },
     {
-      "from": 86,
+      "from": 35,
       "label": "",
-      "to": 18,
+      "to": 168,
       "category": "related"
     },
     {
       "from": 10,
       "label": "",
-      "to": 11,
+      "to": 170,
       "category": "related"
     },
     {
       "from": 12,
       "label": "",
-      "to": 89,
+      "to": 127,
       "category": "related"
     },
     {
-      "from": 21,
+      "from": 14,
       "label": "",
-      "to": 89,
-      "category": "related"
-    },
-    {
-      "from": 16,
-      "label": "",
-      "to": 18,
+      "to": 173,
       "category": "related"
     },
     {
       "from": 18,
       "label": "",
-      "to": 86,
+      "to": 171,
       "category": "related"
     },
     {
-      "from": 38,
+      "from": 18,
       "label": "",
-      "to": 21,
+      "to": 19,
       "category": "related"
     },
     {
-      "from": 22,
+      "from": 158,
       "label": "",
-      "to": 86,
+      "to": 127,
       "category": "related"
     },
     {
-      "from": 24,
+      "from": 135,
       "label": "",
-      "to": 65,
+      "to": 173,
       "category": "related"
     },
     {
-      "from": 26,
+      "from": 32,
       "label": "",
-      "to": 64,
+      "to": 127,
       "category": "related"
     },
     {
-      "from": 28,
+      "from": 35,
       "label": "",
-      "to": 66,
+      "to": 127,
       "category": "related"
     },
     {
-      "from": 33,
+      "from": 157,
       "label": "",
-      "to": 86,
+      "to": 158,
       "category": "related"
     },
     {
-      "from": 86,
+      "from": 51,
       "label": "",
-      "to": 33,
+      "to": 158,
       "category": "related"
     },
     {
-      "from": 83,
+      "from": 32,
       "label": "",
-      "to": 65,
+      "to": 126,
       "category": "related"
     },
     {
-      "from": 78,
+      "from": 168,
       "label": "",
-      "to": 89,
+      "to": 35,
       "category": "related"
     },
     {
-      "from": 38,
+      "from": 166,
       "label": "",
-      "to": 65,
+      "to": 157,
       "category": "related"
     },
     {
-      "from": 76,
+      "from": 168,
       "label": "",
-      "to": 89,
+      "to": 158,
       "category": "related"
     },
     {
-      "from": 82,
+      "from": 85,
       "label": "",
-      "to": 89,
+      "to": 157,
       "category": "related"
     },
     {
-      "from": 44,
+      "from": 158,
       "label": "",
-      "to": 65,
+      "to": 85,
       "category": "related"
     },
     {
-      "from": 78,
+      "from": 154,
       "label": "",
-      "to": 83,
+      "to": 171,
       "category": "related"
     },
     {
-      "from": 61,
+      "from": 154,
       "label": "",
-      "to": 78,
+      "to": 158,
       "category": "related"
     },
     {
-      "from": 78,
+      "from": 158,
+      "label": "",
+      "to": 154,
+      "category": "related"
+    },
+    {
+      "from": 154,
       "label": "",
       "to": 51,
       "category": "related"
     },
     {
-      "from": 86,
+      "from": 170,
       "label": "",
-      "to": 66,
+      "to": 168,
       "category": "related"
     },
     {
-      "from": 78,
+      "from": 157,
       "label": "",
-      "to": 74,
+      "to": 159,
       "category": "related"
     },
     {
-      "from": 83,
+      "from": 158,
       "label": "",
-      "to": 86,
+      "to": 168,
       "category": "related"
     },
     {
-      "from": 83,
+      "from": 80,
       "label": "",
-      "to": 76,
+      "to": 158,
       "category": "related"
     },
     {
-      "from": 82,
+      "from": 85,
       "label": "",
-      "to": 61,
+      "to": 158,
       "category": "related"
     },
     {
-      "from": 74,
+      "from": 143,
       "label": "",
-      "to": 65,
+      "to": 127,
       "category": "related"
     },
     {
-      "from": 64,
+      "from": 167,
       "label": "",
-      "to": 65,
+      "to": 127,
       "category": "related"
     },
     {
-      "from": 66,
+      "from": 81,
       "label": "",
-      "to": 71,
+      "to": 171,
       "category": "related"
     },
     {
-      "from": 68,
+      "from": 85,
       "label": "",
-      "to": 89,
+      "to": 171,
       "category": "related"
     },
     {
-      "from": 70,
+      "from": 143,
       "label": "",
-      "to": 71,
+      "to": 167,
       "category": "related"
     },
     {
-      "from": 72,
+      "from": 167,
       "label": "",
-      "to": 83,
+      "to": 154,
       "category": "related"
     },
     {
-      "from": 74,
+      "from": 159,
       "label": "",
-      "to": 83,
+      "to": 167,
       "category": "related"
     },
     {
-      "from": 76,
+      "from": 159,
       "label": "",
-      "to": 83,
+      "to": 166,
       "category": "related"
     },
     {
-      "from": 78,
+      "from": 158,
       "label": "",
-      "to": 82,
+      "to": 166,
       "category": "related"
     },
     {
-      "from": 83,
+      "from": 80,
       "label": "",
-      "to": 82,
+      "to": 81,
       "category": "related"
     },
     {
-      "from": 82,
+      "from": 85,
       "label": "",
-      "to": 83,
+      "to": 154,
       "category": "related"
     },
     {
-      "from": 84,
+      "from": 157,
       "label": "",
-      "to": 86,
+      "to": 85,
       "category": "related"
     },
     {
-      "from": 86,
+      "from": 169,
       "label": "",
-      "to": 89,
+      "to": 88,
       "category": "related"
     },
     {
       "from": 88,
       "label": "",
-      "to": 89,
+      "to": 167,
+      "category": "related"
+    },
+    {
+      "from": 90,
+      "label": "",
+      "to": 91,
+      "category": "related"
+    },
+    {
+      "from": 157,
+      "label": "",
+      "to": 127,
+      "category": "related"
+    },
+    {
+      "from": 159,
+      "label": "",
+      "to": 127,
+      "category": "related"
+    },
+    {
+      "from": 164,
+      "label": "",
+      "to": 135,
+      "category": "related"
+    },
+    {
+      "from": 164,
+      "label": "",
+      "to": 167,
+      "category": "related"
+    },
+    {
+      "from": 135,
+      "label": "",
+      "to": 162,
+      "category": "related"
+    },
+    {
+      "from": 154,
+      "label": "",
+      "to": 166,
+      "category": "related"
+    },
+    {
+      "from": 158,
+      "label": "",
+      "to": 167,
+      "category": "related"
+    },
+    {
+      "from": 166,
+      "label": "",
+      "to": 159,
+      "category": "related"
+    },
+    {
+      "from": 169,
+      "label": "",
+      "to": 168,
+      "category": "related"
+    },
+    {
+      "from": 167,
+      "label": "",
+      "to": 111,
+      "category": "related"
+    },
+    {
+      "from": 168,
+      "label": "",
+      "to": 167,
+      "category": "related"
+    },
+    {
+      "from": 167,
+      "label": "",
+      "to": 168,
+      "category": "related"
+    },
+    {
+      "from": 164,
+      "label": "",
+      "to": 162,
+      "category": "related"
+    },
+    {
+      "from": 164,
+      "label": "",
+      "to": 150,
+      "category": "related"
+    },
+    {
+      "from": 162,
+      "label": "",
+      "to": 168,
+      "category": "related"
+    },
+    {
+      "from": 122,
+      "label": "",
+      "to": 123,
+      "category": "related"
+    },
+    {
+      "from": 164,
+      "label": "",
+      "to": 127,
+      "category": "related"
+    },
+    {
+      "from": 126,
+      "label": "",
+      "to": 127,
+      "category": "related"
+    },
+    {
+      "from": 135,
+      "label": "",
+      "to": 164,
+      "category": "related"
+    },
+    {
+      "from": 143,
+      "label": "",
+      "to": 135,
+      "category": "related"
+    },
+    {
+      "from": 167,
+      "label": "",
+      "to": 164,
+      "category": "related"
+    },
+    {
+      "from": 162,
+      "label": "",
+      "to": 135,
+      "category": "related"
+    },
+    {
+      "from": 167,
+      "label": "",
+      "to": 158,
+      "category": "related"
+    },
+    {
+      "from": 159,
+      "label": "",
+      "to": 154,
+      "category": "related"
+    },
+    {
+      "from": 154,
+      "label": "",
+      "to": 159,
+      "category": "related"
+    },
+    {
+      "from": 168,
+      "label": "",
+      "to": 143,
+      "category": "related"
+    },
+    {
+      "from": 168,
+      "label": "",
+      "to": 164,
+      "category": "related"
+    },
+    {
+      "from": 164,
+      "label": "",
+      "to": 168,
+      "category": "related"
+    },
+    {
+      "from": 162,
+      "label": "",
+      "to": 164,
+      "category": "related"
+    },
+    {
+      "from": 150,
+      "label": "",
+      "to": 164,
+      "category": "related"
+    },
+    {
+      "from": 168,
+      "label": "",
+      "to": 162,
+      "category": "related"
+    },
+    {
+      "from": 154,
+      "label": "",
+      "to": 157,
+      "category": "related"
+    },
+    {
+      "from": 159,
+      "label": "",
+      "to": 157,
+      "category": "related"
+    },
+    {
+      "from": 158,
+      "label": "",
+      "to": 159,
+      "category": "related"
+    },
+    {
+      "from": 160,
+      "label": "",
+      "to": 161,
+      "category": "related"
+    },
+    {
+      "from": 162,
+      "label": "",
+      "to": 171,
+      "category": "related"
+    },
+    {
+      "from": 164,
+      "label": "",
+      "to": 173,
+      "category": "related"
+    },
+    {
+      "from": 166,
+      "label": "",
+      "to": 167,
+      "category": "related"
+    },
+    {
+      "from": 168,
+      "label": "",
+      "to": 169,
+      "category": "related"
+    },
+    {
+      "from": 170,
+      "label": "",
+      "to": 171,
+      "category": "related"
+    },
+    {
+      "from": 172,
+      "label": "",
+      "to": 173,
       "category": "related"
     }
   ],
   "edges": [
     {
-      "id": 86,
-      "label": "Pakistan",
-      "category": "other",
-      "ner": "GPE",
-      "value": "GPE"
-    },
-    {
-      "id": 71,
-      "label": "Location",
-      "category": "Location",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 18,
-      "label": "East Africa",
+      "label": "0",
       "category": "other",
       "ner": null,
-      "value": 0
+      "value": "ORG",
+      "id": 170
     },
     {
-      "id": 88,
-      "label": "Iceland",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 28,
-      "label": "Ukraine",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 10,
-      "label": "losses",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 11,
-      "label": "concentrated",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 12,
-      "label": "Lac Leman",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 89,
-      "label": "Person",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 21,
-      "label": "0.5pc",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 16,
-      "label": "China",
-      "category": "other",
-      "ner": null,
-      "value": 0
-    },
-    {
-      "id": 38,
-      "label": "the World Bank",
-      "category": "other",
-      "ner": "ORG",
-      "value": "ORG"
-    },
-    {
-      "id": 22,
-      "label": "SOE",
-      "category": "other",
-      "ner": "ORG",
-      "value": "ORG"
-    },
-    {
-      "id": 24,
-      "label": "UN",
-      "category": "other",
-      "ner": "ORG",
-      "value": "ORG"
-    },
-    {
-      "id": 65,
       "label": "Organization",
       "category": "Organization",
       "ner": null,
-      "value": 0
+      "value": 0,
+      "id": 127
     },
     {
-      "id": 26,
-      "label": "Petteri Taalas",
+      "label": "0",
       "category": "other",
       "ner": null,
-      "value": 0
+      "value": "GPE",
+      "id": 168
     },
     {
-      "id": 64,
-      "label": "WMO",
-      "category": "other",
-      "ner": "ORG",
-      "value": "ORG"
+      "label": "Location",
+      "category": "Location",
+      "ner": null,
+      "value": 0,
+      "id": 173
     },
     {
-      "id": 66,
-      "label": "India",
-      "category": "other",
-      "ner": "GPE",
-      "value": "GPE"
-    },
-    {
-      "id": 33,
-      "label": "the Public Expenditure Review",
+      "label": "0",
       "category": "other",
       "ner": null,
-      "value": 0
+      "value": 0,
+      "id": 172
     },
     {
-      "id": 83,
-      "label": "PTI",
+      "label": "Person",
       "category": "other",
-      "ner": "ORG",
-      "value": "ORG"
+      "ner": null,
+      "value": 0,
+      "id": 171
     },
     {
-      "id": 78,
-      "label": "Moonis Elahi",
+      "label": "1",
       "category": "other",
-      "ner": "PERSON",
-      "value": "PERSON"
+      "ner": null,
+      "value": 0,
+      "id": 18
     },
     {
-      "id": 76,
-      "label": "Hammad Azhar",
+      "label": "2",
       "category": "other",
-      "ner": "PERSON",
-      "value": "PERSON"
+      "ner": null,
+      "value": "ORG",
+      "id": 158
     },
     {
-      "id": 82,
-      "label": "Elahi",
+      "label": "2",
       "category": "other",
-      "ner": "PERSON",
-      "value": "PERSON"
+      "ner": null,
+      "value": "GPE",
+      "id": 135
     },
     {
-      "id": 44,
-      "label": "the World Meteorological Organisation",
+      "label": "2",
       "category": "other",
-      "ner": "ORG",
-      "value": "ORG"
+      "ner": null,
+      "value": "PERSON",
+      "id": 51
     },
     {
-      "id": 61,
-      "label": "PML",
+      "label": "2",
       "category": "other",
-      "ner": "ORG",
-      "value": "ORG"
+      "ner": null,
+      "value": 0,
+      "id": 85
     },
     {
-      "id": 51,
-      "label": "Khan",
+      "label": "4",
       "category": "other",
-      "ner": "PERSON",
-      "value": "PERSON"
+      "ner": null,
+      "value": "ORG",
+      "id": 143
     },
     {
-      "id": 74,
-      "label": "ECP",
+      "label": "3",
       "category": "other",
-      "ner": "ORG",
-      "value": "ORG"
+      "ner": null,
+      "value": "GPE",
+      "id": 169
     },
     {
-      "id": 68,
-      "label": "Ejaz Chaudhry",
+      "label": "4",
       "category": "other",
-      "ner": "PERSON",
-      "value": "PERSON"
+      "ner": null,
+      "value": 0,
+      "id": 88
     },
     {
-      "id": 70,
-      "label": "Punjab",
+      "label": "holding",
       "category": "other",
-      "ner": "GPE",
-      "value": "GPE"
+      "ner": null,
+      "value": 0,
+      "id": 90,
+      "doc_id": 5
     },
     {
-      "id": 72,
-      "label": "20pc",
+      "label": "lead",
       "category": "other",
-      "ner": "ORG",
-      "value": "ORG"
+      "ner": null,
+      "value": 0,
+      "id": 91
     },
     {
-      "id": 84,
-      "label": "Sudan",
+      "label": "5",
       "category": "other",
-      "ner": "GPE",
-      "value": "GPE"
+      "ner": null,
+      "value": "GPE",
+      "id": 164
+    },
+    {
+      "label": "5",
+      "category": "other",
+      "ner": null,
+      "value": "PERSON",
+      "id": 162
+    },
+    {
+      "label": "5",
+      "category": "other",
+      "ner": null,
+      "value": "ORG",
+      "id": 111
+    },
+    {
+      "label": "you",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "id": 122,
+      "doc_id": 6
+    },
+    {
+      "label": "are",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "id": 123
+    },
+    {
+      "label": "losses",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "id": 160,
+      "doc_id": 0
+    },
+    {
+      "label": "concentrated",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "id": 161
     }
   ]
 }

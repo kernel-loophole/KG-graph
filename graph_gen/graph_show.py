@@ -1,5 +1,9 @@
+import json
+
+
 class GraphShow():
     """Create demo page"""
+
     def __init__(self):
         self.base = '''
     <html>
@@ -98,6 +102,17 @@ var network = new vis.Network(container, data, options);
         f.close()
 
     def return_edge(self, events, result_dic):
+        with open('graph_data.json', 'r') as f:
+            data = json.load(f)
+        data_nodes = data['edges']
+        # test_lable=[i for i in data_nodes['label']]
+        test_lable = {}
+        for i in data_nodes:
+            # print(i['doc_id'])
+            try:
+                test_lable[i['label']] = i['doc_id']
+            except:
+                pass
         """Read data and values"""
         nodes = []
         # for event in events:
@@ -106,27 +121,38 @@ var network = new vis.Network(container, data, options);
         #     print(f"Node: {event[0]}, Index: {index * 2}")
         #     print(f"Node: {event[1]}, Index: {index * 2 + 1}")
         for index, event in enumerate(events):
-          nodes.append(event[0])
-          nodes.append(event[1])
-          # print(f"Node: {event[0]}, Index: {index * 2}")
-          # print(f"Node: {event[1]}, Index: {index * 2 + 1}")
+            nodes.append(event[0])
+            nodes.append(event[1])
+            # print(f"Node: {event[0]}, Index: {index * 2}")
+            # print(f"Node: {event[1]}, Index: {index * 2 + 1}")
         # print(nodes)
         node_dict = {node: index for index, node in enumerate(nodes)}
         # print(node_dict)
         data_nodes = []
         data_edges = []
         for node, id in node_dict.items():
-            data = {
-                "id": id,
-                "label": node,
-                "category": 'frequency' if 'frequency' in node else 'keyword' if 'keyword' in node else 'related' if 'related' in node  else 'Organization' if 'Organization' in node else 'Location' if 'Location' in node else 'other',
+            if node in test_lable.keys():
+                node_x = str(test_lable[node])
+                data = {
+                "label": node_x,
+                "category": 'frequency' if 'frequency' in node else 'keyword' if 'keyword' in node else 'related' if 'related' in node else 'Organization' if 'Organization' in node else 'Location' if 'Location' in node else 'other',
                 "ner": "PERSON" if "PERSON" in node else "org",
-                "value": result_dic.get(node, 0)  # Get value from result_dic, default to 0 if not present
+                "value": result_dic.get(node, 0),  # Get value from result_dic, default to 0 if not present
+                'id': id
             }
+            else:
+                data = {
+                    "label": node,
+                    "category": 'frequency' if 'frequency' in node else 'keyword' if 'keyword' in node else 'related' if 'related' in node else 'Organization' if 'Organization' in node else 'Location' if 'Location' in node else 'other',
+                    "ner": "PERSON" if "PERSON" in node else "org",
+                    "value": result_dic.get(node, 0),  # Get value from result_dic, default to 0 if not present
+                    'id': id
+                }
 
             data_nodes.append(data)
         # print(events)
         for edge in events:
+            print(node_dict.get(edge[1]))
             data = {
                 'from': node_dict.get(edge[0]),
                 'label': '',
@@ -142,7 +168,8 @@ var network = new vis.Network(container, data, options);
     def create_page(self, events, result_dic):
         """Read data and values, assign edge and node colors based on categories and values"""
         nodes = {}
-        
+
+
         for event in events:
             nodes[event[0]] = event[1]
 
@@ -150,8 +177,12 @@ var network = new vis.Network(container, data, options);
 
         data_nodes = []
         data_edges = []
+        # print(node_dict)
         for node, id in node_dict.items():
+            # print(node)
+
             category = 'frequency' if 'frequency' in id else 'keyword' if 'keyword' in id else 'related' if 'related' in id else 'Organization' if 'Organization' in id else 'Location' if 'Location' in node else 'other'
+
             data = {
                 "id": id,
                 "label": node,
@@ -162,7 +193,7 @@ var network = new vis.Network(container, data, options);
             data_nodes.append(data)
 
         for edge in events:
-            category = 'frequency' if 'frequency' in edge else 'keyword' if 'keyword' in edge else 'related' if 'related' in edge  else 'other'
+            category = 'frequency' if 'frequency' in edge else 'keyword' if 'keyword' in edge else 'related' if 'related' in edge else 'other'
             data = {
                 'from': node_dict.get(edge[0]),
                 'label': '',
@@ -182,10 +213,10 @@ var network = new vis.Network(container, data, options);
             return 'lightgreen'
         elif category == 'related':
             return 'lightcoral'
-        elif category=='Organization':
+        elif category == 'Organization':
             return 'red'
-        elif category=='Location':
-          return 'black'
+        elif category == 'Location':
+            return 'black'
         else:
             return 'blue'
 

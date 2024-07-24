@@ -77,11 +77,12 @@ The code snippet also includes additional methods such as clean_spaces, remove_n
 Explanation of Python Code for News Mining
 Extracting Triples
 The extract_triples method takes a sentence as input and returns Subject-Verb-Object (SVO) triples:
+
 ```python
 def extract_triples(self, sent):
     svo = []
-    tuples = self.syntax_parse(sent)
-    child_dict_list = self.build_parse_chile_dict(sent, tuples)
+    tuples = syntax_parse(sent)
+    child_dict_list = build_parse_chile_dict(sent, tuples)
     for tuple in tuples:
         rel = tuple[-1]
         if rel in self.SUBJECTS:
@@ -104,150 +105,149 @@ def extract_keywords(self, words_postags):
 ```
 # Main Method for News Mining
 The main method is a placeholder for the main functionality of news mining:
+
 ```python
 def main(self, contents):
-        '''Main function'''
-        words_postags = []  # token and its POS tag
-        ner_sents = []      # store sentences which contain NER entity
-        ners = []           # store all NER entity from whole article
-        triples = []        # store subject verb object
-        events = []         # store events
+    '''Main function'''
+    words_postags = []  # token and its POS tag
+    ner_sents = []  # store sentences which contain NER entity
+    ners = []  # store all NER entity from whole article
+    triples = []  # store subject verb object
+    events = []  # store events
 
-        for content in tqdm(contents):
-            # 01 remove linebreaks and bracketst
-            try:
-                content = self.remove_noisy(content+".")
-                content = self.clean_spaces(content)
+    for content in tqdm(contents):
+        # 01 remove linebreaks and bracketst
+        try:
+            content = remove_noisy(content + ".")
+            content = clean_spaces(content)
 
-                # 02 split to sentences
-                doc = nlp(content)
+            # 02 split to sentences
+            doc = nlp(content)
 
-                for i, sent in enumerate(doc.sents):
-                    words_postags = [[token.text, token.pos_] for token in sent]
-                    words = [token.text for token in sent]
-                    postags = [token.pos_ for token in sent]
-                    ents = nlp(sent.text).ents  # NER detection
-                    collected_ners = self.collect_ners(ents)
+            for i, sent in enumerate(doc.sents):
+                words_postags = [[token.text, token.pos_] for token in sent]
+                words = [token.text for token in sent]
+                postags = [token.pos_ for token in sent]
+                ents = nlp(sent.text).ents  # NER detection
+                collected_ners = self.collect_ners(ents)
 
-                    if collected_ners:  # only extract triples when the sentence contains 'PERSON', 'ORG', 'GPE'
-                        triple = self.extract_triples(sent)
-                        if not triple:
-                            continue
-                        triples += triple
-                        ners += collected_ners
-                        ner_sents.append(
-                            [token.text + '/' + token.label_ for token in sent.ents])
+                if collected_ners:  # only extract triples when the sentence contains 'PERSON', 'ORG', 'GPE'
+                    triple = self.extract_triples(sent)
+                    if not triple:
+                        continue
+                    triples += triple
+                    ners += collected_ners
+                    ner_sents.append(
+                        [token.text + '/' + token.label_ for token in sent.ents])
 
-                
-                #       03 get keywords
-                keywords = [i[0] for i in self.extract_keywords(words_postags)]
-            
+            #       03 get keywords
+            keywords = [i[0] for i in self.extract_keywords(words_postags)]
 
-                for t in triples:
-                    if (t[0] in keywords or t[1] in keywords) and len(t[0]) > 1 and len(t[1]) > 1:
-                        events.append([t[0], t[1]])
-                # print(events)
-                # 05 get word frequency and add to events
-                #identifies the most common words (nouns, proper nouns, and verbs) in the text and categorizes them as "frequency."
-                word_dict = [i for i in Counter([i[0] for i in words_postags if i[1] in [
-                                                    'NOUN', 'PROPN', 'VERB'] and len(i[0]) > 1]).most_common()][:10]
-            
-                # dumpy_ner={i[0]: i[1] for i in Counter(ners).most_common(20)}
-                ner_dict = {i[0]: i[1] for i in Counter(ners).most_common(20)}
-                # print(ner_dict)
-                for ner in ner_dict:
-                    name = ner.split('/')[0]  # Jessica Miller
-                    cate = self.ner_dict[ner.split('/')[1]]  # PERSON
-                    events.append([name, cate])
-                # print(events)
-                # 07 get all NER entity co-occurrence information
-                # here ner_dict is from above 06
-                co_dict = self.collect_coexist(ner_sents, list(ner_dict.keys()))
-                co_events = [[i.split('@')[0].split(
-                    '/')[0], i.split('@')[1].split('/')[0]] for i in co_dict]
-                # events += co_events
-                # print(ner_dict.keys())
-                # print(events)
-                result_dict = {}
+            for t in triples:
+                if (t[0] in keywords or t[1] in keywords) and len(t[0]) > 1 and len(t[1]) > 1:
+                    events.append([t[0], t[1]])
+            # print(events)
+            # 05 get word frequency and add to events
+            # identifies the most common words (nouns, proper nouns, and verbs) in the text and categorizes them as "frequency."
+            word_dict = [i for i in Counter([i[0] for i in words_postags if i[1] in [
+                'NOUN', 'PROPN', 'VERB'] and len(i[0]) > 1]).most_common()][:10]
 
-                for item in ner_dict:
-                    parts = item.split('/')
-                    if len(parts) == 2:
-                        key, value = parts
-                        result_dict[key] = value
-            except:
-                pass  
-        events += co_events
-        with open('test_json.json', 'r') as file:
-            data = json.load(file)
-        print(data['edges'])
-        lables=[]
-        for i in data['edges']:
-            lables.append(i['label'])
-        # print(events)
-        for k,i in enumerate(events):
-            for j in i:
-                # print(j)
-                if j in lables:
-                    pass
-                else:
-                    # print(i)
-                    try:
-                        events.remove(i)
-                        events_test = [sublist for l, sublist in enumerate(events) if l != k]
+            # dumpy_ner={i[0]: i[1] for i in Counter(ners).most_common(20)}
+            ner_dict = {i[0]: i[1] for i in Counter(ners).most_common(20)}
+            # print(ner_dict)
+            for ner in ner_dict:
+                name = ner.split('/')[0]  # Jessica Miller
+                cate = self.ner_dict[ner.split('/')[1]]  # PERSON
+                events.append([name, cate])
+            # print(events)
+            # 07 get all NER entity co-occurrence information
+            # here ner_dict is from above 06
+            co_dict = collect_coexist(ner_sents, list(ner_dict.keys()))
+            co_events = [[i.split('@')[0].split(
+                '/')[0], i.split('@')[1].split('/')[0]] for i in co_dict]
+            # events += co_events
+            # print(ner_dict.keys())
+            # print(events)
+            result_dict = {}
 
-                    except:
-                        pass
-        tmp_event=[]
-        Ner_data={"Person":0,"Location":0,"Organization":0}
-        test_data=[]
-        
-        for k,i in enumerate(events):
-
-            if i[1]=="Organization":
-                Ner_data['Organization']+=1
-            if i[1]=="Location":
-                Ner_data['Location']+=1
-            if i[1]=="Person":
-                Ner_data['Person']+=1
-            # print("removing",i) 
-                #events = [sublist for l, sublist in enumerate(events) if l != k]
-        org_count=0
-        for k,i in enumerate(events):
-        
-            tmp_dir_ner=[]
-            
-            if org_count<3:
-                if i[1]=="Organization" :
-                    print("in if org")
-                    tmp_dir_ner.append(i[0])
-                    tmp_dir_ner.append('Person')
-                    events.append(tmp_dir_ner)
-                    org_count+=1
-                if i[1]=="Location" :
-                    print("in if")
-                    tmp_dir_ner.append(i[0])
-                    tmp_dir_ner.append('Person')
-                    events.append(tmp_dir_ner)
-                    org_count+=1
-                if i[1]=="Person" :
-                    tmp_dir_ner.append(i[0])
-                    tmp_dir_ner.append('Location')
-                    events.append(tmp_dir_ner)
-                    org_count+=1
-            # print("ji",i,lables)
+            for item in ner_dict:
+                parts = item.split('/')
+                if len(parts) == 2:
+                    key, value = parts
+                    result_dict[key] = value
+        except:
+            pass
+    events += co_events
+    with open('test_json.json', 'r') as file:
+        data = json.load(file)
+    print(data['edges'])
+    lables = []
+    for i in data['edges']:
+        lables.append(i['label'])
+    # print(events)
+    for k, i in enumerate(events):
+        for j in i:
+            # print(j)
+            if j in lables:
+                pass
             else:
-                # print("removing",i) 
-                events = [sublist for l, sublist in enumerate(events) if l != k]
-        print(events)
-        seen = set()
-        unique_data = [x for x in events if tuple(x) not in seen and not seen.add(tuple(x))]
-        with open('graph_data.json','r') as file:
-            match_events=json.load(file)
-        data_edges=match_events['edges']
-        print(data_edges)
-        ner_to_check = 'GPE'
-        tmp_unique=[]
+                # print(i)
+                try:
+                    events.remove(i)
+                    events_test = [sublist for l, sublist in enumerate(events) if l != k]
+
+                except:
+                    pass
+    tmp_event = []
+    Ner_data = {"Person": 0, "Location": 0, "Organization": 0}
+    test_data = []
+
+    for k, i in enumerate(events):
+
+        if i[1] == "Organization":
+            Ner_data['Organization'] += 1
+        if i[1] == "Location":
+            Ner_data['Location'] += 1
+        if i[1] == "Person":
+            Ner_data['Person'] += 1
+        # print("removing",i) 
+        # events = [sublist for l, sublist in enumerate(events) if l != k]
+    org_count = 0
+    for k, i in enumerate(events):
+
+        tmp_dir_ner = []
+
+        if org_count < 3:
+            if i[1] == "Organization":
+                print("in if org")
+                tmp_dir_ner.append(i[0])
+                tmp_dir_ner.append('Person')
+                events.append(tmp_dir_ner)
+                org_count += 1
+            if i[1] == "Location":
+                print("in if")
+                tmp_dir_ner.append(i[0])
+                tmp_dir_ner.append('Person')
+                events.append(tmp_dir_ner)
+                org_count += 1
+            if i[1] == "Person":
+                tmp_dir_ner.append(i[0])
+                tmp_dir_ner.append('Location')
+                events.append(tmp_dir_ner)
+                org_count += 1
+        # print("ji",i,lables)
+        else:
+            # print("removing",i) 
+            events = [sublist for l, sublist in enumerate(events) if l != k]
+    print(events)
+    seen = set()
+    unique_data = [x for x in events if tuple(x) not in seen and not seen.add(tuple(x))]
+    with open('graph_gen/graph_data.json', 'r') as file:
+        match_events = json.load(file)
+    data_edges = match_events['edges']
+    print(data_edges)
+    ner_to_check = 'GPE'
+    tmp_unique = []
 ```
 # Getting Extracted Events and NER Results
 The get_events method returns the extracted events and Named Entity Recognition (NER) results:

@@ -1,0 +1,62 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Network Graph</title>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis-network.min.css" rel="stylesheet" type="text/css">
+        <style type="text/css">
+            #mynetwork {
+                width: 100%;
+                height: 800px;
+                border: 1px solid lightgray;
+            }
+        </style>
+    </head>
+    <body>
+
+    <div id="mynetwork"></div>
+
+    <script type="text/javascript">
+        var nodes = new vis.DataSet([{"id": 1, "label": "Pervez Khattak", "color": "gray", "category": "related", "ner": null}, {"id": 2, "label": "Ali Amin Gandapur", "color": "gray", "category": "related", "ner": null}, {"id": 3, "label": "Pervez Elahi", "color": "gray", "category": "related", "ner": null}, {"id": 4, "label": "Pakistan", "color": "red", "category": "related", "ner": "GPE"}, {"id": 5, "label": "Punjab", "color": "red", "category": "related", "ner": "GPE"}, {"id": 6, "label": "PTI", "color": "green", "category": "related", "ner": "ORG"}, {"id": 7, "label": "Khyber", "color": "gray", "category": "related", "ner": null}, {"id": 8, "label": "Mohmand", "color": "gray", "category": "related", "ner": null}, {"id": 13, "label": "Khyber Pakhtunkhwa", "color": "gray", "category": "related", "ner": null}, {"id": 20, "label": "TMA", "color": "green", "category": "related", "ner": "ORG"}, {"id": 32, "label": "Hungary", "color": "red", "category": "related", "ner": "GPE"}, {"id": 41, "label": "Swabi", "color": "gray", "category": "related", "ner": null}, {"id": 45, "label": "Bajaur", "color": "gray", "category": "related", "ner": null}, {"id": 60, "label": "Karachi", "color": "red", "category": "related", "ner": "GPE"}, {"id": 61, "label": "Islamabad", "color": "red", "category": "related", "ner": "GPE"}, {"id": 63, "label": "Saudi Arabia", "color": "gray", "category": "related", "ner": null}, {"id": 83, "label": "government", "color": "gray", "category": "related", "ner": null}, {"id": 112, "label": "Khuzdar", "color": "blue", "category": "related", "ner": "PERSON"}]);
+        var edges = new vis.DataSet([{"from": 3, "to": 4, "label": "country of citizenship", "category": "related", "arrows": "to"}, {"from": 4, "to": 5, "label": "contains administrative territorial entity", "category": "related", "arrows": "to"}, {"from": 5, "to": 4, "label": "located in the administrative territorial entity", "category": "related", "arrows": "to"}, {"from": 3, "to": 6, "label": "member of political party", "category": "related", "arrows": "to"}, {"from": 6, "to": 1, "label": "chair", "category": "related", "arrows": "to"}, {"from": 4, "to": 7, "label": "contains administrative territorial entity", "category": "related", "arrows": "to"}, {"from": 4, "to": 8, "label": "contains administrative territorial entity", "category": "related", "arrows": "to"}, {"from": 13, "to": 4, "label": "country", "category": "related", "arrows": "to"}, {"from": 4, "to": 13, "label": "contains administrative territorial entity", "category": "related", "arrows": "to"}, {"from": 13, "to": 4, "label": "located in the administrative territorial entity", "category": "related", "arrows": "to"}, {"from": 4, "to": 13, "label": "contains administrative territorial entity", "category": "related", "arrows": "to"}, {"from": 4, "to": 32, "label": "diplomatic relation", "category": "related", "arrows": "to"}, {"from": 32, "to": 4, "label": "diplomatic relation", "category": "related", "arrows": "to"}, {"from": 60, "to": 4, "label": "country", "category": "related", "arrows": "to"}, {"from": 61, "to": 4, "label": "country", "category": "related", "arrows": "to"}, {"from": 4, "to": 60, "label": "capital", "category": "related", "arrows": "to"}, {"from": 4, "to": 61, "label": "capital", "category": "related", "arrows": "to"}, {"from": 4, "to": 63, "label": "diplomatic relation", "category": "related", "arrows": "to"}, {"from": 63, "to": 4, "label": "diplomatic relation", "category": "related", "arrows": "to"}, {"from": 60, "to": 4, "label": "country", "category": "related", "arrows": "to"}]);
+
+        var container = document.getElementById('mynetwork');
+        var data = {
+            nodes: nodes,
+            edges: edges
+        };
+        var options = {
+            nodes: {
+                shape: 'dot',
+                size: 20,
+                font: {
+                    size: 15,
+                    color: '#000000'
+                },
+                borderWidth: 2
+            },
+            edges: {
+                width: 2,
+                font: {
+                    size: 12,
+                    align: 'middle'
+                },
+                arrows: {
+                    to: {enabled: true, scaleFactor: 1}
+                },
+                smooth: {
+                    enabled: true,
+                    type: 'dynamic'
+                }
+            },
+            physics: {
+                enabled: true
+            }
+        };
+        var network = new vis.Network(container, data, options);
+    </script>
+
+    </body>
+    </html>
+    

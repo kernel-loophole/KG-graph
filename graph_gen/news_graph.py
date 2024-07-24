@@ -188,12 +188,15 @@ class NewsMining:
     def main(self, data_object):
         '''Main function'''
         global result_dict
-        contents=[]
-        ids=[]
+        contents = []
+        ids = []
+        news_title = {}
         for content in data_object:
             contents.append(content[1])
         for id in data_object:
             ids.append(id[1])
+        for i in data_object:
+            print(i[0], i[1])
         words_postags = []  # token and its POS tag
         ner_sents = []  # store sentences which contain NER entity
         ners = []  # store all NER entity from whole article
@@ -203,7 +206,8 @@ class NewsMining:
         # print(contents[0])
         # content_ids = data_object[0]
         # print(contents)
-        for idx, content in enumerate(tqdm(contents)):
+        tmp_id = {}
+        for idx_count, content in enumerate(tqdm(contents)):
             # content_id = content_ids[idx]
             # 01 remove linebreaks and brackets
             try:
@@ -246,8 +250,14 @@ class NewsMining:
                     name = ner.split('/')[0]  # Jessica Miller
                     cate = self.ner_dict[ner.split('/')[1]]  # PERSON
                     events.append([name, cate])
-
+                # print(events)
+                for label_id in events:
+                    if label_id[0] in tmp_id.keys():
+                        continue
+                    tmp_id[label_id[0]] = idx_count
+                # print(events)
                 # 07 get all NER entity co-occurrence information
+
                 co_dict = collect_coexist(ner_sents, list(ner_dict.keys()))
                 co_events = [[i.split('@')[0].split(
                     '/')[0], i.split('@')[1].split('/')[0]] for i in co_dict]
@@ -260,6 +270,7 @@ class NewsMining:
                     if len(parts) == 2:
                         key, value = parts
                         result_dict[key] = value
+
             except:
                 pass
 
@@ -315,15 +326,17 @@ class NewsMining:
                 events = [sublist for l, sublist in enumerate(events) if l != k]
 
         unique_data = list({tuple(x): x for x in events}.values())
-
         self.graph_shower.create_page(unique_data, result_dict)
         nodes, edge = self.graph_shower.return_edge(unique_data, result_dict)
-
+        # print(edge)
         tmp_list = [i['label'] for i in edge]
         data = {'nodes': nodes, 'edges': edge}
         g = textrank.TextrankGraph()
         nodes_rank = g.rank()
+
         # print(content_ids)
+        # print(tmp_id)
+        #========================finding the id and assinge to the labe in in nodes =========================
         for i, edge in enumerate(data['edges']):
             # nodes['id'] = content_ids[i]  
             # print(content_ids[i])
@@ -331,8 +344,28 @@ class NewsMining:
                 edge['ner'] = result_dict[edge['label']]
             else:
                 edge['ner'] = None
+            if edge['label'] in tmp_id.keys():
+                # print(edge['label'],tmp_id[edge['label']])
+                edge['doc_id'] = tmp_id[edge['label']]
+            #=========================match the list of obejct and assigne the news title to label#===============
+            # for news_list in data_object:
+            #     if news_list[0]==tmp_id[edge['label']]:
+            #         # print(news_list[1])
+            #         edge['label']=str(news_list[0])
 
-        nodes_rank = sorted(tmp_list, key=lambda asd: asd[1], reverse=True)
+            # print(edge['label'])
+            # label_id=tmp_id[edge['label']]
+            # print(edge['label'],label_id)
+        # print(data['edges'])
+        unique_edges = []
+        seen_labels = set()
+        for edge in data['edges']:
+            label = (edge['label'], edge['category'], edge['ner'], edge['value'])
+            if label not in seen_labels:
+                unique_edges.append(edge)
+                seen_labels.add(label)
+        data['edges'] = unique_edges
+        # nodes_rank = sorted(tmp_list, key=lambda asd: asd[1], reverse=True)
 
         self.events = events
         self.result_dict = result_dict
@@ -341,6 +374,7 @@ class NewsMining:
             json.dump(events, json_file)
         with open('result_dic.json', 'w') as json_file:
             json.dump(result_dict, json_file)
+        # print(data)
         with open('graph_data.json', 'w') as json_file:
             json.dump(data, json_file)
 
@@ -351,11 +385,13 @@ class NewsMining:
         #     edges['distance'] = 0
         # edges['id'] = content_ids[i]
         data = {'nodes': nodes, "edges": edge}
+        # print(data)
         with open("query_graph.json", 'w') as file:
             json.dump(data, file)
 
         json_form.format_json_file('graph_data.json')
         json_form.format_json_file('query_graph.json')
+        json_form.format_json_file('graph_data.json')
 
-        def get_events(self):
-            return self.events, self.result_dict
+        # def get_events(self):
+        #     return self.events, self.result_dict

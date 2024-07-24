@@ -94,11 +94,11 @@ def find_matching_id(json_data, keyw):
             return i['id']
 
 def process_data(search_keyword):
-    processor = GraphProcessor('graph_data.json')
-    re = read_json_file("graph_data.json")
+    processor = GraphProcessor('graph_gen/graph_data.json')
+    re = read_json_file("graph_gen/graph_data.json")
     search_key = search_keyword
     ids = processor.bfs_related_nodes(find_matching_id(re, search_key))
-    test_json = read_json_file('graph_data.json')
+    test_json = read_json_file('graph_gen/graph_data.json')
     nodes_data = test_json['edges']
     egdes_dat = test_json['nodes']
     test_nodes_data = []

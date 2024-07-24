@@ -14,7 +14,7 @@ def format_json_file(file_path):
     except json.JSONDecodeError:
         return f"Invalid JSON format in file: {file_path}"
 
-file_path = 'graph_data.json'  
+file_path = 'graph_data.json'
 formatted_data = format_json_file(file_path)
 
 # if formatted_data:

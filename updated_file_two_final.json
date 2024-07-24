@@ -2,75 +2,93 @@
     "nodes": {
         "1": {
             "label": "Pervez Khattak",
-            "category": "related"
+            "category": "related",
+            "ner": null
         },
         "2": {
             "label": "Ali Amin Gandapur",
-            "category": "related"
+            "category": "related",
+            "ner": null
         },
         "3": {
             "label": "Pervez Elahi",
-            "category": "related"
+            "category": "related",
+            "ner": null
         },
         "4": {
             "label": "Pakistan",
-            "category": "related"
+            "category": "related",
+            "ner": "GPE"
         },
         "5": {
             "label": "Punjab",
-            "category": "related"
+            "category": "related",
+            "ner": "GPE"
         },
         "6": {
             "label": "PTI",
-            "category": "related"
+            "category": "related",
+            "ner": "ORG"
         },
         "7": {
             "label": "Khyber",
-            "category": "related"
+            "category": "related",
+            "ner": null
         },
         "8": {
             "label": "Mohmand",
-            "category": "related"
+            "category": "related",
+            "ner": null
         },
         "13": {
             "label": "Khyber Pakhtunkhwa",
-            "category": "related"
+            "category": "related",
+            "ner": null
         },
         "20": {
             "label": "TMA",
-            "category": "related"
+            "category": "related",
+            "ner": "ORG"
         },
         "32": {
             "label": "Hungary",
-            "category": "related"
+            "category": "related",
+            "ner": "GPE"
         },
         "41": {
             "label": "Swabi",
-            "category": "related"
+            "category": "related",
+            "ner": null
         },
         "45": {
             "label": "Bajaur",
-            "category": "related"
+            "category": "related",
+            "ner": null
         },
         "60": {
             "label": "Karachi",
-            "category": "related"
+            "category": "related",
+            "ner": "GPE"
         },
         "61": {
             "label": "Islamabad",
-            "category": "related"
+            "category": "related",
+            "ner": "GPE"
         },
         "63": {
             "label": "Saudi Arabia",
-            "category": "related"
+            "category": "related",
+            "ner": null
         },
         "83": {
             "label": "government",
-            "category": "related"
+            "category": "related",
+            "ner": null
         },
         "112": {
             "label": "Khuzdar",
-            "category": "related"
+            "category": "related",
+            "ner": "PERSON"
         }
     },
     "edges": [

@@ -60,7 +60,7 @@ def main_ner():
     # data=rows[1]
     # data=rows[0:2]
     # print(rows[0])
-    sub_list = rows[0:5]
+    sub_list = rows[1:10]
     # print(sub_list)
     mining_thread = threading.Thread(target=execute_mining, args=(sub_list,))
     mining_thread.start()
