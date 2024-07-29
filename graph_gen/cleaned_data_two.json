@@ -1,0 +1,849 @@
+{
+  "nodes": [
+    {
+      "from": 25,
+      "label": "",
+      "to": 203,
+      "category": "related"
+    },
+    {
+      "from": 212,
+      "label": "",
+      "to": 187,
+      "category": "related"
+    },
+    {
+      "from": 22,
+      "label": "",
+      "to": 213,
+      "category": "related"
+    },
+    {
+      "from": 25,
+      "label": "",
+      "to": 212,
+      "category": "related"
+    },
+    {
+      "from": 212,
+      "label": "",
+      "to": 25,
+      "category": "related"
+    },
+    {
+      "from": 25,
+      "label": "",
+      "to": 24,
+      "category": "related"
+    },
+    {
+      "from": 12,
+      "label": "",
+      "to": 203,
+      "category": "related"
+    },
+    {
+      "from": 14,
+      "label": "",
+      "to": 187,
+      "category": "related"
+    },
+    {
+      "from": 16,
+      "label": "",
+      "to": 213,
+      "category": "related"
+    },
+    {
+      "from": 25,
+      "label": "",
+      "to": 20,
+      "category": "related"
+    },
+    {
+      "from": 20,
+      "label": "",
+      "to": 212,
+      "category": "related"
+    },
+    {
+      "from": 22,
+      "label": "",
+      "to": 23,
+      "category": "related"
+    },
+    {
+      "from": 24,
+      "label": "",
+      "to": 25,
+      "category": "related"
+    },
+    {
+      "from": 212,
+      "label": "",
+      "to": 27,
+      "category": "related"
+    },
+    {
+      "from": 164,
+      "label": "",
+      "to": 213,
+      "category": "related"
+    },
+    {
+      "from": 80,
+      "label": "",
+      "to": 213,
+      "category": "related"
+    },
+    {
+      "from": 54,
+      "label": "",
+      "to": 213,
+      "category": "related"
+    },
+    {
+      "from": 34,
+      "label": "",
+      "to": 213,
+      "category": "related"
+    },
+    {
+      "from": 164,
+      "label": "",
+      "to": 206,
+      "category": "related"
+    },
+    {
+      "from": 206,
+      "label": "",
+      "to": 53,
+      "category": "related"
+    },
+    {
+      "from": 170,
+      "label": "",
+      "to": 162,
+      "category": "related"
+    },
+    {
+      "from": 206,
+      "label": "",
+      "to": 212,
+      "category": "related"
+    },
+    {
+      "from": 206,
+      "label": "",
+      "to": 78,
+      "category": "related"
+    },
+    {
+      "from": 53,
+      "label": "",
+      "to": 80,
+      "category": "related"
+    },
+    {
+      "from": 79,
+      "label": "",
+      "to": 213,
+      "category": "related"
+    },
+    {
+      "from": 206,
+      "label": "",
+      "to": 164,
+      "category": "related"
+    },
+    {
+      "from": 164,
+      "label": "",
+      "to": 53,
+      "category": "related"
+    },
+    {
+      "from": 54,
+      "label": "",
+      "to": 170,
+      "category": "related"
+    },
+    {
+      "from": 212,
+      "label": "",
+      "to": 206,
+      "category": "related"
+    },
+    {
+      "from": 192,
+      "label": "",
+      "to": 80,
+      "category": "related"
+    },
+    {
+      "from": 80,
+      "label": "",
+      "to": 192,
+      "category": "related"
+    },
+    {
+      "from": 206,
+      "label": "",
+      "to": 80,
+      "category": "related"
+    },
+    {
+      "from": 209,
+      "label": "",
+      "to": 203,
+      "category": "related"
+    },
+    {
+      "from": 132,
+      "label": "",
+      "to": 187,
+      "category": "related"
+    },
+    {
+      "from": 180,
+      "label": "",
+      "to": 203,
+      "category": "related"
+    },
+    {
+      "from": 132,
+      "label": "",
+      "to": 209,
+      "category": "related"
+    },
+    {
+      "from": 164,
+      "label": "",
+      "to": 180,
+      "category": "related"
+    },
+    {
+      "from": 180,
+      "label": "",
+      "to": 206,
+      "category": "related"
+    },
+    {
+      "from": 206,
+      "label": "",
+      "to": 180,
+      "category": "related"
+    },
+    {
+      "from": 78,
+      "label": "",
+      "to": 79,
+      "category": "related"
+    },
+    {
+      "from": 80,
+      "label": "",
+      "to": 206,
+      "category": "related"
+    },
+    {
+      "from": 212,
+      "label": "",
+      "to": 172,
+      "category": "related"
+    },
+    {
+      "from": 180,
+      "label": "",
+      "to": 85,
+      "category": "related"
+    },
+    {
+      "from": 212,
+      "label": "",
+      "to": 209,
+      "category": "related"
+    },
+    {
+      "from": 149,
+      "label": "",
+      "to": 203,
+      "category": "related"
+    },
+    {
+      "from": 159,
+      "label": "",
+      "to": 203,
+      "category": "related"
+    },
+    {
+      "from": 132,
+      "label": "",
+      "to": 149,
+      "category": "related"
+    },
+    {
+      "from": 180,
+      "label": "",
+      "to": 209,
+      "category": "related"
+    },
+    {
+      "from": 180,
+      "label": "",
+      "to": 149,
+      "category": "related"
+    },
+    {
+      "from": 151,
+      "label": "",
+      "to": 132,
+      "category": "related"
+    },
+    {
+      "from": 207,
+      "label": "",
+      "to": 164,
+      "category": "related"
+    },
+    {
+      "from": 180,
+      "label": "",
+      "to": 164,
+      "category": "related"
+    },
+    {
+      "from": 159,
+      "label": "",
+      "to": 164,
+      "category": "related"
+    },
+    {
+      "from": 149,
+      "label": "",
+      "to": 132,
+      "category": "related"
+    },
+    {
+      "from": 180,
+      "label": "",
+      "to": 212,
+      "category": "related"
+    },
+    {
+      "from": 212,
+      "label": "",
+      "to": 149,
+      "category": "related"
+    },
+    {
+      "from": 149,
+      "label": "",
+      "to": 151,
+      "category": "related"
+    },
+    {
+      "from": 149,
+      "label": "",
+      "to": 148,
+      "category": "related"
+    },
+    {
+      "from": 151,
+      "label": "",
+      "to": 212,
+      "category": "related"
+    },
+    {
+      "from": 118,
+      "label": "",
+      "to": 119,
+      "category": "related"
+    },
+    {
+      "from": 120,
+      "label": "",
+      "to": 121,
+      "category": "related"
+    },
+    {
+      "from": 206,
+      "label": "",
+      "to": 203,
+      "category": "related"
+    },
+    {
+      "from": 151,
+      "label": "",
+      "to": 213,
+      "category": "related"
+    },
+    {
+      "from": 149,
+      "label": "",
+      "to": 187,
+      "category": "related"
+    },
+    {
+      "from": 192,
+      "label": "",
+      "to": 206,
+      "category": "related"
+    },
+    {
+      "from": 149,
+      "label": "",
+      "to": 180,
+      "category": "related"
+    },
+    {
+      "from": 132,
+      "label": "",
+      "to": 151,
+      "category": "related"
+    },
+    {
+      "from": 192,
+      "label": "",
+      "to": 159,
+      "category": "related"
+    },
+    {
+      "from": 207,
+      "label": "",
+      "to": 159,
+      "category": "related"
+    },
+    {
+      "from": 159,
+      "label": "",
+      "to": 206,
+      "category": "related"
+    },
+    {
+      "from": 184,
+      "label": "",
+      "to": 180,
+      "category": "related"
+    },
+    {
+      "from": 212,
+      "label": "",
+      "to": 180,
+      "category": "related"
+    },
+    {
+      "from": 149,
+      "label": "",
+      "to": 212,
+      "category": "related"
+    },
+    {
+      "from": 151,
+      "label": "",
+      "to": 149,
+      "category": "related"
+    },
+    {
+      "from": 148,
+      "label": "",
+      "to": 149,
+      "category": "related"
+    },
+    {
+      "from": 212,
+      "label": "",
+      "to": 151,
+      "category": "related"
+    },
+    {
+      "from": 192,
+      "label": "",
+      "to": 203,
+      "category": "related"
+    },
+    {
+      "from": 192,
+      "label": "",
+      "to": 180,
+      "category": "related"
+    },
+    {
+      "from": 207,
+      "label": "",
+      "to": 206,
+      "category": "related"
+    },
+    {
+      "from": 206,
+      "label": "",
+      "to": 159,
+      "category": "related"
+    },
+    {
+      "from": 160,
+      "label": "",
+      "to": 161,
+      "category": "related"
+    },
+    {
+      "from": 162,
+      "label": "",
+      "to": 203,
+      "category": "related"
+    },
+    {
+      "from": 164,
+      "label": "",
+      "to": 207,
+      "category": "related"
+    },
+    {
+      "from": 180,
+      "label": "",
+      "to": 207,
+      "category": "related"
+    },
+    {
+      "from": 168,
+      "label": "",
+      "to": 169,
+      "category": "related"
+    },
+    {
+      "from": 170,
+      "label": "",
+      "to": 203,
+      "category": "related"
+    },
+    {
+      "from": 172,
+      "label": "",
+      "to": 212,
+      "category": "related"
+    },
+    {
+      "from": 206,
+      "label": "",
+      "to": 175,
+      "category": "related"
+    },
+    {
+      "from": 176,
+      "label": "",
+      "to": 177,
+      "category": "related"
+    },
+    {
+      "from": 178,
+      "label": "",
+      "to": 179,
+      "category": "related"
+    },
+    {
+      "from": 180,
+      "label": "",
+      "to": 192,
+      "category": "related"
+    },
+    {
+      "from": 182,
+      "label": "",
+      "to": 183,
+      "category": "related"
+    },
+    {
+      "from": 184,
+      "label": "",
+      "to": 203,
+      "category": "related"
+    },
+    {
+      "from": 189,
+      "label": "",
+      "to": 187,
+      "category": "related"
+    },
+    {
+      "from": 212,
+      "label": "",
+      "to": 189,
+      "category": "related"
+    },
+    {
+      "from": 190,
+      "label": "",
+      "to": 191,
+      "category": "related"
+    },
+    {
+      "from": 192,
+      "label": "",
+      "to": 207,
+      "category": "related"
+    },
+    {
+      "from": 194,
+      "label": "",
+      "to": 197,
+      "category": "related"
+    },
+    {
+      "from": 196,
+      "label": "",
+      "to": 197,
+      "category": "related"
+    },
+    {
+      "from": 198,
+      "label": "",
+      "to": 213,
+      "category": "related"
+    },
+    {
+      "from": 207,
+      "label": "",
+      "to": 203,
+      "category": "related"
+    },
+    {
+      "from": 202,
+      "label": "",
+      "to": 203,
+      "category": "related"
+    },
+    {
+      "from": 211,
+      "label": "",
+      "to": 208,
+      "category": "related"
+    },
+    {
+      "from": 206,
+      "label": "",
+      "to": 207,
+      "category": "related"
+    },
+    {
+      "from": 208,
+      "label": "",
+      "to": 209,
+      "category": "related"
+    },
+    {
+      "from": 212,
+      "label": "",
+      "to": 211,
+      "category": "related"
+    },
+    {
+      "from": 212,
+      "label": "",
+      "to": 213,
+      "category": "related"
+    }
+  ],
+  "edges": [
+    {
+      "label": "0",
+      "category": "other",
+      "ner": null,
+      "value": "ORG",
+      "id": 25
+    },
+    {
+      "label": "Organization",
+      "category": "Organization",
+      "ner": null,
+      "value": 0,
+      "id": 203
+    },
+    {
+      "label": "Pakistan",
+      "category": "other",
+      "ner": "GPE",
+      "value": "GPE",
+      "id": 212,
+      "doc_id": 0
+    },
+    {
+      "label": "Location",
+      "category": "Location",
+      "ner": null,
+      "value": 0,
+      "id": 187
+    },
+    {
+      "label": "Person",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "id": 213
+    },
+    {
+      "label": "1",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "id": 16
+    },
+    {
+      "label": "the Rice Exporters Association",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "id": 27,
+      "doc_id": 1
+    },
+    {
+      "label": "2",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "id": 164
+    },
+    {
+      "label": "Elahi",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "id": 80,
+      "doc_id": 2
+    },
+    {
+      "label": "SC",
+      "category": "other",
+      "ner": "ORG",
+      "value": "ORG",
+      "id": 209,
+      "doc_id": 4
+    },
+    {
+      "label": "Sudan",
+      "category": "other",
+      "ner": "GPE",
+      "value": "GPE",
+      "id": 172,
+      "doc_id": 3
+    },
+    {
+      "label": "KP",
+      "category": "other",
+      "ner": "ORG",
+      "value": "ORG",
+      "id": 149,
+      "doc_id": 5
+    },
+    {
+      "label": "she",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "id": 118,
+      "doc_id": 6
+    },
+    {
+      "label": "face",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "id": 119
+    },
+    {
+      "label": "asked",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "id": 121
+    },
+    {
+      "label": "found",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "id": 161
+    },
+    {
+      "label": "escorted",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "id": 169
+    },
+    {
+      "label": "Gandapur",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "id": 175,
+      "doc_id": 9
+    },
+    {
+      "label": "hospital",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "id": 176,
+      "doc_id": 10
+    },
+    {
+      "label": "had units",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "id": 177
+    },
+    {
+      "label": "added",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "id": 179
+    },
+    {
+      "label": "Shah",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "id": 182,
+      "doc_id": 11
+    },
+    {
+      "label": "accompanied minister",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "id": 183
+    },
+    {
+      "label": "deceased",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "id": 190,
+      "doc_id": 12
+    },
+    {
+      "label": "taken",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "id": 191
+    },
+    {
+      "label": "Malik",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "id": 194,
+      "doc_id": 13
+    },
+    {
+      "label": "says",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "id": 197
+    }
+  ]
+}

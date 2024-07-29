@@ -1,0 +1,349 @@
+{
+  "nodes": [
+    {
+      "from": 0,
+      "label": "",
+      "to": 1,
+      "category": "related"
+    },
+    {
+      "from": 86,
+      "label": "",
+      "to": 49,
+      "category": "related"
+    },
+    {
+      "from": 79,
+      "label": "",
+      "to": 89,
+      "category": "related"
+    },
+    {
+      "from": 88,
+      "label": "",
+      "to": 87,
+      "category": "related"
+    },
+    {
+      "from": 8,
+      "label": "",
+      "to": 30,
+      "category": "related"
+    },
+    {
+      "from": 86,
+      "label": "",
+      "to": 79,
+      "category": "related"
+    },
+    {
+      "from": 79,
+      "label": "",
+      "to": 86,
+      "category": "related"
+    },
+    {
+      "from": 86,
+      "label": "",
+      "to": 15,
+      "category": "related"
+    },
+    {
+      "from": 16,
+      "label": "",
+      "to": 49,
+      "category": "related"
+    },
+    {
+      "from": 18,
+      "label": "",
+      "to": 89,
+      "category": "related"
+    },
+    {
+      "from": 22,
+      "label": "",
+      "to": 87,
+      "category": "related"
+    },
+    {
+      "from": 22,
+      "label": "",
+      "to": 23,
+      "category": "related"
+    },
+    {
+      "from": 85,
+      "label": "",
+      "to": 49,
+      "category": "related"
+    },
+    {
+      "from": 75,
+      "label": "",
+      "to": 49,
+      "category": "related"
+    },
+    {
+      "from": 28,
+      "label": "",
+      "to": 89,
+      "category": "related"
+    },
+    {
+      "from": 30,
+      "label": "",
+      "to": 49,
+      "category": "related"
+    },
+    {
+      "from": 68,
+      "label": "",
+      "to": 49,
+      "category": "related"
+    },
+    {
+      "from": 41,
+      "label": "",
+      "to": 85,
+      "category": "related"
+    },
+    {
+      "from": 85,
+      "label": "",
+      "to": 65,
+      "category": "related"
+    },
+    {
+      "from": 75,
+      "label": "",
+      "to": 82,
+      "category": "related"
+    },
+    {
+      "from": 76,
+      "label": "",
+      "to": 41,
+      "category": "related"
+    },
+    {
+      "from": 79,
+      "label": "",
+      "to": 85,
+      "category": "related"
+    },
+    {
+      "from": 84,
+      "label": "",
+      "to": 82,
+      "category": "related"
+    },
+    {
+      "from": 85,
+      "label": "",
+      "to": 84,
+      "category": "related"
+    },
+    {
+      "from": 76,
+      "label": "",
+      "to": 49,
+      "category": "related"
+    },
+    {
+      "from": 82,
+      "label": "",
+      "to": 87,
+      "category": "related"
+    },
+    {
+      "from": 52,
+      "label": "",
+      "to": 87,
+      "category": "related"
+    },
+    {
+      "from": 84,
+      "label": "",
+      "to": 87,
+      "category": "related"
+    },
+    {
+      "from": 56,
+      "label": "",
+      "to": 87,
+      "category": "related"
+    },
+    {
+      "from": 58,
+      "label": "",
+      "to": 87,
+      "category": "related"
+    },
+    {
+      "from": 82,
+      "label": "",
+      "to": 85,
+      "category": "related"
+    },
+    {
+      "from": 85,
+      "label": "",
+      "to": 82,
+      "category": "related"
+    },
+    {
+      "from": 82,
+      "label": "",
+      "to": 65,
+      "category": "related"
+    },
+    {
+      "from": 86,
+      "label": "",
+      "to": 68,
+      "category": "related"
+    },
+    {
+      "from": 68,
+      "label": "",
+      "to": 79,
+      "category": "related"
+    },
+    {
+      "from": 82,
+      "label": "",
+      "to": 75,
+      "category": "related"
+    },
+    {
+      "from": 75,
+      "label": "",
+      "to": 85,
+      "category": "related"
+    },
+    {
+      "from": 85,
+      "label": "",
+      "to": 75,
+      "category": "related"
+    },
+    {
+      "from": 76,
+      "label": "",
+      "to": 82,
+      "category": "related"
+    },
+    {
+      "from": 85,
+      "label": "",
+      "to": 79,
+      "category": "related"
+    },
+    {
+      "from": 85,
+      "label": "",
+      "to": 81,
+      "category": "related"
+    },
+    {
+      "from": 82,
+      "label": "",
+      "to": 84,
+      "category": "related"
+    },
+    {
+      "from": 84,
+      "label": "",
+      "to": 85,
+      "category": "related"
+    },
+    {
+      "from": 86,
+      "label": "",
+      "to": 87,
+      "category": "related"
+    },
+    {
+      "from": 88,
+      "label": "",
+      "to": 89,
+      "category": "related"
+    }
+  ],
+  "edges": [
+    {
+      "label": "",
+      "category": "other",
+      "ner": "",
+      "value": 0,
+      "id": 0
+    },
+    {
+      "label": "",
+      "category": "other",
+      "ner": "",
+      "value": 0,
+      "id": 1
+    },
+    {
+      "label": 0,
+      "category": "other",
+      "ner": "ORG",
+      "value": "ORG",
+      "id": 86,
+      "doc_id": 0
+    },
+    {
+      "label": "",
+      "category": "Organization",
+      "ner": "",
+      "value": 0,
+      "id": 49
+    },
+    {
+      "label": "",
+      "category": "Location",
+      "ner": "",
+      "value": 0,
+      "id": 89
+    },
+    {
+      "label": "",
+      "category": "other",
+      "ner": "",
+      "value": 0,
+      "id": 87
+    },
+    {
+      "label": 1,
+      "category": "other",
+      "ner": "",
+      "value": 0,
+      "id": 22,
+      "doc_id": 1
+    },
+    {
+      "label": "",
+      "category": "other",
+      "ner": "",
+      "value": 0,
+      "id": 23
+    },
+    {
+      "label": "",
+      "category": "other",
+      "ner": "",
+      "value": "ORG",
+      "id": 85
+    },
+    {
+      "label": 2,
+      "category": "other",
+      "ner": "ORG",
+      "value": "ORG",
+      "id": 75,
+      "doc_id": 2
+    }
+  ]
+}

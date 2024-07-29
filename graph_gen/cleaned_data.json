@@ -1,0 +1,305 @@
+{
+  "nodes": [
+    {
+      "from": 0,
+      "label": "",
+      "to": 1,
+      "category": "related"
+    },
+    {
+      "from": 76,
+      "label": "",
+      "to": 59,
+      "category": "related"
+    },
+    {
+      "from": 50,
+      "label": "",
+      "to": 79,
+      "category": "related"
+    },
+    {
+      "from": 78,
+      "label": "",
+      "to": 77,
+      "category": "related"
+    },
+    {
+      "from": 8,
+      "label": "",
+      "to": 9,
+      "category": "related"
+    },
+    {
+      "from": 50,
+      "label": "",
+      "to": 76,
+      "category": "related"
+    },
+    {
+      "from": 12,
+      "label": "",
+      "to": 16,
+      "category": "related"
+    },
+    {
+      "from": 14,
+      "label": "",
+      "to": 59,
+      "category": "related"
+    },
+    {
+      "from": 16,
+      "label": "",
+      "to": 79,
+      "category": "related"
+    },
+    {
+      "from": 18,
+      "label": "",
+      "to": 77,
+      "category": "related"
+    },
+    {
+      "from": 76,
+      "label": "",
+      "to": 21,
+      "category": "related"
+    },
+    {
+      "from": 22,
+      "label": "",
+      "to": 50,
+      "category": "related"
+    },
+    {
+      "from": 68,
+      "label": "",
+      "to": 77,
+      "category": "related"
+    },
+    {
+      "from": 26,
+      "label": "",
+      "to": 77,
+      "category": "related"
+    },
+    {
+      "from": 75,
+      "label": "",
+      "to": 77,
+      "category": "related"
+    },
+    {
+      "from": 30,
+      "label": "",
+      "to": 77,
+      "category": "related"
+    },
+    {
+      "from": 32,
+      "label": "",
+      "to": 77,
+      "category": "related"
+    },
+    {
+      "from": 68,
+      "label": "",
+      "to": 73,
+      "category": "related"
+    },
+    {
+      "from": 54,
+      "label": "",
+      "to": 68,
+      "category": "related"
+    },
+    {
+      "from": 68,
+      "label": "",
+      "to": 74,
+      "category": "related"
+    },
+    {
+      "from": 64,
+      "label": "",
+      "to": 50,
+      "category": "related"
+    },
+    {
+      "from": 50,
+      "label": "",
+      "to": 64,
+      "category": "related"
+    },
+    {
+      "from": 76,
+      "label": "",
+      "to": 50,
+      "category": "related"
+    },
+    {
+      "from": 66,
+      "label": "",
+      "to": 54,
+      "category": "related"
+    },
+    {
+      "from": 73,
+      "label": "",
+      "to": 70,
+      "category": "related"
+    },
+    {
+      "from": 50,
+      "label": "",
+      "to": 73,
+      "category": "related"
+    },
+    {
+      "from": 75,
+      "label": "",
+      "to": 68,
+      "category": "related"
+    },
+    {
+      "from": 54,
+      "label": "",
+      "to": 74,
+      "category": "related"
+    },
+    {
+      "from": 73,
+      "label": "",
+      "to": 59,
+      "category": "related"
+    },
+    {
+      "from": 70,
+      "label": "",
+      "to": 59,
+      "category": "related"
+    },
+    {
+      "from": 73,
+      "label": "",
+      "to": 68,
+      "category": "related"
+    },
+    {
+      "from": 73,
+      "label": "",
+      "to": 74,
+      "category": "related"
+    },
+    {
+      "from": 64,
+      "label": "",
+      "to": 76,
+      "category": "related"
+    },
+    {
+      "from": 66,
+      "label": "",
+      "to": 70,
+      "category": "related"
+    },
+    {
+      "from": 68,
+      "label": "",
+      "to": 70,
+      "category": "related"
+    },
+    {
+      "from": 70,
+      "label": "",
+      "to": 73,
+      "category": "related"
+    },
+    {
+      "from": 72,
+      "label": "",
+      "to": 73,
+      "category": "related"
+    },
+    {
+      "from": 74,
+      "label": "",
+      "to": 75,
+      "category": "related"
+    },
+    {
+      "from": 76,
+      "label": "",
+      "to": 77,
+      "category": "related"
+    },
+    {
+      "from": 78,
+      "label": "",
+      "to": 79,
+      "category": "related"
+    }
+  ],
+  "edges": [
+    {
+      "label": "0",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "id": 0
+    },
+    {
+      "label": "concentrated",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "id": 1
+    },
+    {
+      "label": "SOE",
+      "category": "other",
+      "ner": "ORG",
+      "value": "ORG",
+      "id": 76,
+      "doc_id": 0
+    },
+    {
+      "label": "Organization",
+      "category": "Organization",
+      "ner": null,
+      "value": 0,
+      "id": 59
+    },
+    {
+      "label": "Location",
+      "category": "Location",
+      "ner": null,
+      "value": 0,
+      "id": 79
+    },
+    {
+      "label": "Person",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "id": 77
+    },
+    {
+      "label": "Ha\u00admid Malik",
+      "category": "other",
+      "ner": null,
+      "value": 0,
+      "id": 18,
+      "doc_id": 1
+    },
+    {
+      "label": "Moonis Elahi",
+      "category": "other",
+      "ner": "PERSON",
+      "value": "PERSON",
+      "id": 68,
+      "doc_id": 2
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+
+    <html>
+    <head>
+      <script type="text/javascript" src="VIS/dist/vis.js"></script>
+      <link href="VIS/dist/vis.css" rel="stylesheet" type="text/css">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    </head>
+    <body>
+
+    <div id="VIS_draw"></div>
+
+    <script type="text/javascript">
+      var nodes = [{'label': '1', 'category': 'other', 'ner': 'ORG', 'value': 'ORG', 'id': 18, 'doc_id': 1}, {'label': '', 'category': 'Organization', 'ner': '', 'value': 0, 'id': 9}, {'label': '2', 'category': 'other', 'ner': '', 'value': 0, 'id': 2, 'doc_id': 2}, {'label': '', 'category': 'other', 'ner': '', 'value': 0, 'id': 3}, {'label': '', 'category': 'other', 'ner': '', 'value': 'PERSON', 'id': 13}, {'label': '', 'category': 'other', 'ner': '', 'value': 0, 'id': 19}, {'label': '4', 'category': 'other', 'ner': 'ORG', 'value': 'ORG', 'id': 16, 'doc_id': 4}, {'label': '', 'category': 'other', 'ner': '', 'value': 'GPE', 'id': 12}, {'label': '', 'category': 'other', 'ner': '', 'value': 'PERSON', 'id': 15}];
+var edges = [{'from': 18, 'label': '', 'to': 9, 'category': 'related'}, {'from': 2, 'label': '', 'to': 3, 'category': 'related'}, {'from': 13, 'label': '', 'to': 19, 'category': 'related'}, {'from': 11, 'label': '', 'to': 18, 'category': 'related'}, {'from': 16, 'label': '', 'to': 9, 'category': 'related'}, {'from': 18, 'label': '', 'to': 11, 'category': 'related'}, {'from': 12, 'label': '', 'to': 13, 'category': 'related'}, {'from': 17, 'label': '', 'to': 15, 'category': 'related'}, {'from': 16, 'label': '', 'to': 17, 'category': 'related'}, {'from': 18, 'label': '', 'to': 19, 'category': 'related'}];
+
+var container = document.getElementById("VIS_draw");
+
+var data = {
+  nodes: nodes,
+  edges: edges
+};
+console.log(data);
+var options = {
+  nodes: {
+    shape: 'circle',
+    font: {
+      size: 15
+    }
+  },
+  edges: {
+    font: {
+      size: 10,
+      align: 'center'
+    },
+    arrows: {
+      to: { enabled: true, scaleFactor: 1.2 }
+    },
+    smooth: { enabled: true }
+  },
+  physics: {
+    enabled: true
+  }
+};
+
+data.nodes.forEach(function (node) {
+  if (node.category === 'frequency') {
+    node.color = 'lightblue';
+  } else if (node.category === 'keyword') {
+    node.color = 'lightgreen';
+  } 
+  else if (node.category === 'Organization') {
+    node.color = 'red';
+  }else if (node.category === 'Location') {
+    node.color = 'black';
+  }else if (node.category === 'related') {
+    node.color = 'lightcoral';
+  } 
+  // Set a common size for all nodes
+});
+
+data.nodes.forEach(function (node) {
+  // Adjust node color based on value from result_dic
+  if (node.value) {
+    // Assuming result_dic values are in the range [0, 1]
+    var hue = Math.floor((1 - node.value) * 120); // Adjust hue based on value
+    node.color = 'lightyellow';
+  }
+});
+
+data.edges.forEach(function (edge) {
+  if (edge.category === 'frequency') {
+    edge.color = { color: 'blue' };
+  } else if (edge.category === 'keyword') {
+    edge.color = { color: 'green' };
+  } else if (edge.category === 'related') {
+    edge.color = { color: 'red' };
+  } else {
+    edge.color = { color: 'black' };
+  }
+});
+
+var network = new vis.Network(container, data, options);
+
+
+    </script>
+    </body>
+    </html>
+    
