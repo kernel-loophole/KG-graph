@@ -5,6 +5,7 @@ Key information extration from text and graph visilization. Inspired by [TextGra
 # Project Introduction
 This branch find and dispaly the relationship between the documents .
 - Take the list of documents in format of id and text ```[(1,'some text'),(2,'more text')]```
+1) ![example](Screenshot%20from%202024-08-20%2007-32-44.png)
 # Get started 
 clone the repo and run 
 ```git checkout new-fe ```
