@@ -1,73 +1,671 @@
 {
   "nodes": [
     {
-      "from": 18,
+      "from": 218,
       "label": "",
-      "to": 9,
+      "to": 131,
       "category": "related"
     },
     {
-      "from": 2,
+      "from": 30,
       "label": "",
-      "to": 3,
+      "to": 131,
       "category": "related"
     },
     {
-      "from": 12,
+      "from": 4,
       "label": "",
-      "to": 19,
-      "category": "related"
-    },
-    {
-      "from": 18,
-      "label": "",
-      "to": 10,
+      "to": 131,
       "category": "related"
     },
     {
       "from": 16,
       "label": "",
-      "to": 9,
+      "to": 131,
       "category": "related"
     },
     {
-      "from": 10,
+      "from": 218,
       "label": "",
-      "to": 18,
+      "to": 32,
+      "category": "related"
+    },
+    {
+      "from": 36,
+      "label": "",
+      "to": 191,
       "category": "related"
     },
     {
       "from": 12,
       "label": "",
-      "to": 13,
+      "to": 191,
       "category": "related"
     },
     {
-      "from": 17,
+      "from": 14,
       "label": "",
-      "to": 15,
+      "to": 211,
       "category": "related"
     },
     {
       "from": 16,
       "label": "",
-      "to": 17,
+      "to": 108,
       "category": "related"
     },
     {
-      "from": 18,
+      "from": 218,
       "label": "",
-      "to": 19,
+      "to": 36,
+      "category": "related"
+    },
+    {
+      "from": 20,
+      "label": "",
+      "to": 218,
+      "category": "related"
+    },
+    {
+      "from": 22,
+      "label": "",
+      "to": 191,
+      "category": "related"
+    },
+    {
+      "from": 24,
+      "label": "",
+      "to": 211,
+      "category": "related"
+    },
+    {
+      "from": 34,
+      "label": "",
+      "to": 211,
+      "category": "related"
+    },
+    {
+      "from": 28,
+      "label": "",
+      "to": 128,
+      "category": "related"
+    },
+    {
+      "from": 30,
+      "label": "",
+      "to": 32,
+      "category": "related"
+    },
+    {
+      "from": 32,
+      "label": "",
+      "to": 218,
+      "category": "related"
+    },
+    {
+      "from": 34,
+      "label": "",
+      "to": 35,
+      "category": "related"
+    },
+    {
+      "from": 36,
+      "label": "",
+      "to": 218,
+      "category": "related"
+    },
+    {
+      "from": 199,
+      "label": "",
+      "to": 131,
+      "category": "related"
+    },
+    {
+      "from": 203,
+      "label": "",
+      "to": 182,
+      "category": "related"
+    },
+    {
+      "from": 82,
+      "label": "",
+      "to": 203,
+      "category": "related"
+    },
+    {
+      "from": 194,
+      "label": "",
+      "to": 218,
+      "category": "related"
+    },
+    {
+      "from": 203,
+      "label": "",
+      "to": 66,
+      "category": "related"
+    },
+    {
+      "from": 195,
+      "label": "",
+      "to": 66,
+      "category": "related"
+    },
+    {
+      "from": 194,
+      "label": "",
+      "to": 191,
+      "category": "related"
+    },
+    {
+      "from": 182,
+      "label": "",
+      "to": 211,
+      "category": "related"
+    },
+    {
+      "from": 54,
+      "label": "",
+      "to": 211,
+      "category": "related"
+    },
+    {
+      "from": 194,
+      "label": "",
+      "to": 182,
+      "category": "related"
+    },
+    {
+      "from": 182,
+      "label": "",
+      "to": 194,
+      "category": "related"
+    },
+    {
+      "from": 218,
+      "label": "",
+      "to": 108,
+      "category": "related"
+    },
+    {
+      "from": 218,
+      "label": "",
+      "to": 194,
+      "category": "related"
+    },
+    {
+      "from": 91,
+      "label": "",
+      "to": 194,
+      "category": "related"
+    },
+    {
+      "from": 66,
+      "label": "",
+      "to": 182,
+      "category": "related"
+    },
+    {
+      "from": 216,
+      "label": "",
+      "to": 191,
+      "category": "related"
+    },
+    {
+      "from": 214,
+      "label": "",
+      "to": 191,
+      "category": "related"
+    },
+    {
+      "from": 217,
+      "label": "",
+      "to": 191,
+      "category": "related"
+    },
+    {
+      "from": 74,
+      "label": "",
+      "to": 211,
+      "category": "related"
+    },
+    {
+      "from": 93,
+      "label": "",
+      "to": 211,
+      "category": "related"
+    },
+    {
+      "from": 195,
+      "label": "",
+      "to": 182,
+      "category": "related"
+    },
+    {
+      "from": 203,
+      "label": "",
+      "to": 82,
+      "category": "related"
+    },
+    {
+      "from": 82,
+      "label": "",
+      "to": 215,
+      "category": "related"
+    },
+    {
+      "from": 214,
+      "label": "",
+      "to": 182,
+      "category": "related"
+    },
+    {
+      "from": 182,
+      "label": "",
+      "to": 214,
+      "category": "related"
+    },
+    {
+      "from": 194,
+      "label": "",
+      "to": 217,
+      "category": "related"
+    },
+    {
+      "from": 194,
+      "label": "",
+      "to": 91,
+      "category": "related"
+    },
+    {
+      "from": 195,
+      "label": "",
+      "to": 93,
+      "category": "related"
+    },
+    {
+      "from": 218,
+      "label": "",
+      "to": 216,
+      "category": "related"
+    },
+    {
+      "from": 152,
+      "label": "",
+      "to": 191,
+      "category": "related"
+    },
+    {
+      "from": 108,
+      "label": "",
+      "to": 131,
+      "category": "related"
+    },
+    {
+      "from": 152,
+      "label": "",
+      "to": 199,
+      "category": "related"
+    },
+    {
+      "from": 195,
+      "label": "",
+      "to": 194,
+      "category": "related"
+    },
+    {
+      "from": 214,
+      "label": "",
+      "to": 152,
+      "category": "related"
+    },
+    {
+      "from": 199,
+      "label": "",
+      "to": 168,
+      "category": "related"
+    },
+    {
+      "from": 108,
+      "label": "",
+      "to": 218,
+      "category": "related"
+    },
+    {
+      "from": 194,
+      "label": "",
+      "to": 214,
+      "category": "related"
+    },
+    {
+      "from": 218,
+      "label": "",
+      "to": 186,
+      "category": "related"
+    },
+    {
+      "from": 114,
+      "label": "",
+      "to": 214,
+      "category": "related"
+    },
+    {
+      "from": 152,
+      "label": "",
+      "to": 218,
+      "category": "related"
+    },
+    {
+      "from": 218,
+      "label": "",
+      "to": 152,
+      "category": "related"
+    },
+    {
+      "from": 168,
+      "label": "",
+      "to": 152,
+      "category": "related"
+    },
+    {
+      "from": 122,
+      "label": "",
+      "to": 152,
+      "category": "related"
+    },
+    {
+      "from": 168,
+      "label": "",
+      "to": 218,
+      "category": "related"
+    },
+    {
+      "from": 126,
+      "label": "",
+      "to": 127,
+      "category": "related"
+    },
+    {
+      "from": 128,
+      "label": "",
+      "to": 191,
+      "category": "related"
+    },
+    {
+      "from": 152,
+      "label": "",
+      "to": 131,
+      "category": "related"
+    },
+    {
+      "from": 199,
+      "label": "",
+      "to": 152,
+      "category": "related"
+    },
+    {
+      "from": 152,
+      "label": "",
+      "to": 214,
+      "category": "related"
+    },
+    {
+      "from": 168,
+      "label": "",
+      "to": 199,
+      "category": "related"
+    },
+    {
+      "from": 214,
+      "label": "",
+      "to": 194,
+      "category": "related"
+    },
+    {
+      "from": 203,
+      "label": "",
+      "to": 191,
+      "category": "related"
+    },
+    {
+      "from": 199,
+      "label": "",
+      "to": 216,
+      "category": "related"
+    },
+    {
+      "from": 215,
+      "label": "",
+      "to": 182,
+      "category": "related"
+    },
+    {
+      "from": 214,
+      "label": "",
+      "to": 218,
+      "category": "related"
+    },
+    {
+      "from": 218,
+      "label": "",
+      "to": 214,
+      "category": "related"
+    },
+    {
+      "from": 152,
+      "label": "",
+      "to": 168,
+      "category": "related"
+    },
+    {
+      "from": 152,
+      "label": "",
+      "to": 190,
+      "category": "related"
+    },
+    {
+      "from": 218,
+      "label": "",
+      "to": 168,
+      "category": "related"
+    },
+    {
+      "from": 156,
+      "label": "",
+      "to": 157,
+      "category": "related"
+    },
+    {
+      "from": 214,
+      "label": "",
+      "to": 216,
+      "category": "related"
+    },
+    {
+      "from": 203,
+      "label": "",
+      "to": 214,
+      "category": "related"
+    },
+    {
+      "from": 214,
+      "label": "",
+      "to": 203,
+      "category": "related"
+    },
+    {
+      "from": 164,
+      "label": "",
+      "to": 165,
+      "category": "related"
+    },
+    {
+      "from": 215,
+      "label": "",
+      "to": 191,
+      "category": "related"
+    },
+    {
+      "from": 168,
+      "label": "",
+      "to": 211,
+      "category": "related"
+    },
+    {
+      "from": 215,
+      "label": "",
+      "to": 194,
+      "category": "related"
+    },
+    {
+      "from": 172,
+      "label": "",
+      "to": 173,
+      "category": "related"
+    },
+    {
+      "from": 174,
+      "label": "",
+      "to": 175,
+      "category": "related"
+    },
+    {
+      "from": 194,
+      "label": "",
+      "to": 203,
+      "category": "related"
+    },
+    {
+      "from": 182,
+      "label": "",
+      "to": 195,
+      "category": "related"
+    },
+    {
+      "from": 194,
+      "label": "",
+      "to": 215,
+      "category": "related"
+    },
+    {
+      "from": 182,
+      "label": "",
+      "to": 215,
+      "category": "related"
+    },
+    {
+      "from": 215,
+      "label": "",
+      "to": 214,
+      "category": "related"
+    },
+    {
+      "from": 186,
+      "label": "",
+      "to": 218,
+      "category": "related"
+    },
+    {
+      "from": 192,
+      "label": "",
+      "to": 194,
+      "category": "related"
+    },
+    {
+      "from": 190,
+      "label": "",
+      "to": 191,
+      "category": "related"
+    },
+    {
+      "from": 192,
+      "label": "",
+      "to": 211,
+      "category": "related"
+    },
+    {
+      "from": 194,
+      "label": "",
+      "to": 195,
+      "category": "related"
+    },
+    {
+      "from": 216,
+      "label": "",
+      "to": 214,
+      "category": "related"
+    },
+    {
+      "from": 216,
+      "label": "",
+      "to": 199,
+      "category": "related"
+    },
+    {
+      "from": 200,
+      "label": "",
+      "to": 201,
+      "category": "related"
+    },
+    {
+      "from": 215,
+      "label": "",
+      "to": 203,
+      "category": "related"
+    },
+    {
+      "from": 218,
+      "label": "",
+      "to": 205,
+      "category": "related"
+    },
+    {
+      "from": 206,
+      "label": "",
+      "to": 209,
+      "category": "related"
+    },
+    {
+      "from": 208,
+      "label": "",
+      "to": 209,
+      "category": "related"
+    },
+    {
+      "from": 212,
+      "label": "",
+      "to": 211,
+      "category": "related"
+    },
+    {
+      "from": 212,
+      "label": "",
+      "to": 219,
+      "category": "related"
+    },
+    {
+      "from": 214,
+      "label": "",
+      "to": 215,
+      "category": "related"
+    },
+    {
+      "from": 216,
+      "label": "",
+      "to": 217,
+      "category": "related"
+    },
+    {
+      "from": 218,
+      "label": "",
+      "to": 219,
       "category": "related"
     }
   ],
   "edges": {
-    "label": "Bushra Bibi",
+    "label": "14",
     "category": "other",
-    "ner": "PERSON",
-    "value": "PERSON",
-    "id": 15,
-    "doc_id": 4,
-    "content": "The \u201carrest\u201d in these cases had come just a day after the former prime minister and his wife Bushra Bibi had been rearrested in a new Toshakhana case \u2014 following their acquittal in the Iddat case, which had them on the brink of being free from jail.."
+    "ner": null,
+    "value": "GPE",
+    "id": 219
   }
 }

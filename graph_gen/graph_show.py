@@ -69,7 +69,7 @@ data.nodes.forEach(function (node) {
   // Adjust node color based on value from result_dic
   if (node.value) {
     // Assuming result_dic values are in the range [0, 1]
-    var hue = Math.floor((1 - node.value) * 120); // Adjust hue based on value
+    // var hue = Math.floor((1 - node.value) * 120); // Adjust hue based on value
     node.color = 'lightyellow';
   }
 });
@@ -112,7 +112,7 @@ var network = new vis.Network(container, data, options);
             # print(i['doc_id'])
             #label plot from JSON file
             try:
-                test_lable[i['label']] = i['content']
+                test_lable[i['label']] = str(i['doc_id'])
             except:
                 pass
         """Read data and values"""
@@ -137,6 +137,7 @@ var network = new vis.Network(container, data, options);
                 print("~~~~~~~~~~~",node)
                 print("~~~~~~~~~~~~~~~~~~",test_lable)
                 node_x = str(test_lable[node])
+                print("node data ",node_x)
                 data = {
                 "label": node_x,
                 "category": 'frequency' if 'frequency' in node else 'keyword' if 'keyword' in node else 'related' if 'related' in node else 'Organization' if 'Organization' in node else 'Location' if 'Location' in node else 'other',
@@ -154,7 +155,6 @@ var network = new vis.Network(container, data, options);
                 }
 
             data_nodes.append(data)
-        # print(events)
         for edge in events:
             print(node_dict.get(edge[1]))
             data = {

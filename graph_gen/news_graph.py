@@ -323,17 +323,17 @@ class NewsMining:
                 if i[1] == "Organization":
                     tmp_dir_ner.append(i[0])
                     tmp_dir_ner.append('Person')
-                    events.append(tmp_dir_ner)
+                    # events.append(tmp_dir_ner)
                     org_count += 1
                 if i[1] == "Location":
                     tmp_dir_ner.append(i[0])
                     tmp_dir_ner.append('Person')
-                    events.append(tmp_dir_ner)
+                    # events.append(tmp_dir_ner)
                     org_count += 1
                 if i[1] == "Person":
                     tmp_dir_ner.append(i[0])
                     tmp_dir_ner.append('Location')
-                    events.append(tmp_dir_ner)
+                    # events.append(tmp_dir_ner)
                     org_count += 1
             else:
                 events = [sublist for l, sublist in enumerate(events) if l != k]
@@ -358,7 +358,7 @@ class NewsMining:
             else:
                 edge['ner'] = None
             if edge['label'] in tmp_id.keys():
-                print("=====================", tmp_id[edge['label']])
+                # print("=====================", tmp_id[edge['label']])
                 edge['doc_id'] = tmp_id[edge['label']]
                 edge['content'] = content_id_text[edge['label']]
         # print(tmp_id)

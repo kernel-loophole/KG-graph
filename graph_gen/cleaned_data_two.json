@@ -1,142 +1,920 @@
 {
   "nodes": [
     {
-      "from": 18,
+      "from": 218,
       "label": "",
-      "to": 9,
+      "to": 131,
       "category": "related"
     },
     {
-      "from": 2,
+      "from": 30,
       "label": "",
-      "to": 3,
+      "to": 131,
       "category": "related"
     },
     {
-      "from": 13,
+      "from": 4,
       "label": "",
-      "to": 19,
-      "category": "related"
-    },
-    {
-      "from": 18,
-      "label": "",
-      "to": 10,
-      "category": "related"
-    },
-    {
-      "from": 15,
-      "label": "",
-      "to": 9,
-      "category": "related"
-    },
-    {
-      "from": 10,
-      "label": "",
-      "to": 18,
-      "category": "related"
-    },
-    {
-      "from": 12,
-      "label": "",
-      "to": 13,
-      "category": "related"
-    },
-    {
-      "from": 17,
-      "label": "",
-      "to": 15,
+      "to": 131,
       "category": "related"
     },
     {
       "from": 16,
       "label": "",
-      "to": 17,
+      "to": 131,
       "category": "related"
     },
     {
-      "from": 18,
+      "from": 218,
       "label": "",
-      "to": 19,
+      "to": 32,
+      "category": "related"
+    },
+    {
+      "from": 36,
+      "label": "",
+      "to": 191,
+      "category": "related"
+    },
+    {
+      "from": 12,
+      "label": "",
+      "to": 191,
+      "category": "related"
+    },
+    {
+      "from": 14,
+      "label": "",
+      "to": 211,
+      "category": "related"
+    },
+    {
+      "from": 16,
+      "label": "",
+      "to": 108,
+      "category": "related"
+    },
+    {
+      "from": 218,
+      "label": "",
+      "to": 36,
+      "category": "related"
+    },
+    {
+      "from": 20,
+      "label": "",
+      "to": 218,
+      "category": "related"
+    },
+    {
+      "from": 22,
+      "label": "",
+      "to": 191,
+      "category": "related"
+    },
+    {
+      "from": 24,
+      "label": "",
+      "to": 211,
+      "category": "related"
+    },
+    {
+      "from": 34,
+      "label": "",
+      "to": 211,
+      "category": "related"
+    },
+    {
+      "from": 28,
+      "label": "",
+      "to": 128,
+      "category": "related"
+    },
+    {
+      "from": 30,
+      "label": "",
+      "to": 32,
+      "category": "related"
+    },
+    {
+      "from": 32,
+      "label": "",
+      "to": 218,
+      "category": "related"
+    },
+    {
+      "from": 34,
+      "label": "",
+      "to": 35,
+      "category": "related"
+    },
+    {
+      "from": 36,
+      "label": "",
+      "to": 218,
+      "category": "related"
+    },
+    {
+      "from": 199,
+      "label": "",
+      "to": 131,
+      "category": "related"
+    },
+    {
+      "from": 203,
+      "label": "",
+      "to": 182,
+      "category": "related"
+    },
+    {
+      "from": 82,
+      "label": "",
+      "to": 203,
+      "category": "related"
+    },
+    {
+      "from": 194,
+      "label": "",
+      "to": 218,
+      "category": "related"
+    },
+    {
+      "from": 203,
+      "label": "",
+      "to": 66,
+      "category": "related"
+    },
+    {
+      "from": 195,
+      "label": "",
+      "to": 66,
+      "category": "related"
+    },
+    {
+      "from": 194,
+      "label": "",
+      "to": 191,
+      "category": "related"
+    },
+    {
+      "from": 182,
+      "label": "",
+      "to": 211,
+      "category": "related"
+    },
+    {
+      "from": 54,
+      "label": "",
+      "to": 211,
+      "category": "related"
+    },
+    {
+      "from": 194,
+      "label": "",
+      "to": 182,
+      "category": "related"
+    },
+    {
+      "from": 182,
+      "label": "",
+      "to": 194,
+      "category": "related"
+    },
+    {
+      "from": 218,
+      "label": "",
+      "to": 108,
+      "category": "related"
+    },
+    {
+      "from": 218,
+      "label": "",
+      "to": 194,
+      "category": "related"
+    },
+    {
+      "from": 91,
+      "label": "",
+      "to": 194,
+      "category": "related"
+    },
+    {
+      "from": 66,
+      "label": "",
+      "to": 182,
+      "category": "related"
+    },
+    {
+      "from": 216,
+      "label": "",
+      "to": 191,
+      "category": "related"
+    },
+    {
+      "from": 214,
+      "label": "",
+      "to": 191,
+      "category": "related"
+    },
+    {
+      "from": 217,
+      "label": "",
+      "to": 191,
+      "category": "related"
+    },
+    {
+      "from": 74,
+      "label": "",
+      "to": 211,
+      "category": "related"
+    },
+    {
+      "from": 93,
+      "label": "",
+      "to": 211,
+      "category": "related"
+    },
+    {
+      "from": 195,
+      "label": "",
+      "to": 182,
+      "category": "related"
+    },
+    {
+      "from": 203,
+      "label": "",
+      "to": 82,
+      "category": "related"
+    },
+    {
+      "from": 82,
+      "label": "",
+      "to": 215,
+      "category": "related"
+    },
+    {
+      "from": 214,
+      "label": "",
+      "to": 182,
+      "category": "related"
+    },
+    {
+      "from": 182,
+      "label": "",
+      "to": 214,
+      "category": "related"
+    },
+    {
+      "from": 194,
+      "label": "",
+      "to": 217,
+      "category": "related"
+    },
+    {
+      "from": 194,
+      "label": "",
+      "to": 91,
+      "category": "related"
+    },
+    {
+      "from": 195,
+      "label": "",
+      "to": 93,
+      "category": "related"
+    },
+    {
+      "from": 218,
+      "label": "",
+      "to": 216,
+      "category": "related"
+    },
+    {
+      "from": 152,
+      "label": "",
+      "to": 191,
+      "category": "related"
+    },
+    {
+      "from": 108,
+      "label": "",
+      "to": 131,
+      "category": "related"
+    },
+    {
+      "from": 152,
+      "label": "",
+      "to": 199,
+      "category": "related"
+    },
+    {
+      "from": 195,
+      "label": "",
+      "to": 194,
+      "category": "related"
+    },
+    {
+      "from": 214,
+      "label": "",
+      "to": 152,
+      "category": "related"
+    },
+    {
+      "from": 199,
+      "label": "",
+      "to": 168,
+      "category": "related"
+    },
+    {
+      "from": 108,
+      "label": "",
+      "to": 218,
+      "category": "related"
+    },
+    {
+      "from": 194,
+      "label": "",
+      "to": 214,
+      "category": "related"
+    },
+    {
+      "from": 218,
+      "label": "",
+      "to": 186,
+      "category": "related"
+    },
+    {
+      "from": 114,
+      "label": "",
+      "to": 214,
+      "category": "related"
+    },
+    {
+      "from": 152,
+      "label": "",
+      "to": 218,
+      "category": "related"
+    },
+    {
+      "from": 218,
+      "label": "",
+      "to": 152,
+      "category": "related"
+    },
+    {
+      "from": 168,
+      "label": "",
+      "to": 152,
+      "category": "related"
+    },
+    {
+      "from": 122,
+      "label": "",
+      "to": 152,
+      "category": "related"
+    },
+    {
+      "from": 168,
+      "label": "",
+      "to": 218,
+      "category": "related"
+    },
+    {
+      "from": 126,
+      "label": "",
+      "to": 127,
+      "category": "related"
+    },
+    {
+      "from": 128,
+      "label": "",
+      "to": 191,
+      "category": "related"
+    },
+    {
+      "from": 152,
+      "label": "",
+      "to": 131,
+      "category": "related"
+    },
+    {
+      "from": 199,
+      "label": "",
+      "to": 152,
+      "category": "related"
+    },
+    {
+      "from": 152,
+      "label": "",
+      "to": 214,
+      "category": "related"
+    },
+    {
+      "from": 168,
+      "label": "",
+      "to": 199,
+      "category": "related"
+    },
+    {
+      "from": 214,
+      "label": "",
+      "to": 194,
+      "category": "related"
+    },
+    {
+      "from": 203,
+      "label": "",
+      "to": 191,
+      "category": "related"
+    },
+    {
+      "from": 199,
+      "label": "",
+      "to": 216,
+      "category": "related"
+    },
+    {
+      "from": 215,
+      "label": "",
+      "to": 182,
+      "category": "related"
+    },
+    {
+      "from": 214,
+      "label": "",
+      "to": 218,
+      "category": "related"
+    },
+    {
+      "from": 218,
+      "label": "",
+      "to": 214,
+      "category": "related"
+    },
+    {
+      "from": 152,
+      "label": "",
+      "to": 168,
+      "category": "related"
+    },
+    {
+      "from": 152,
+      "label": "",
+      "to": 190,
+      "category": "related"
+    },
+    {
+      "from": 218,
+      "label": "",
+      "to": 168,
+      "category": "related"
+    },
+    {
+      "from": 156,
+      "label": "",
+      "to": 157,
+      "category": "related"
+    },
+    {
+      "from": 214,
+      "label": "",
+      "to": 216,
+      "category": "related"
+    },
+    {
+      "from": 203,
+      "label": "",
+      "to": 214,
+      "category": "related"
+    },
+    {
+      "from": 214,
+      "label": "",
+      "to": 203,
+      "category": "related"
+    },
+    {
+      "from": 164,
+      "label": "",
+      "to": 165,
+      "category": "related"
+    },
+    {
+      "from": 215,
+      "label": "",
+      "to": 191,
+      "category": "related"
+    },
+    {
+      "from": 168,
+      "label": "",
+      "to": 211,
+      "category": "related"
+    },
+    {
+      "from": 215,
+      "label": "",
+      "to": 194,
+      "category": "related"
+    },
+    {
+      "from": 172,
+      "label": "",
+      "to": 173,
+      "category": "related"
+    },
+    {
+      "from": 174,
+      "label": "",
+      "to": 175,
+      "category": "related"
+    },
+    {
+      "from": 194,
+      "label": "",
+      "to": 203,
+      "category": "related"
+    },
+    {
+      "from": 182,
+      "label": "",
+      "to": 195,
+      "category": "related"
+    },
+    {
+      "from": 194,
+      "label": "",
+      "to": 215,
+      "category": "related"
+    },
+    {
+      "from": 182,
+      "label": "",
+      "to": 215,
+      "category": "related"
+    },
+    {
+      "from": 215,
+      "label": "",
+      "to": 214,
+      "category": "related"
+    },
+    {
+      "from": 186,
+      "label": "",
+      "to": 218,
+      "category": "related"
+    },
+    {
+      "from": 192,
+      "label": "",
+      "to": 194,
+      "category": "related"
+    },
+    {
+      "from": 190,
+      "label": "",
+      "to": 191,
+      "category": "related"
+    },
+    {
+      "from": 192,
+      "label": "",
+      "to": 211,
+      "category": "related"
+    },
+    {
+      "from": 194,
+      "label": "",
+      "to": 195,
+      "category": "related"
+    },
+    {
+      "from": 216,
+      "label": "",
+      "to": 214,
+      "category": "related"
+    },
+    {
+      "from": 216,
+      "label": "",
+      "to": 199,
+      "category": "related"
+    },
+    {
+      "from": 200,
+      "label": "",
+      "to": 201,
+      "category": "related"
+    },
+    {
+      "from": 215,
+      "label": "",
+      "to": 203,
+      "category": "related"
+    },
+    {
+      "from": 218,
+      "label": "",
+      "to": 205,
+      "category": "related"
+    },
+    {
+      "from": 206,
+      "label": "",
+      "to": 209,
+      "category": "related"
+    },
+    {
+      "from": 208,
+      "label": "",
+      "to": 209,
+      "category": "related"
+    },
+    {
+      "from": 212,
+      "label": "",
+      "to": 211,
+      "category": "related"
+    },
+    {
+      "from": 212,
+      "label": "",
+      "to": 219,
+      "category": "related"
+    },
+    {
+      "from": 214,
+      "label": "",
+      "to": 215,
+      "category": "related"
+    },
+    {
+      "from": 216,
+      "label": "",
+      "to": 217,
+      "category": "related"
+    },
+    {
+      "from": 218,
+      "label": "",
+      "to": 219,
       "category": "related"
     }
   ],
   "edges": [
     {
-      "label": "",
+      "label": "Pakistan",
       "category": "other",
-      "ner": "",
-      "value": "ORG",
-      "id": 18
+      "ner": "GPE",
+      "value": "GPE",
+      "id": 218,
+      "doc_id": 1,
+      "content": "ISLAMABAD: The world\u2019s glaciers melted at dramatic speed last year and saving them is effectively a lost cause, a UN agency said in a report on Friday, noting that record levels of greenhouse gases have caused \u201cplanetary scale changes on land, in the ocean and in the atmosphere\u201d. The last eight years have been the warmest ever recorded, while concentrations of greenhouse gases such as carbon dioxide hit new peaks, the World Meteorological Organisation said. \u201cAntarctic sea ice fell to its lowest extent on record and the melting of some European glaciers was, literally, off the charts,\u201d the WMO spelled out as it launched its annual climate overview. The \u2018State of the Global Climate 2022\u2019 report said that sea levels are also at a record high, having risen by an average of 4.62 millimetres per year between 2013 and 2022 \u2014 double the rate it was between 1993 and 2002.  Sea levels at record high, greenhouse gases in atmosphere hit new peaks, World Meteorological Organisation warns  Record high temperatures were recorded in the oceans \u2014 where around 90 per cent of the heat trapped on Earth by greenhouse gases ends up. Rising global temperatures and rapidly melting glaciers are also bad news for Pakistan. The country is home to more than 7,000 glaciers, more than anywhere outside the poles. Record monsoon rains and melting glaciers last September displaced millions of people and killed at least 1,700 in a catastrophe blamed on climate change. \u201cWhile greenhouse gas emissions continue to rise and the climate continues to change, populations worldwide continue to be gravely impacted by extreme weather and climate events,\u201d WMO chief Petteri Taalas said. \u201cFor example, in 2022, continuous drought in East Africa, record-breaking rainfall in Pakistan and record-breaking heatwaves in China and Europe affected tens of millions, drove food insecurity, boosted mass migration, and cost billions of dollars in loss and damage,\u201d he said. The new WMO report is accompanied by a story map, which provides information for policymakers on how the climate change indicators are playing out, and which also shows how improved technology makes the transition to renewable energy cheaper and more accessible than ever. Throughout the year, hazardous climate and weather-related events drove new population displacement and worsened conditions for many of the 95 million people already living in displacement at the beginning of the year, according to the report. The report also puts a spotlight on ecosystems and the environment and shows how climate change is affecting recurring events in nature, such as when trees blossom, or birds migrate. Concentrations of the three main greenhouse gases \u2014 carbon dioxide, methane, and nitrous oxide \u2014 reached record observed highs in 2021, the latest year for which consolidated global values are available . The annual increase in methane concentration from 2020 to 2021 was the highest on record. Real-time data from specific locations show levels of the three greenhouse gases continued to increase in 2022. Reference glaciers for which we have long-term observations experienced an average thickness change of over -1.3 metres between October 2021 and October 2022. This loss is much larger than the average of the last decade. Six of the ten most negative mass balance years on record  occurred since 2015. The cumulative thickness loss since 1970 amounts to almost 30 metres. Measurements on glaciers in High Mountain Asia, western North America, South America and parts of the Arctic also reveal substantial glacier mass losses. There were some mass gains in Iceland and Northern Norway associated with higher-than-average precipitation and a relatively cool summer. According to the Intergovernmental Panel on Climate Change , globally the glaciers lost more than 6,000 gigatonnes of ice over the period 1993-2019. This represents an equivalent water volume of 75 lakes the size of Lac Leman , the largest lake in Western Europe. The Greenland Ice Sheet ended with a negative total mass balance for the 26th year in a row. As of 2021, 2.3 billion people faced food insecurity, of which 924m people faced severe food insecurity. Projections estimated 767.9m people facing undernourishment in 2021, 9.8pc of the global population. Half of these are in Asia and one-third are in Africa. Heatwaves in the 2022 pre-monsoon season in India and Pakistan caused a decline in crop yields. This, combined with the banning of wheat exports and restrictions on rice exports in India after the start of the conflict in Ukraine, threatened the availability, access, and stability of staple foods within international food markets and posed high risks to countries already affected by shortages of staple foods. ."
     },
     {
-      "label": "",
-      "category": "Organization",
+      "label": "Location",
+      "category": "Location",
       "ner": "",
       "value": 0,
-      "id": 9
+      "id": 131
     },
     {
-      "label": "",
-      "category": "other",
-      "ner": "",
-      "value": 0,
-      "id": 2
-    },
-    {
-      "label": "",
+      "label": "1",
       "category": "other",
       "ner": "",
       "value": 0,
-      "id": 3
+      "id": 30
     },
     {
       "label": "2",
       "category": "other",
-      "ner": "PERSON",
-      "value": "PERSON",
-      "id": 13,
-      "doc_id": 2,
-      "content": "Rumours started circulating that Petitioner No. 1 Imran Khan will be shifted to the custody of Prvez Mushraf today  in connection with the very cases which form the subject matter of Writ Petition No. 45901 of 2024 and connected matters."
+      "ner": "",
+      "value": "ORG",
+      "id": 36
     },
     {
-      "label": "",
+      "label": "Organization",
+      "category": "Organization",
+      "ner": "",
+      "value": 0,
+      "id": 191
+    },
+    {
+      "label": "2",
       "category": "other",
       "ner": "",
       "value": 0,
-      "id": 19
+      "id": 14
     },
     {
-      "label": "",
+      "label": "Person",
       "category": "other",
       "ner": "",
-      "value": "PERSON",
-      "id": 10
+      "value": 0,
+      "id": 211
     },
     {
-      "label": "",
+      "label": "0.5pc",
       "category": "other",
       "ner": "",
-      "value": "ORG",
-      "id": 15
-    },
-    {
-      "label": "3",
-      "category": "other",
-      "ner": "GPE",
-      "value": "GPE",
-      "id": 12,
-      "doc_id": 3,
-      "content": "Imran Khan  is a Pakistani politician and former cricketer who served as the 22nd prime minister of Pakistan from August 2018 until April 2022. He is the founder and former chairman of the political party Pakistan Tehreek-e-Insaf from 1996 to 2023."
+      "value": 0,
+      "id": 34,
+      "doc_id": 2,
+      "content": "ISLAMABAD: Pakistan\u2019s state-owned entities  are the worst in South Asia and their combined losses growing faster than assets, resulting in a significant annual drain on scarce public resources and posing a substantial risk to the sovereign. On an annual basis, they together swallow more than Rs458bn in public funds to stay afloat as their combined loans and guarantees surged to almost 10pc of GDP  in FY21 from 3.1pc of GDP or Rs1.05tr in 2016, according to the World Bank that advised a deep-rooted reform programme to reverse the trend. They \u201cimpose a significant fiscal drain and pose a substantial financial risk on the federal government\u201d, said the World Bank, adding that these entities had been incurring losses since FY16, with annual losses averaging at 0.5pc of GDP over FY16\u201320. \u201cPakistan\u2019s federal SOEs have been found to be the least profitable in the South Asia region\u201d, said the Public Expenditure Review 2023, adding that with the persistent losses, the accumulated SOE losses had become substantial, amounting to 3.1pc of GDP in FY20. To cover the losses, the federal government has been providing direct fiscal support to the SOEs, in the form of subsidies, loans and equity injections, which totalled 1.4pc of GDP in FY21. In addition to direct support, the government has been also issuing guarantees for SOEs to secure loans from commercial banks. Federal government exposure to SOEs, defined as the outstanding stock of guarantees and government loans to SOEs, has been rapidly increasing and stood at 9.7pc of GDP in FY21. The report noted that combined fiscal exposure against domestic and foreign loans and guarantees had been increasing rapidly with annual growth averaging 42.9pc over FY2016\u20132021. But this required a detailed risk assessment on account of contingent exposure that may arise from guarantees. In FY 2021, 32pc of the outstanding guarantees, given through the Pakistan Atomic Energy Commission , were against project financing of the K-3 and K-4 nuclear power plants. The available data show that guarantees constituted the bulk of fiscal exposure, at 44.4pc of total exposure in FY21, while Cash Development Loans and foreign loans accounted for 36pc and 19.6pc of exposure, respectively. The stock of outstanding government guarantees to SOEs has more than doubled since FY16. Over 75pc of the stock of guarantees is against the power sector for financing the circular debt. The stock of outstanding guarantees from the Federal Government to federal commercial SOEs has increased from 2.2pc of GDP in FY16 to 4.5pc of GDP in FY22. The report said that individual SOE performance was largely dictated by sectoral performance. Although the primary reasons for SOE losses differ, they are typically related to unresolved corporate governance issues, sector regulations, an underestimation of the cost of the provision in complete restructuring and insufficient current subsidies. An SOE portfolio analysis showed that individual SOE performance was influenced by sectoral policies and the level of operational autonomy by the Board of Directors and senior management. SOE losses are concentrated in the power, infrastructure, and transport sectors, and in the aggregate, outweigh profits from profitable SOEs. Although a sizable number of commercial SOEs generated profits in FY20, they were concentrated in the oil and gas sector. ."
     },
     {
       "label": "4",
       "category": "other",
-      "ner": "PERSON",
-      "value": "PERSON",
-      "id": 17,
+      "ner": "",
+      "value": "GPE",
+      "id": 199
+    },
+    {
+      "label": "4",
+      "category": "other",
+      "ner": "",
+      "value": "ORG",
+      "id": 203
+    },
+    {
+      "label": "4",
+      "category": "other",
+      "ner": "",
+      "value": 0,
+      "id": 182
+    },
+    {
+      "label": "PTI",
+      "category": "other",
+      "ner": "ORG",
+      "value": "ORG",
+      "id": 194,
       "doc_id": 4,
-      "content": "The \u201carrest\u201d in these cases had come just a day after the former prime minister and his wife Bushra Bibi had been rearrested in a new Toshakhana case \u2014 following their acquittal in the Iddat case, which had them on the brink of being free from jail.."
+      "content": "\u2022 Forms review committees after ECP extends deadline until April 26 \u2022 Insiders say around 20pc of tickets \u2018disputed\u2019; decision pending on 12 seats \u2022 Parvez and Moonis Elahi, all 10 former PML-Q MPAs accommodated LAHORE: A day after the party awarded tickets to candidates for elections to the Punjab Assembly, PTI chief Imran Khan announced that he would be reviewing the complaints of those who had missed out. But even before the party chief began the review process, supporters of some aspirants had already begun protests, seeking a review of the decision to award tickets for their constituencies. \u201cI will begin the tickets review process from tomorrow till 26th of cases sent to me by the four Reconciliation Committees that were formed for this purpose,\u201d Mr Khan tweeted on Friday.         The announcement by the PTI chief came after the Election Commission of Pakistan extended the date for submission of party tickets until April 26. Earlier, ECP had set April 20 as the final day for submission of tickets. According to party sources, over 80 per cent of tickets have been handed over to deserving candidates and there are disputes on around 20pc of seats. \u201cThe contentions are among the candidates who had submitted nomination papers for respective constituencies thinking they were better suited to represent their areas,\u201d the source said, adding that in some constituencies, up to 10 candidates had submitted nomination papers in hopes of getting a ticket. For 297 constituencies, the party received some 1,500 applications and tickets have been awarded by the PTI chairman to 285 candidates, the source told Dawn. A decision on 12 seats \u2014 PP-57, PP-61, PP-124, PP-162, PP-177, PP-204, PP-221, PP-234, PP-244, PP-251, PP-253 and PP-272 \u2014 is still pending. Following the award of tickets, the PTI constituted four reconciliation committees to recommend an adjustment in the list of candidates, the source said. The committees have now been converted into \u201creview committees\u201d to hear the candidates\u2019 grievances and forward their recommendations to Mr Khan. The North Punjab review committee is headed by retired Brig Musadiq Abbasi, Central Punjab by Senator Ejaz Chaudhry, West Punjab by Hassan Nawaz and South Punjab by Aon Abbas Bappi. \u201cThere would have been no complaints or rifts if the ECP had not extended the date for submission of nomination papers,\u201d the source said. \u201cNow, with the date extended, the review committees will engage the complainants until April 26.\u201d The source added that in case of any change in the earlier awards, the candidates who received the tickets and submitted them before the ECP ahead of the previous date would have to hand them over to the new candidates. When contacted, Central Punjab review committee head Senator Ejaz Chaudhry said there were individual complaints as those who were denied the tickets agitated, claiming that they were stronger candidates than those who were awarded the tickets. However, he denied the influence of any pressure groups or lobby vying for tickets. Exceptions and surprises Mr Khan has been saying for months that he would personally interview each aspirant and only choose the strongest one to be the PTI\u2019s candidate. However, the final list issued after the extensive interview process had several notable exceptions \u2013 such as Shah Mahmood Qureshi, Fawad Chaudhry and Hammad Azhar \u2013 which didn\u2019t go unnoticed. With these heavyweights out of the race, the chief minister\u2019s seat, at this stage, apparently has only two hopefuls \u2014 newly-inducted PTI president Chaudhry Parvez Elahi and Usman Buzdar. Mr Khan\u2019s former chief of staff Shahbaz Gill, who was allegedly tortured during custody, was also denied a ticket. Fawad Chaudhry recently expressed his reservations about not being considered for the provincial assembly, adding that the chief minister\u2019s slot was attractive if one was interested in bringing about a change. He added that he couldn\u2019t do anything, as the decision was taken by Mr Khan himself. Hammad Azhar said the PTI chairman had informed him that his services will be needed in the federal government and this was the reason he withdrew his nomination papers for the provincial assembly seat.         Former Punjab minister Murad Raas has also been denied a ticket. Though Mr Raas didn\u2019t say anything publicly, party insiders claim Mr Khan was not happy with his performance as the minister. They also claimed that Mr Raas was not seen in the field when party leaders and workers were facing the wrath of the state authorities. Former Punjab minister for higher education Raja Yasir Humayun had also not been considered for the ticket. Mr Humayun, however, said he has always been vying for the National Assembly ticket. Additionally, as per his commitment to Mr Elahi, who recently merged his faction of the PML-Q with the PTI, Mr Khan has fully facilitated ex-PML-Q leaders who tagged along with Mr Elahi and his son Moonis Elahi. All 10 former MPAs, who were part of the PML-Q, have been awarded tickets and two women MPAs \u2014Baasima Chaudhry and Khadija Umar \u2014 have been placed on the list for reserved seats. Mr Khan has also awarded the ticket to Moonis Elahi from PP-32 . The PTI chief\u2019s decision to award a ticket to Mehr Abdul Sattar from PP-186  was widely welcomed. Mr Sattar was a leader of the Anjuman-i-Mizareen and had been fighting for the rights of tenants of Military Farms in Okara. Former Punjab health minister and PTI Central Punjab president Dr Yasmin Rashid has been given a ticket from PP-173, Lahore, where she will face-off against PML-N chief organiser Maryam Nawaz Sharif, who had submitted her nomination papers. ."
+    },
+    {
+      "label": "6",
+      "category": "other",
+      "ner": "",
+      "value": "ORG",
+      "id": 216
+    },
+    {
+      "label": "6",
+      "category": "other",
+      "ner": "",
+      "value": "PERSON",
+      "id": 217
+    },
+    {
+      "label": "7",
+      "category": "other",
+      "ner": "",
+      "value": "ORG",
+      "id": 152
+    },
+    {
+      "label": "7",
+      "category": "other",
+      "ner": "",
+      "value": "PERSON",
+      "id": 168
+    },
+    {
+      "label": "5",
+      "category": "other",
+      "ner": "",
+      "value": "GPE",
+      "id": 186
+    },
+    {
+      "label": "you",
+      "category": "other",
+      "ner": "",
+      "value": 0,
+      "id": 126,
+      "doc_id": 8,
+      "content": "KARACHI: Keeping in view the \u2018constant security threats\u2019 to prisons across Sindh, the authorities have sought strict security measures at the facilities in the province, especially in Karachi, Hyderabad and Sukkur prisons.   In this connection, special directives have been issued for compliance during the upcoming five-day Eid holidays.   In a communiqu\u00e9 to jailers, the Sindh prisons chief had also announced that Eid holidays of jail staff, including members of its medical and paramedic teams, had been cancelled and asked them to ensure their presence at the facilities during the holidays.   \u201cAs you all are aware that generally all Sindh prisons and especially central prison & CF Karachi, Hyderabad and Sukkur are under constant security threats by the various terrorist and banned organisations, which requires extraordinary precautionary measures during prevailing situation,\u201d said the letter sent from Sindh IG asking officials to ensure security measures between April 21 and 25 \u2014 the Eid holidays.   Although the letter didn\u2019t specify the nature of threat to the prisons, it cancelled the leave of even medical staff of the facilities across Sindh asking them to stay on the premises during the Eid holidays.   \u201cNo staff member shall be allowed to leave the headquarters during the declared Eid holidays, including medical and paramedical staff, who shall provide full medical cover to prisoners or staff in case of any emergency,\u201d said the letter.  The fresh security orders, however, would not disturb the routine of the  Sindh prisons as the IG-prisons also asked for measures to ensure  meeting of inmates with their family members during the Eid holidays.   \u201cThe meeting of prisoners with their blood relatives may be allowed  on any of the three days during the Eid holidays,\u201d said the letter.   With 26 operational jails out of total 33 facilities in Sindh, the prisons across the province face an immense pressure of overcrowding as there are more than 23,000 inmates in the jails against the capacity of 13,500 inmates. ."
+    },
+    {
+      "label": "are",
+      "category": "other",
+      "ner": "",
+      "value": 0,
+      "id": 127
+    },
+    {
+      "label": "found",
+      "category": "other",
+      "ner": "",
+      "value": 0,
+      "id": 157
+    },
+    {
+      "label": "leader",
+      "category": "other",
+      "ner": "",
+      "value": 0,
+      "id": 164,
+      "doc_id": 10,
+      "content": "LARKANA: Pakistan Tehreek-i-Insaf leader and a former federal minister Ali Amin Gandapur was remanded in judicial custody till April 25 when he was produced in the court of Civil Judge Sajjad Ali Abbasi of Shikarpur district on Friday. Mr Gandapur was brought to Sukkur on Thursday night from Lahore by police to produce him in the court in a case  registered against him under Sections 131, 153, 504 and 505 of the Pakistan Penal Code.  The FIR was registered on the complaint of a citizen,  Amanullah Brohi. Stringent security arrangement were made when Mr Gandapur was escorted by police to the court. A large number of   PTI workers were present outside and raising  slogans against alleged excesses against their leader. They showered rose petals on the vehicle  carrying him.  PTI Senator Saifullah Abro and other local  leaders were also present. The police had sought a five-day physical remand of Mr Gandapur but the judge remanded him in judicial custody. Lawyer Abdul Rauf Korai, PTI\u2019s Larkana district general secretary appeared in court for Mr Gandapur.  After the hearing, the PTI leader was escorted to the Sukkur Central Prison. ."
+    },
+    {
+      "label": "remanded",
+      "category": "other",
+      "ner": "",
+      "value": 0,
+      "id": 165
+    },
+    {
+      "label": "He",
+      "category": "other",
+      "ner": "",
+      "value": 0,
+      "id": 172,
+      "doc_id": 11,
+      "content": "LARKANA: Several preventable diseases like measles, pertussis, resistant malaria, gastroenteritis, emphysema and malnutrition have registered an unusual rise among children who reported at the Chandka Medical College children hospital from flood-hit areas in the wake of last year\u2019s devastating deluge, according to doctors. Prof Dr Shanti Lal, chairman of the department of pediatrics at the hospital, confirmed that majority of the cases were pouring in from flood-hit areas of Qambar-Shahdadkot, Larkana and other districts including Jhal Magsi, Gaibidero, Ratoderro, Naudero, Warah and remote areas. The hospital had three units and roughly over 130 cases of the above mentioned diseases were being admitted every month from among 650 to 750 patients reporting daily at the OPD, he said. A number of mothers who accompanied their ailing children complained that their children had contracted the diseases specially measles despite being vaccinated. Dr Lal said that many women were not even unaware about the vaccination or they did not have the vaccination cards with them to confirm if their children had been inoculated or not. He pointed to a five-year-old boy lying on a bed nearby who could barely open his sour eyes and said it was the outcome of measles complication. He said that perhaps a big portion of population was still unaware about the vaccination and its importance, and stressed the need for giving vitamin-A to children regularly to ward off eyes diseases. The vitamin-A was only available with government hospitals, he said. Associate Prof Dr Shankar Lal, in-charge of unit-II, said the cases of measles, emphysema and resistant malaria were most common among children. \u201cWe are getting complicated cases of the diseases,\u201d he said. He said that possible reasons behind the outbreak of measles was the vaccine, which might have lost efficacy due to poor electricity supply. The drug\u2019s efficacy might have been compromised in the absence of or interrupted power supply to cold storage for the vaccines stocks, he said. Poor economic conditions, food insecurity, battered communication, high cost of transport were also among the reasons behind multiplication of diseases, he said. He said that unprecedented floods had not only devastated the infrastructure but also drastically damaged primary healthcare system, which had also tremendously contributed to unusual rise in diseases, he said. Assistant Prof Dr Dili Jan Magsi said that cases of measles were frequently reported both in acute phase and long term complications. The cases of malnutrition among children were also on the rise, he said. Dr Lal mentioned another serious disease, sub-acute sclerosis pan encephalitis, which was connected with malnutrition and was to develop in 10-year-old children according to books but the children younger than that age were reporting at the hospital with the complaint. Dr Magsi stressed the need for posting exclusive pediatricians in every hospital connected with teaching hospital so as to minimize burden of consultants. Doctors practicing at private set-up were also frequently receiving enhanced number of the cases of measles, resistant malaria, pertussis, malnutrition and other cases in post-flood period. \u201cMost of the cases we treat are resistant malaria and plasmodium vivax is the most common among them,\u201d said Dr Lal. The professors were of the opinion that surveillances should be enhanced, ensuring availability of standard vaccine and the issues of food security must be prioritized coupled with focusing on creating awareness among masses regarding the immunization. Also damaged infrastructure should be restored and special campaigns should be launched against measles, they said. Asked about the medicines, they said that there was no dearth of drugs. The CMCH was regularly supplying the medicines to the children\u2019s hospital, they added. ."
+    },
+    {
+      "label": "added",
+      "category": "other",
+      "ner": "",
+      "value": 0,
+      "id": 173
+    },
+    {
+      "label": "reporting",
+      "category": "other",
+      "ner": "",
+      "value": 0,
+      "id": 175
+    },
+    {
+      "label": "10",
+      "category": "other",
+      "ner": "",
+      "value": 0,
+      "id": 192
+    },
+    {
+      "label": "6",
+      "category": "other",
+      "ner": "",
+      "value": 0,
+      "id": 200
+    },
+    {
+      "label": "taken",
+      "category": "other",
+      "ner": "",
+      "value": 0,
+      "id": 201
+    },
+    {
+      "label": "Sindh",
+      "category": "other",
+      "ner": "",
+      "value": 0,
+      "id": 205,
+      "doc_id": 12,
+      "content": "SUKKUR: Sindh Chief Minister Syed Murad Ali Shah has said that Pakistan Peoples Party believes in dialogue but Pakistan Muslim League-Nawaz and Jamiat Ulema-i-Islam-Fazl have their own stance on talks with Pakistan Tehreek-i-Insaf and they appear to be right to some extent due to Imran Khan\u2019s manner of politics. He said while talking to journalists after offering condolence to the party MPA Mir Mumtaz Hussain Jakhrani on his mother\u2019s death in Jacobabad late on Thursday night that no leader of the ruling coalition wished to talk to Imran because of his attitude and destructive politics. He emphasised the need for political dialogues and recalled that Asif Ali Zardari always kept his door open for talks and he did so even after Benazir Bhutto was martyred and he raised the slogan of Pakistan Khapay.  Zardari went for elections and formed a coalition government through dialogues with political parties in the broader interest of Pakistan. \u201cWe do not know about PTI\u2019s stand on general elections but we do not object to it,\u201d said Murad. He said that he could only wish that PTI was able to make decisions in the interest of the country rather than in their own short-sighted interests such as dissolution of assemblies. He said that political complications began when Supreme Court gave a decision according to Article 63-A but ordered that vote of party dissidents would not be counted during election for the prime minister and chief minster. \u201cI feel that the Supreme Court itself should take stock of such mistakes,\u201d said the chief minister and added that no one was ready now to hear their remarks as 18 months had already passed. He said the constitution was a gift by PPP founder Zulfiqar Ali Bhutto and Asif Ali Zardari who restored it to its actual shape as it was their [PPP] duty to protect the constitution. He said that Justice Qazi Faez Esa had remarked that a wrong judicial decision caused disintegration of Pakistan. \u201cWe believe that all political parties should sit together and resolve their issues instead of engaging in reconciliation talks under judiciary\u2019s nudging as such steps sometimes prove harmful,\u201d he said. Murad said that role and mandate of every institution had been defined in the constitution. Hence, the function of election commissioner was to hold elections and the situation would normalise if the Election Commission of Pakistan was allowed to function accordingly, he said. \u201cOur jawans have been martyred during police operation against dacoits in riverine areas of upper Sindh,\u201d he said, adding that they had planned to take effective steps to minimize such incidents. He said that more check-posts would be constructed on embankments in upper Sindh in a bid to stop movement of dacoits and supply of weapons to them. The government would restore peace in the riverine areas by eliminating all dacoits, he said. Provincial ministers Syed Nasir Hussain Shah, Mukesh Kumar Chawla, notables and PPP leaders also accompanied the chief minister. Earlier, Federal Minister Syed Khurshid Shah, provincial ministers Syed Sardar Ali Shah, Imtiaz Ahmed Sheikh, MNA Nawab Wasan, PPP Sindh president Nisar Ahmad Khuhro, PPP Balochistan president Mir Changez Khan Jamali and leaders of various political, social and religious organisations arrived at Jakhrani House to condole with PPP MPA Mir Mumtaz Hussain Jakhrani and Mir Aijaz Jakhrani. ."
+    },
+    {
+      "label": "14",
+      "category": "other",
+      "ner": "",
+      "value": 0,
+      "id": 206
+    },
+    {
+      "label": "says",
+      "category": "other",
+      "ner": "",
+      "value": 0,
+      "id": 209
+    },
+    {
+      "label": "Dehwar",
+      "category": "other",
+      "ner": "",
+      "value": 0,
+      "id": 208,
+      "doc_id": 14,
+      "content": "QUETTA: Despite being behind bars, Mahil Baloch continues to appear in the media, making confessional statements. The 27-year-old single mother of two, who belongs to the Gumazi area of Kech district, was arrested by the Counterterrorism Depar\u00adtment  of Balochistan in March this year. Authorities accused her of being a member of the banned Balochistan Liberation Front  and alleged that she was planning a suicide attack. But unusually for such a case, the under-custody Mahil has recently been interviewed by a number of media outlets. After the interviews aired, Baloch activists took to social media, terming it a \u201cmedia trial\u201d. In conversations with Dawn, Baloch activists, parliamentarians and rights workers assert that Mahil is being paraded on TV and derided in a bid to rebuke her community, especially women activists, who have been quite vocal about the human rights situation prevailing in Balochistan.  Baloch activists decry televised interviews of arrested woman; CM\u2019s spox claims media appearances meant to placate concerns about her well-being  In a report recently released by its fact-finding mission, the Human Rights Commission of Pakistan observed \u201ca palpable sense of anger among ordinary citizens, many of whom went so far as to refer to Balochistan as a \u2018colony\u2019 of the state during meetings with the organisation\u201d. This situation, the HRCP cautioned, should serve as a wake-up call for the state authorities. Shakeela Naveed Dehwar, an MPA from BNP-M, has been outspoken inside and outside the Balochistan Assembly on issues confronting women in her province. There is a trace of indignation in her voice while discussing Mahil\u2019s case with Dawn. \u201cShe is a poor lady, who has been deliberately brought on media to give a bad name to women activism in the province because women are at the forefront in Balochistan in the protests to recover the missing persons,\u201d she said. However, Babar Yousafzai, spokesperson for the Balochistan chief minister, told Dawn: \u201cAfter gathering intelligence, our law enforcers arrested Mahil Baloch because she was a potential suicide bomber, who wanted to carry out a suicide attack in Quetta. She has confessed to be so not only in the video but also before a court of law.\u201d \u201cAfter being interrogated, she also confessed that her husband was associated with the BLF, which is why she was hired too after being brainwashed,\u201d Mr Yousafzai claimed. In reply to a question as to why the media was allowed to interview Ms Mahil, he said: \u201cAs you know, Balochistan is a tribal society; she was [brought in front of] the media to show that she is fine, and there is no injustice being done to her.\u201d Nasrullah Baloch, chairman of the Voice for Baloch Missing Persons, told Dawn: \u201cWe have always demanded that Baloch people should not be implicated in bogus cases. They must not be subjected to any illegality until or unless they are found guilty in a court of law.\u201d He suggested that there should be a parliamentary committee, comprising all political parties, to go to Mahil Baloch to hear her out and ascertain whether her statements are being taken under duress or not. \u201cBecause what she is facing is against the constitution and against human rights.\u201d Like other female activists, Sammi Deen Baloch, the daughter of Dr Deen Mohammad Baloch, has been campaigning for the release of her father and other missing persons since the former went missing from Khuzdar while he was on a night duty at a hospital in the year 2009. \u201cMahil was picked up by the CTD from her place, in front of family, while her children were released next day,\u201d Ms Sammi tells Dawn. She claimed that Ms Mahil\u2019s family has not been allowed to meet her. \u201cThis is all being done to counter the Baloch female\u2019s activism,\u201d she said. \u201cWhat I am pretty sure about is that Mahil\u2019s case is not being looked into as per law, as the law itself says a confessional video recorded in detention is not acceptable,\u201d she pointed out. Even MPA Dehwar said that despite being a minister, her attempt to meet Ms Mahil remained fruitless. Habib Tahir, vice chair of HRCP\u2019s Balochistan chapter, while commenting on these claims and counter-claims, said: \u201cUnder these circumstances, there should be an independent commission in the Mahil case as it has become a high-profile matter. Besides, the court should order a neutral, joint investigation into the matter to determine whether she is involved or not.\u201d The recent wave of Baloch women being detained has been going on since Karachi University bombing when Shari Baloch, a 31-year-old mother of two, blew herself up, killing four people, including three Chinese citizens. \u201cSince then, Baloch women are being detained, and the case of Mahil Baloch is not a new phenomenon. Being an MPA myself, I am watched with suspicion in Islamabad or elsewhere in the country due to my traditional Balochi clothes,\u201d Ms Dehwar says. ."
+    },
+    {
+      "label": "14",
+      "category": "other",
+      "ner": "",
+      "value": "PERSON",
+      "id": 212
+    },
+    {
+      "label": "14",
+      "category": "other",
+      "ner": "",
+      "value": "GPE",
+      "id": 219
     }
   ]
 }

@@ -62,7 +62,7 @@ def replace_id():
         edge['label'] = str(doc_id_map.get(edge['id'], ''))
 
     # Save the updated JSON data to a new file
-    with open('cleaned_data_two.json', 'w') as file:
+    with open('cleaned_data_two_final.json', 'w') as file:
         json.dump(data, file, indent=2)
 
     print("JSON file updated successfully.")
