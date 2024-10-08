@@ -6,7 +6,7 @@ Key information extration from text and graph visilization. Inspired by [TextGra
 
 How to represent a text in a simple way is a chanllenge topic. This peoject try to extraction key information from the text by NLP methods, which contain NER extraction, relation detection, keywords extraction, frequencies words extraction. And finally show the key information in a graph way.please read the blog for more in depth details. https://fir-speedboat-5ee.notion.site/Building-Knowledge-Graphs-Using-Python-82276798233c45e8a85280e4a9308a5c?pvs=25
 
-# switch branch and review the interconnections between documents 
+ 
 1) ![flow](flow.png)
 
 # Example Demo
@@ -28,3 +28,4 @@ How to represent a text in a simple way is a chanllenge topic. This peoject try 
 3. **Run `difference.py`**: This script will compute the difference between the generated files.
 4. **Run `find_ner.py`**: This script will filter the data based on Named Entity Recognition (NER).
 5. **Run `ner_plot.py`**: This script will generate the HTML file for graph visualization .
+## Switch Branch and Review Interconnections Between Documents
