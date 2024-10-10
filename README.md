@@ -23,6 +23,8 @@ How to represent a text in a simple way is a chanllenge topic. This peoject try 
 - Green:organization<br>  
 - Grey:other
 # usage
+`pip install -r requirements.txt`
+
 install the en_core_web_lg before running the scripts 
 `python -m spacy download en_core_web_lg`
 1. **Run `main.py`**: This script will generate the `graph_data.json` file.
