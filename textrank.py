@@ -1,13 +1,6 @@
 import sys
 import pandas as pd
 from collections import defaultdict
-#TextRank is an unsupervised algorithm used for keyword extraction in natural language processing. It is based on the concept of PageRank, which is widely used in web search engines. TextRank treats words or phrases as nodes in a graph and establishes edges based on co-occurrence within a context window. The algorithm iteratively updates node weights until convergence, and the final weights indicate the importance of words or phrases. Keywords are then extracted based on the highest weights.
-#Nodes: TextRank, unsupervised, algorithm, keyword, extraction, natural language processing, PageRank, concept, web search engines, words, phrases, graph, edges, co-occurrence, context window, iteratively, updates, node weights, convergence, final weights, importance.
-#Edges: (TextRank, unsupervised), (TextRank, algorithm), (algorithm, keyword), ...
-#TextRank: 0.15, unsupervised: 0.12, algorithm: 0.20, keyword: 0.18, extraction: 0.16, ...
-#algorithm, TextRank, keyword, extraction, node weights.
-#new_weight(node) = (1 - d) + d * (sum(weight(neighbor) / out_degree(neighbor)) for neighbor in neighbors)
-#The update is based on the weights of neighboring nodes and the number of outgoing edges from each node.
 
 class TextrankGraph:
     '''textrank graph'''
