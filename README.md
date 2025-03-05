@@ -4,7 +4,7 @@ Key information extration from text and graph visilization. Inspired by [TextGra
 
 # Project Introduction
 
-How to represent a text in a simple way is a chanllenge topic. This peoject try to extraction key information from the text by NLP methods, which contain NER extraction, relation detection, keywords extraction, frequencies words extraction. And finally show the key information in a graph way.please read the blog for more in depth details. https://fir-speedboat-5ee.notion.site/Building-Knowledge-Graphs-Using-Python-82276798233c45e8a85280e4a9308a5c?pvs=25
+How to represent a text in a simple way is a chanllenge topic. This project try to extraction key information from the text by NLP methods, which contain NER extraction, relation detection, keywords extraction, frequencies words extraction. And finally show the key information in a graph way.please read the blog for more in depth details. https://fir-speedboat-5ee.notion.site/Building-Knowledge-Graphs-Using-Python-82276798233c45e8a85280e4a9308a5c?pvs=25
 
  
 1) ![flow](flow.png)
